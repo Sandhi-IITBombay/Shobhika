@@ -35,7 +35,7 @@ To view the copyright and specific terms and conditions please refer to OFL.txt
 
 ## Downloading the font
 
-The latest release of the font can be found on the releases page.
+The latest release of the font can be found on the [releases page](https://github.com/Sandhi-IITBombay/Shobhika/releases).
 
 ## Installing the font
 
