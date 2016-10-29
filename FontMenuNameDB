@@ -1,0 +1,18 @@
+# [PostScriptName]
+#   f=  Preferred Family Name
+#   s=  Subfamily Name (Style Name)
+#   l=  Compatible Family Menu Name
+#   m=1,Macintosh Compatible Full Name
+
+[Shobhika-Regular]
+  f=  Shobhika
+  s=  Regular
+  l=  Shobhika Regular
+  m=1,Shobhika Regular
+  
+[Shobhika-Bold]
+  f=  Shobhika 
+  s=  Bold
+  l=  Shobhika Bold
+  m=1,Shobhika Bold
+

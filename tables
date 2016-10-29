@@ -1,0 +1,74 @@
+
+table head {
+	FontRevision 1.000;
+} head;
+
+table hhea {
+	Ascender 1130;
+	Descender -600;
+	LineGap 0;
+} hhea;
+
+
+#------------------------------------------------------------------
+
+table OS/2 { 
+	FSType 0;
+	Panose 2 11 0 0 0 0 0 0 0 0;
+	UnicodeRange
+	0	# Basic Latin
+	1	# Latin-1 Supplement
+	2	# Latin Extended-A
+	3	# Latin Extended-B
+	5	# Spacing Modifier Letters
+	15 	# Devanagari
+	29	# Latin Extended Additional
+	31	# General Punctuation
+	32	# Superscripts And Subscripts
+	33	# Currency Symbol
+	35	# Letterlike Symbols
+	38	# Mathematical Operators
+	45	# Geometric Shapes
+	60	# Private Use Area
+	62	# Alphabetic Presentation Forms
+;
+
+	TypoAscender 1130;
+	TypoDescender -600;
+	TypoLineGap 0;
+	winAscent 1130;
+	winDescent 600;
+
+	WidthClass 5;
+	Vendor "IITB";
+
+} OS/2;
+
+
+#------------------------------------------------------------------
+
+
+table name {
+
+	nameid 0   "Copyright (c) 2016, Indian Institute of Technology Bombay. All rights reserved.";
+	nameid 0 3 "Copyright (c) 2016, Indian Institute of Technology Bombay. All rights reserved.";	
+
+	nameid  7   "Shobhika is copyrighted by IIT Bombay";
+
+	nameid  8   "IIT Bombay";
+	nameid  8 3 "IIT Bombay";
+
+	nameid 9   "IIT Bombay";
+	nameid 9 3 "IIT Bombay";
+
+	nameid 11   "www.iitb.ac.in";
+
+	nameid 12   "www.iitb.ac.in";
+
+	nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+	nameid 13 3 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+
+	nameid 14   "http://scripts.sil.org/OFL";
+
+} name
+

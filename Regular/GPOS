@@ -1,0 +1,4968 @@
+feature abvm {
+
+	@matraAbove = [matraE.dv matraEBindu.dv matraEChandrabindu.dv matraEReph.dv matraERephBindu.dv matraERephChandrabindu.dv matraAi.dv matraAiBindu.dv matraAiChandrabindu.dv matraAiReph.dv matraAiRephBindu.dv matraAiRephChandrabindu.dv matraHrasvaE.dv matraHrasvaEBindu.dv matraHrasvaEChandrabindu.dv matraHrasvaEReph.dv matraHrasvaERephBindu.dv matraHrasvaERephChandrabindu.dv matraHrasvaAiBindu.dv matraHrasvaAiChandrabindu.dv matraHrasvaAiReph.dv matraHrasvaAiRephBindu.dv mHrasvaAiRephChandrabindu.dv matraHrasvaAi.dv  Reph.dv Reph_alt.dv RephBindu.dv RephChandrabindu.dv Chandra.dv Chandrabindu.dv uni0900 Bindu.dv Svarita.dv DeerghaSvarita.dv LaghuChandrabindu.dv AtiDeerghaSvarita.dv];
+
+	pos base [vowelA.dv ]
+		<anchor 840 0> mark @matraAbove;
+
+	pos base [vowelAa.dv GaDaYa.dv TaSha.dv ]
+		<anchor 1129 0> mark @matraAbove;
+
+	pos base [vowelI.dv ]
+		<anchor 570 0> mark @matraAbove;
+
+	pos base [vowelIi.dv DaYa.dv DaYaRa.dv ]
+		<anchor 743 0> mark @matraAbove;
+
+	pos base [vowelU.dv vowelUu.dv ]
+		<anchor 558 0> mark @matraAbove;
+
+	pos base [vowelRu.dv NaRa.dv ]
+		<anchor 647 0> mark @matraAbove;
+
+	pos base [vowelHrasvaE.dv ]
+		<anchor 673 0> mark @matraAbove;
+
+	pos base [vowelE.dv ]
+		<anchor 593 0> mark @matraAbove;
+
+	pos base [vowelAi.dv ]
+		<anchor 653 0> mark @matraAbove;
+
+	pos base [vowelChandraE.dv CaRa.dv DhaRa.dv ]
+		<anchor 768 0> mark @matraAbove;
+
+	pos base [vowelHrasvaO.dv KaNga.dv LlaTtha.dv ]
+		<anchor 1208 0> mark @matraAbove;
+
+	pos base [vowelO.dv KhaRaYa.dv SsaKaSsa.dv SaGha.dv SaDha.dv ]
+		<anchor 1193 0> mark @matraAbove;
+
+	pos base [vowelAu.dv ]
+		<anchor 1213 0> mark @matraAbove;
+
+	pos base [vowelChandraO.dv ]
+		<anchor 1333 0> mark @matraAbove;
+
+	pos base [Ka.dv KaNukta.dv DamatraRu.dv DaNa.dv ]
+		<anchor 614 0> mark @matraAbove;
+
+	pos base [Kha.dv KhaNukta.dv ]
+		<anchor 890 0> mark @matraAbove;
+
+	pos base [Ga.dv GaNukta.dv ]
+		<anchor 678 0> mark @matraAbove;
+
+	pos base [Gha.dv Cha.dv ]
+		<anchor 738 0> mark @matraAbove;
+
+	pos base [Nga.dv PhaRa.dv NgaRa.dv PhaNuktaRa.dv ardhaNgaRa.dv ]
+		<anchor 628 0> mark @matraAbove;
+
+	pos base [Ca.dv ]
+		<anchor 788 0> mark @matraAbove;
+
+	pos base [Ja.dv Sa.dv JaNukta.dv ]
+		<anchor 829 0> mark @matraAbove;
+
+	pos base [Jha.dv ]
+		<anchor 873 0> mark @matraAbove;
+
+	pos base [Nya.dv JaJa.dv NyaCa.dv NyaJa.dv NyaNya.dv NyaRa.dv ]
+		<anchor 849 0> mark @matraAbove;
+
+	pos base [Tta.dv Dda.dv DdaRamatraU.dv DdaRamatraUu.dv ]
+		<anchor 633 0> mark @matraAbove;
+
+	pos base [Ttha.dv ]
+		<anchor 637 0> mark @matraAbove;
+
+	pos base [Ddha.dv DdhaNukta.dv PaRa.dv ]
+		<anchor 636 0> mark @matraAbove;
+
+	pos base [Nna.dv HaMamatraU.dv HaMamatraUu.dv NnaRa.dv ]
+		<anchor 832 0> mark @matraAbove;
+
+	pos base [Ta.dv Ya.dv YaNukta.dv NgaKha.dv NgaKhaNa.dv NgaKhaRa.dv YaNa.dv YaRa.dv ]
+		<anchor 663 0> mark @matraAbove;
+
+	pos base [Tha.dv HaBa.dv HaNna.dv HaVa.dv HaVaRa.dv ]
+		<anchor 747 0> mark @matraAbove;
+
+	pos base [Da.dv DaRa.dv DamatraU.dv DamatraUu.dv DdhaDdha.dv DdhaNna.dv DdhaNa.dv DdhaMa.dv DdhaLa.dv DdhaVa.dv DaGa.dv DaDdha.dv DaLa.dv DaGaRa.dv DaGaLa.dv ]
+		<anchor 624 0> mark @matraAbove;
+
+	pos base [Dha.dv DaVa.dv DaVaRa.dv ]
+		<anchor 762 0> mark @matraAbove;
+
+	pos base [Na.dv NaNukta.dv DaJha.dv DaRaVa.dv ]
+		<anchor 644 0> mark @matraAbove;
+
+	pos base [Pa.dv DdaNukta.dv ]
+		<anchor 634 0> mark @matraAbove;
+
+	pos base [Pha.dv PhaNukta.dv KaKa.dv ]
+		<anchor 626 0> mark @matraAbove;
+
+	pos base [Ba.dv BaRa.dv MaRa.dv ]
+		<anchor 650 0> mark @matraAbove;
+
+	pos base [Bha.dv BhaRa.dv ]
+		<anchor 763 0> mark @matraAbove;
+
+	pos base [Ma.dv ]
+		<anchor 662 0> mark @matraAbove;
+
+	pos base [Ra.dv ]
+		<anchor 442 0> mark @matraAbove;
+
+	pos base [RaNukta.dv ]
+		<anchor 432 0> mark @matraAbove;
+
+	pos base [La.dv ]
+		<anchor 737 0> mark @matraAbove;
+
+	pos base [LlaNukta.dv Lla.dv ]
+		<anchor 749 0> mark @matraAbove;
+
+	pos base [Va.dv ]
+		<anchor 645 0> mark @matraAbove;
+
+	pos base [Sha.dv ]
+		<anchor 839 0> mark @matraAbove;
+
+	pos base [Ssa.dv NgaTa.dv NgaDa.dv NgaNa.dv NgaPa.dv NgaBa.dv NgaBha.dv NgaMa.dv NgaLa.dv NgaVa.dv NgaSha.dv NgaSsa.dv NgaSa.dv NgaHa.dv NgaKaLa.dv NgaKaSsa.dv NgaNaRa.dv NgaPaRa.dv NgaRaVa.dv NgaVaRa.dv NgaHaRa.dv NgaKaSsaRa.dv SsaRa.dv ]
+		<anchor 665 0> mark @matraAbove;
+
+	pos base [Ha.dv HamatraU.dv HamatraUu.dv ]
+		<anchor 600 0> mark @matraAbove;
+
+	pos base [matraA.dv ]
+		<anchor 289 0> mark @matraAbove;
+
+	pos base [matraIi00.dv ]
+		<anchor 368 0> mark @matraAbove;
+
+	pos base [matraHrasvaO.dv ]
+		<anchor 384 0> mark @matraAbove;
+
+	pos base [matraO.dv ]
+		<anchor 369 0> mark @matraAbove;
+
+	pos base [matraAu.dv ]
+		<anchor 387 0> mark @matraAbove;
+
+	pos base [matraAChandra.dv ]
+		<anchor 451 0> mark @matraAbove;
+
+	pos base [matraHrasvaAu.dv ]
+		<anchor 453 0> mark @matraAbove;
+
+	pos base [vowelRuu.dv VaRa.dv KaNa.dv ]
+		<anchor 648 0> mark @matraAbove;
+
+	pos base [vowelLruu.dv LamatraU.dv LamatraUu.dv ]
+		<anchor 734 0> mark @matraAbove;
+
+	pos base [vowelLru.dv NaNa.dv ]
+		<anchor 735 0> mark @matraAbove;
+
+	pos base [KaSsa.dv ]
+		<anchor 830 0> mark @matraAbove;
+
+	pos base [JaNya.dv NgaKaSa.dv ]
+		<anchor 795 0> mark @matraAbove;
+
+	pos base [KaRa.dv DdhaRamatraUu.dv ]
+		<anchor 631 0> mark @matraAbove;
+
+	pos base [KhaRa.dv KhaNuktaRa.dv ]
+		<anchor 887 0> mark @matraAbove;
+
+	pos base [GaRa.dv SsaTta.dv GaNuktaRa.dv ]
+		<anchor 677 0> mark @matraAbove;
+
+	pos base [GhaRa.dv GhaNa.dv ]
+		<anchor 753 0> mark @matraAbove;
+
+	pos base [JaRa.dv ShaLa.dv JaNuktaRa.dv ]
+		<anchor 800 0> mark @matraAbove;
+
+	pos base [JhaRa.dv HrasvavowelA.dv ]
+		<anchor 903 0> mark @matraAbove;
+
+	pos base [TaRa.dv TaRaHalant.dv ]
+		<anchor 668 0> mark @matraAbove;
+
+	pos base [ThaRa.dv ]
+		<anchor 736 0> mark @matraAbove;
+
+	pos base [ShaRa.dv ShaNa.dv ]
+		<anchor 801 0> mark @matraAbove;
+
+	pos base [SaRa.dv NyaNa.dv ]
+		<anchor 857 0> mark @matraAbove;
+
+	pos base [HaRa.dv ]
+		<anchor 611 0> mark @matraAbove;
+
+	pos base [RamatraU.dv ]
+		<anchor 431 0> mark @matraAbove;
+
+	pos base [RamatraUu.dv ]
+		<anchor 422 0> mark @matraAbove;
+
+	pos base [HamatraRu.dv ]
+		<anchor 572 0> mark @matraAbove;
+
+	pos base [TtaRamatraU.dv TtaRamatraUu.dv ]
+		<anchor 632 0> mark @matraAbove;
+
+	pos base [TthaRamatraU.dv TthaRamatraUu.dv ]
+		<anchor 635 0> mark @matraAbove;
+
+	pos base [DdhaRamatraU.dv ]
+		<anchor 630 0> mark @matraAbove;
+
+	pos base [vowelIiBindu.dv NgaGaDhaVa.dv ]
+		<anchor 786 0> mark @matraAbove;
+
+	pos base [JhamatraU.dv JhamatraUu.dv NaDda.dv ]
+		<anchor 886 0> mark @matraAbove;
+
+	pos base [ShamatraU.dv ShamatraUu.dv ]
+		<anchor 824 0> mark @matraAbove;
+
+	pos base [HaYamatraU.dv HaYamatraUu.dv HaYa.dv ]
+		<anchor 831 0> mark @matraAbove;
+
+	pos base [JhaNamatraU.dv JhaNamatraUu.dv ]
+		<anchor 892 0> mark @matraAbove;
+
+	pos base [KamatraLru.dv KamatraLruu.dv KaLa.dv ]
+		<anchor 655 0> mark @matraAbove;
+
+	pos base [altYa.dv ]
+		<anchor 609 0> mark @matraAbove;
+
+	pos base [matraABindu.dv ]
+		<anchor 438 0> mark @matraAbove;
+
+	pos base [matraAChandrabindu.dv ]
+		<anchor 470 0> mark @matraAbove;
+
+	pos base [matraAReph.dv ]
+		<anchor 435 0> mark @matraAbove;
+
+	pos base [matraARephBindu.dv ]
+		<anchor 461 0> mark @matraAbove;
+
+	pos base [matraARephChandrabindu.dv ]
+		<anchor 510 0> mark @matraAbove;
+
+	pos base [matraOBindu.dv ]
+		<anchor 504 0> mark @matraAbove;
+
+	pos base [matraOChandrabindu.dv matraAuChandrabindu.dv ]
+		<anchor 598 0> mark @matraAbove;
+
+	pos base [matraOReph.dv ]
+		<anchor 446 0> mark @matraAbove;
+
+	pos base [matraORephBindu.dv matraAuReph.dv ]
+		<anchor 466 0> mark @matraAbove;
+
+	pos base [matraORephChandrabindu.dv matraHrasvaOReph.dv ]
+		<anchor 517 0> mark @matraAbove;
+
+	pos base [matraAuBindu.dv ]
+		<anchor 494 0> mark @matraAbove;
+
+	pos base [matraAuRephBindu.dv ]
+		<anchor 485 0> mark @matraAbove;
+
+	pos base [matraAuRephChandrabindu.dv ]
+		<anchor 530 0> mark @matraAbove;
+
+	pos base [matraHrasvaOBindu.dv ]
+		<anchor 499 0> mark @matraAbove;
+
+	pos base [matraHrasvaOChandrabindu.dv matraHrasvaAuReph.dv ]
+		<anchor 603 0> mark @matraAbove;
+
+	pos base [matraHrasvaORephBindu.dv matraIi01RephBindu.dv matraIi02RephBindu.dv matraIi03RephBindu.dv matraIi04RephBindu.dv matraIi05RephBindu.dv matraIi00Reph.dv matraIi00RephBindu.dv ]
+		<anchor 518 0> mark @matraAbove;
+
+	pos base [matraHrasvaORephChandrabindu.dv ]
+		<anchor 581 0> mark @matraAbove;
+
+	pos base [matraHrasvaAuBindu.dv ]
+		<anchor 608 0> mark @matraAbove;
+
+	pos base [matraHrasvaAuChandrabindu.dv TtaShaLa.dv ]
+		<anchor 714 0> mark @matraAbove;
+
+	pos base [matraHrasvaAuRephBindu.dv ]
+		<anchor 613 0> mark @matraAbove;
+
+	pos base [mHrasvaAuRephChandrabindu.dv TtaKa.dv TtaCa.dv TtaCha.dv TtaNna.dv TtaTa.dv TtaNa.dv TtaPa.dv TtaPha.dv TtaMa.dv TtaLa.dv TtaVa.dv TtaSha.dv TtaSsa.dv TtaSa.dv TtaKaRa.dv TtaKaSsa.dv TtaTaRa.dv TtaPaRa.dv TtaRaVa.dv TtaShaVa.dv TtaSaNa.dv ]
+		<anchor 692 0> mark @matraAbove;
+
+	pos base [KaKha.dv ]
+		<anchor 1464 0> mark @matraAbove;
+
+	pos base [KaCa.dv KaYa.dv KaRaYa.dv NnaHaMa.dv ]
+		<anchor 1292 0> mark @matraAbove;
+
+	pos base [KaCha.dv CaSa.dv LaJa.dv ShaJa.dv ]
+		<anchor 1319 0> mark @matraAbove;
+
+	pos base [KaJa.dv NaGaLa.dv ]
+		<anchor 1439 0> mark @matraAbove;
+
+	pos base [KaTta.dv NaSaRa.dv PhaPha.dv LaBha.dv ]
+		<anchor 1237 0> mark @matraAbove;
+
+	pos base [KaTtha.dv DdaDdaYa.dv SaTaRaYa.dv ]
+		<anchor 1253 0> mark @matraAbove;
+
+	pos base [KaNna.dv ]
+		<anchor 1423 0> mark @matraAbove;
+
+	pos base [KaTa.dv TtaTtha.dv ]
+		<anchor 699 0> mark @matraAbove;
+
+	pos base [KaTha.dv PhaLa.dv ]
+		<anchor 1320 0> mark @matraAbove;
+
+	pos base [KaDa.dv ]
+		<anchor 1231 -1> mark @matraAbove;
+
+	pos base [KaPa.dv ]
+		<anchor 1236 0> mark @matraAbove;
+
+	pos base [KaPha.dv JhaMa.dv NnaHaVa.dv TaSaNa.dv KaNuktaPha.dv ]
+		<anchor 1207 0> mark @matraAbove;
+
+	pos base [KaBa.dv KaNuktaBa.dv ]
+		<anchor 1260 0> mark @matraAbove;
+
+	pos base [KaBha.dv ]
+		<anchor 1339 0> mark @matraAbove;
+
+	pos base [KaMa.dv TtaTtaYa.dv KaNuktaMa.dv ]
+		<anchor 1330 0> mark @matraAbove;
+
+	pos base [KaVa.dv HaVaYa.dv ]
+		<anchor 1290 0> mark @matraAbove;
+
+	pos base [KaSha.dv KaNuktaSha.dv ]
+		<anchor 1397 0> mark @matraAbove;
+
+	pos base [KaSa.dv SaMaYa.dv KaNuktaSa.dv ]
+		<anchor 1432 0> mark @matraAbove;
+
+	pos base [KaKaNna.dv ]
+		<anchor 2083 0> mark @matraAbove;
+
+	pos base [KaKaYa.dv ]
+		<anchor 1837 0> mark @matraAbove;
+
+	pos base [KaKaRa.dv TthaYa.dv ]
+		<anchor 1261 0> mark @matraAbove;
+
+	pos base [KaKaLa.dv SsaJha.dv ]
+		<anchor 1235 0> mark @matraAbove;
+
+	pos base [KaKaVa.dv ]
+		<anchor 1225 0> mark @matraAbove;
+
+	pos base [KaKaSha.dv ]
+		<anchor 1997 0> mark @matraAbove;
+
+	pos base [KaKaSsa.dv ]
+		<anchor 1450 0> mark @matraAbove;
+
+	pos base [KaKhaYa.dv ]
+		<anchor 1896 0> mark @matraAbove;
+
+	pos base [KaCaCha.dv ]
+		<anchor 1794 0> mark @matraAbove;
+
+	pos base [KaTaCa.dv ]
+		<anchor 1608 0> mark @matraAbove;
+
+	pos base [KaTaYa.dv SsaTthaRaYa.dv ]
+		<anchor 1269 0> mark @matraAbove;
+
+	pos base [KaTaRa.dv ]
+		<anchor 1275 0> mark @matraAbove;
+
+	pos base [KaTaVa.dv DaDhaRaYa.dv NaSaTha.dv ]
+		<anchor 1569 0> mark @matraAbove;
+
+	pos base [KaThaNa.dv ]
+		<anchor 1310 0> mark @matraAbove;
+
+	pos base [KaThaYa.dv ]
+		<anchor 1670 0> mark @matraAbove;
+
+	pos base [KaThaVa.dv NnaTtaYa.dv TaKhaYa.dv ]
+		<anchor 1622 0> mark @matraAbove;
+
+	pos base [KaNaYa.dv CaKaTa.dv TaJa.dv VaJa.dv ]
+		<anchor 1169 0> mark @matraAbove;
+
+	pos base [KaPaRa.dv PhaTa.dv PhaNuktaTa.dv ]
+		<anchor 1256 0> mark @matraAbove;
+
+	pos base [KaPaLa.dv NyaShaRa.dv ]
+		<anchor 1251 0> mark @matraAbove;
+
+	pos base [KaMaYa.dv ]
+		<anchor 1592 0> mark @matraAbove;
+
+	pos base [KaLaYa.dv DdaDdhaYa.dv TaTaSa.dv NaDaMa.dv ]
+		<anchor 1239 0> mark @matraAbove;
+
+	pos base [KaVaYa.dv ]
+		<anchor 1575 0> mark @matraAbove;
+
+	pos base [KaShaMa.dv ]
+		<anchor 1681 0> mark @matraAbove;
+
+	pos base [KaShaRa.dv ]
+		<anchor 1371 0> mark @matraAbove;
+
+	pos base [KaShaLa.dv CaKha.dv ]
+		<anchor 1370 0> mark @matraAbove;
+
+	pos base [KaShaVa.dv SsaYaYa.dv ]
+		<anchor 1373 0> mark @matraAbove;
+
+	pos base [KaShaSha.dv ]
+		<anchor 1859 0> mark @matraAbove;
+
+	pos base [KaSsaNna.dv ]
+		<anchor 1282 0> mark @matraAbove;
+
+	pos base [KaSsaMa.dv ]
+		<anchor 1131 0> mark @matraAbove;
+
+	pos base [KaSsaYa.dv ]
+		<anchor 1133 0> mark @matraAbove;
+
+	pos base [KaSsaRa.dv ]
+		<anchor 870 0> mark @matraAbove;
+
+	pos base [KaSsaLa.dv LaDdha.dv ]
+		<anchor 1179 0> mark @matraAbove;
+
+	pos base [KaSsaVa.dv ]
+		<anchor 1058 0> mark @matraAbove;
+
+	pos base [KaSaTta.dv ]
+		<anchor 1702 0> mark @matraAbove;
+
+	pos base [KaSaDda.dv SsaTtaNaYa.dv ]
+		<anchor 1639 0> mark @matraAbove;
+
+	pos base [KaSaTa.dv ]
+		<anchor 1740 0> mark @matraAbove;
+
+	pos base [KaSaTha.dv ]
+		<anchor 1799 0> mark @matraAbove;
+
+	pos base [KaSaNa.dv PaSaYa.dv PaSaVa.dv SsaNnaVa.dv ]
+		<anchor 1448 0> mark @matraAbove;
+
+	pos base [KaSaPa.dv ]
+		<anchor 1699 0> mark @matraAbove;
+
+	pos base [KaSaPha.dv ]
+		<anchor 1706 0> mark @matraAbove;
+
+	pos base [KaSaMa.dv ]
+		<anchor 1768 0> mark @matraAbove;
+
+	pos base [KaSaYa.dv ]
+		<anchor 1708 0> mark @matraAbove;
+
+	pos base [KaSaVa.dv ]
+		<anchor 1718 0> mark @matraAbove;
+
+	pos base [KaTaRaYa.dv KhaNaYa.dv ]
+		<anchor 1606 0> mark @matraAbove;
+
+	pos base [KaTaVaYa.dv ]
+		<anchor 1635 0> mark @matraAbove;
+
+	pos base [KaSsaNnaYa.dv NnaNnaYa.dv ]
+		<anchor 1574 0> mark @matraAbove;
+
+	pos base [KaSsaMaYa.dv ]
+		<anchor 1442 0> mark @matraAbove;
+
+	pos base [KaSaTaRa.dv NaThaYa.dv ]
+		<anchor 1490 0> mark @matraAbove;
+
+	pos base [KaSaPaRa.dv ]
+		<anchor 1665 0> mark @matraAbove;
+
+	pos base [KaSaPaLa.dv ]
+		<anchor 1741 0> mark @matraAbove;
+
+	pos base [KhaKha.dv ]
+		<anchor 1526 0> mark @matraAbove;
+
+	pos base [KhaTa.dv TaPaPha.dv KhaNuktaTa.dv ]
+		<anchor 1265 0> mark @matraAbove;
+
+	pos base [KhaNa.dv ]
+		<anchor 881 0> mark @matraAbove;
+
+	pos base [KhaMa.dv KhaNuktaMa.dv ]
+		<anchor 1364 0> mark @matraAbove;
+
+	pos base [KhaYa.dv NnaHaYa.dv KhaNuktaYa.dv ]
+		<anchor 1301 0> mark @matraAbove;
+
+	pos base [KhaLa.dv DaVaYa.dv DaVaRaYa.dv NaTaMa.dv LaSha.dv ]
+		<anchor 1329 0> mark @matraAbove;
+
+	pos base [KhaVa.dv KhaNuktaVa.dv ]
+		<anchor 1226 0> mark @matraAbove;
+
+	pos base [KhaSha.dv GaDhaVa.dv PhaSha.dv SaTaVa.dv KhaNuktaSha.dv ]
+		<anchor 1379 0> mark @matraAbove;
+
+	pos base [KhaSa.dv KhaNuktaSa.dv ]
+		<anchor 1404 0> mark @matraAbove;
+
+	pos base [KhaKhaYa.dv ]
+		<anchor 1839 0> mark @matraAbove;
+
+	pos base [GaGa.dv SaNga.dv ]
+		<anchor 1038 0> mark @matraAbove;
+
+	pos base [GaGha.dv GaDhaRa.dv ]
+		<anchor 1078 0> mark @matraAbove;
+
+	pos base [GaJa.dv GaNuktaJaNukta.dv ]
+		<anchor 1157 0> mark @matraAbove;
+
+	pos base [GaJha.dv ]
+		<anchor 1232 0> mark @matraAbove;
+
+	pos base [GaDda.dv ]
+		<anchor 964 0> mark @matraAbove;
+
+	pos base [GaDdha.dv NaDdha.dv ]
+		<anchor 989 0> mark @matraAbove;
+
+	pos base [GaNna.dv ]
+		<anchor 1181 0> mark @matraAbove;
+
+	pos base [GaDa.dv TaTta.dv MaNaYa.dv ]
+		<anchor 983 0> mark @matraAbove;
+
+	pos base [GaDha.dv ]
+		<anchor 1082 0> mark @matraAbove;
+
+	pos base [GaNa.dv ]
+		<anchor 726 0> mark @matraAbove;
+
+	pos base [GaBa.dv TaTha.dv NaMaRa.dv BaBaRa.dv MaRaYa.dv ]
+		<anchor 1010 0> mark @matraAbove;
+
+	pos base [GaBha.dv GaBhaRa.dv ThaRaYa.dv ]
+		<anchor 1093 0> mark @matraAbove;
+
+	pos base [GaMa.dv NgaKaTaYa.dv TaDha.dv ThaVa.dv NaSsaTtha.dv MaDha.dv ]
+		<anchor 1042 0> mark @matraAbove;
+
+	pos base [GaYa.dv NaVa.dv ]
+		<anchor 1012 0> mark @matraAbove;
+
+	pos base [GaLa.dv NaTaTa.dv ]
+		<anchor 1079 0> mark @matraAbove;
+
+	pos base [GaVa.dv NgaHaYa.dv NaNaPa.dv PaMa.dv BaDa.dv MaMa.dv ]
+		<anchor 994 0> mark @matraAbove;
+
+	pos base [GaSa.dv ]
+		<anchor 1167 0> mark @matraAbove;
+
+	pos base [GaHa.dv ]
+		<anchor 949 0> mark @matraAbove;
+
+	pos base [GaGaRa.dv NgaRaVaYa.dv ]
+		<anchor 1036 0> mark @matraAbove;
+
+	pos base [GaGhaYa.dv LaKha.dv ]
+		<anchor 1431 0> mark @matraAbove;
+
+	pos base [GaGhaRa.dv BhaRaYa.dv ]
+		<anchor 1105 0> mark @matraAbove;
+
+	pos base [GaJaNya.dv CaSsa.dv SaSsa.dv ]
+		<anchor 1125 0> mark @matraAbove;
+
+	pos base [GaJaYa.dv ]
+		<anchor 1535 0> mark @matraAbove;
+
+	pos base [GaJaVa.dv NaSaTa.dv NaSaPa.dv ]
+		<anchor 1510 0> mark @matraAbove;
+
+	pos base [GaDaDha.dv GaDaDhaVa.dv ]
+		<anchor 1308 0> mark @matraAbove;
+
+	pos base [GaDaRa.dv TaDa.dv PaTta.dv ]
+		<anchor 974 0> mark @matraAbove;
+
+	pos base [GaDaVa.dv NaBha.dv ]
+		<anchor 1052 0> mark @matraAbove;
+
+	pos base [GaDhaYa.dv VaBhaYa.dv ]
+		<anchor 1407 0> mark @matraAbove;
+
+	pos base [GaNaYa.dv BaBa.dv ]
+		<anchor 999 0> mark @matraAbove;
+
+	pos base [GaBaRa.dv NaTaRa.dv MaBaRa.dv VaRaYa.dv ]
+		<anchor 990 0> mark @matraAbove;
+
+	pos base [GaBhaYa.dv ]
+		<anchor 1437 0> mark @matraAbove;
+
+	pos base [GaMaYa.dv TaNaVa.dv TaMaYa.dv ]
+		<anchor 1332 0> mark @matraAbove;
+
+	pos base [GaRaYa.dv NaDhaRa.dv PaBa.dv ]
+		<anchor 1009 0> mark @matraAbove;
+
+	pos base [GaRaVa.dv BaYa.dv ]
+		<anchor 996 0> mark @matraAbove;
+
+	pos base [GaVaYa.dv MaVaYa.dv ]
+		<anchor 1315 0> mark @matraAbove;
+
+	pos base [GaVaRa.dv TaTaRa.dv PaTaRa.dv ]
+		<anchor 988 0> mark @matraAbove;
+
+	pos base [GaDaVaYa.dv NaDaRaYa.dv ]
+		<anchor 1559 0> mark @matraAbove;
+
+	pos base [GaDhaRaYa.dv ]
+		<anchor 1401 0> mark @matraAbove;
+
+	pos base [GhaGha.dv ]
+		<anchor 1092 0> mark @matraAbove;
+
+	pos base [GhaMa.dv GhaRaYa.dv VaLa.dv SsaNa.dv ]
+		<anchor 1071 0> mark @matraAbove;
+
+	pos base [GhaYa.dv BhaBa.dv ]
+		<anchor 1081 0> mark @matraAbove;
+
+	pos base [GhaLa.dv JaTta.dv ShaTa.dv ShaCaPha.dv ShaRaYa.dv ]
+		<anchor 1143 0> mark @matraAbove;
+
+	pos base [GhaVa.dv TaTaYa.dv ]
+		<anchor 1024 0> mark @matraAbove;
+
+	pos base [GhaGhaYa.dv ]
+		<anchor 1461 0> mark @matraAbove;
+
+	pos base [GhaNaYa.dv ]
+		<anchor 1418 0> mark @matraAbove;
+
+	pos base [GhaVaYa.dv BhaVaYa.dv ]
+		<anchor 1425 0> mark @matraAbove;
+
+	pos base [NgaKa.dv NgaNga.dv NgaJa.dv NgaNna.dv NgaKaRa.dv NgaKaVa.dv NgaTaRa.dv NgaKaTaRa.dv SsaTtha.dv ]
+		<anchor 666 0> mark @matraAbove;
+
+	pos base [NgaGa.dv NgaGha.dv NgaKaTa.dv NgaGaRa.dv NgaGhaNa.dv NgaGhaRa.dv DdaKa.dv DdaKha.dv DdaGa.dv DdaGha.dv DdaJa.dv DdaJha.dv DdaTta.dv DdaDda.dv DdaDdha.dv DdaNna.dv DdaDa.dv DdaNa.dv DdaBa.dv DdaBha.dv DdaMa.dv DdaLa.dv DdaVa.dv DdaGaRa.dv DdaGhaRa.dv DdaJaNya.dv DdaDdaVa.dv DdaDdhaVa.dv DdaDaVa.dv DdaBaRa.dv DdaBhaRa.dv ]
+		<anchor 664 0> mark @matraAbove;
+
+	pos base [NgaCa.dv ]
+		<anchor 667 0> mark @matraAbove;
+
+	pos base [NgaDha.dv ]
+		<anchor 724 0> mark @matraAbove;
+
+	pos base [NgaYa.dv ]
+		<anchor 1242 0> mark @matraAbove;
+
+	pos base [NgaKaTha.dv ]
+		<anchor 1127 0> mark @matraAbove;
+
+	pos base [NgaKaYa.dv NgaKhaYa.dv NgaKaSsaYa.dv BaMa.dv ]
+		<anchor 1062 0> mark @matraAbove;
+
+	pos base [NgaGaDha.dv NgaGaMa.dv NgaGaLa.dv NgaGaVa.dv NgaTaVa.dv NgaTaTaVa.dv ]
+		<anchor 765 0> mark @matraAbove;
+
+	pos base [NgaGaYa.dv YaMa.dv ]
+		<anchor 1032 0> mark @matraAbove;
+
+	pos base [NgaGhaYa.dv NaDha.dv NaRaYa.dv YaVa.dv SaDda.dv ]
+		<anchor 1039 0> mark @matraAbove;
+
+	pos base [NgaDhaYa.dv NgaBhaYa.dv BaBha.dv MaTa.dv ]
+		<anchor 1033 0> mark @matraAbove;
+
+	pos base [NgaNaYa.dv NnaDda.dv ]
+		<anchor 1034 0> mark @matraAbove;
+
+	pos base [NgaNnaVa.dv ]
+		<anchor 725 0> mark @matraAbove;
+
+	pos base [NgaVaYa.dv NgaSaTha.dv NgaGhaRaYa.dv ]
+		<anchor 1037 0> mark @matraAbove;
+
+	pos base [NgaSaGa.dv NgaSaPa.dv NgaSaVa.dv ]
+		<anchor 727 0> mark @matraAbove;
+
+	pos base [NgaKaTaVa.dv ]
+		<anchor 1055 0> mark @matraAbove;
+
+	pos base [NgaKaSsaNna.dv NgaKaSsaNnaVa.dv ]
+		<anchor 935 0> mark @matraAbove;
+
+	pos base [NgaKaSsaMa.dv ]
+		<anchor 895 0> mark @matraAbove;
+
+	pos base [NgaKaSsaVa.dv ]
+		<anchor 835 0> mark @matraAbove;
+
+	pos base [NgaGaDhaYa.dv NaNaYa.dv ]
+		<anchor 1044 0> mark @matraAbove;
+
+	pos base [NgaKaTaRaYa.dv NaSsa.dv ]
+		<anchor 1045 0> mark @matraAbove;
+
+	pos base [CaKa.dv NnaNa.dv NnaYa.dv ]
+		<anchor 1114 0> mark @matraAbove;
+
+	pos base [CaCa.dv CaNya.dv ]
+		<anchor 794 0> mark @matraAbove;
+
+	pos base [CaCha.dv CaChaMa.dv ]
+		<anchor 1214 0> mark @matraAbove;
+
+	pos base [CaTa.dv NyaBha.dv BaJa.dv ]
+		<anchor 1163 0> mark @matraAbove;
+
+	pos base [CaNa.dv ]
+		<anchor 774 0> mark @matraAbove;
+
+	pos base [CaPa.dv NnaDdaDdha.dv NnaDdaVa.dv ShaKa.dv ShaPa.dv ShaKaNukta.dv ]
+		<anchor 1104 0> mark @matraAbove;
+
+	pos base [CaPha.dv BaDaYa.dv ]
+		<anchor 1103 0> mark @matraAbove;
+
+	pos base [CaMa.dv NnaCa.dv ]
+		<anchor 1218 0> mark @matraAbove;
+
+	pos base [CaYa.dv CaNyaYa.dv ShaNaYa.dv ]
+		<anchor 1153 0> mark @matraAbove;
+
+	pos base [CaLa.dv LaBa.dv ]
+		<anchor 1229 0> mark @matraAbove;
+
+	pos base [CaVa.dv NyaDaVa.dv ThaTha.dv DhaNaVa.dv ShaRaVa.dv ]
+		<anchor 1136 0> mark @matraAbove;
+
+	pos base [CaCaYa.dv TaSaYa.dv DaDhaYa.dv ]
+		<anchor 1468 0> mark @matraAbove;
+
+	pos base [CaChaYa.dv ]
+		<anchor 1909 0> mark @matraAbove;
+
+	pos base [CaChaLa.dv CaChaVa.dv PhaTta.dv PhaTtha.dv LaNa.dv LaPa.dv PhaNuktaTta.dv ]
+		<anchor 1194 0> mark @matraAbove;
+
+	pos base [CaPaRa.dv NnaVa.dv ]
+		<anchor 1106 0> mark @matraAbove;
+
+	pos base [CaRaYa.dv PaSha.dv ]
+		<anchor 1147 0> mark @matraAbove;
+
+	pos base [CaVaYa.dv LaVaYa.dv ]
+		<anchor 1495 0> mark @matraAbove;
+
+	pos base [CaSaVa.dv ]
+		<anchor 1636 0> mark @matraAbove;
+
+	pos base [CaTaRaYa.dv LaBaYa.dv SaSaVa.dv ]
+		<anchor 1496 0> mark @matraAbove;
+
+	pos base [ChaNa.dv ChaMa.dv ChaLa.dv ChaVa.dv ]
+		<anchor 696 0> mark @matraAbove;
+
+	pos base [ChaYa.dv ]
+		<anchor 1403 0> mark @matraAbove;
+
+	pos base [ChaRaYa.dv ]
+		<anchor 1383 0> mark @matraAbove;
+
+	pos base [JaKa.dv ]
+		<anchor 1113 0> mark @matraAbove;
+
+	pos base [JaJha.dv ]
+		<anchor 1391 0> mark @matraAbove;
+
+	pos base [JaDda.dv JaDa.dv JaPa.dv NyaDa.dv ]
+		<anchor 1124 0> mark @matraAbove;
+
+	pos base [JaNa.dv ]
+		<anchor 822 0> mark @matraAbove;
+
+	pos base [JaBa.dv ]
+		<anchor 1150 0> mark @matraAbove;
+
+	pos base [JaMa.dv JaRaYa.dv PhaYa.dv JaNuktaMa.dv ]
+		<anchor 1215 0> mark @matraAbove;
+
+	pos base [JaYa.dv JhaVa.dv LaTtha.dv JaNuktaYa.dv ]
+		<anchor 1180 0> mark @matraAbove;
+
+	pos base [JaLa.dv JhaLa.dv NyaSha.dv NnaSa.dv PhaVa.dv SsaTtaRaYa.dv ]
+		<anchor 1259 0> mark @matraAbove;
+
+	pos base [JaVa.dv MaSa.dv ]
+		<anchor 1156 0> mark @matraAbove;
+
+	pos base [JaJaYa.dv SaDhaVa.dv ]
+		<anchor 1479 0> mark @matraAbove;
+
+	pos base [JaJaVa.dv TaSaKa.dv SaPaYa.dv ]
+		<anchor 1436 0> mark @matraAbove;
+
+	pos base [JaJaNya.dv ]
+		<anchor 1191 0> mark @matraAbove;
+
+	pos base [JaJhaYa.dv ]
+		<anchor 1651 0> mark @matraAbove;
+
+	pos base [JaJhaRa.dv NaTaYa.dv ]
+		<anchor 1393 0> mark @matraAbove;
+
+	pos base [JaNyaYa.dv NaCa.dv SaYa.dv ]
+		<anchor 1098 0> mark @matraAbove;
+
+	pos base [JaNyaRa.dv ]
+		<anchor 825 0> mark @matraAbove;
+
+	pos base [JaNyaVa.dv BhaVa.dv BhaRaVa.dv ]
+		<anchor 1086 0> mark @matraAbove;
+
+	pos base [JaBhaYa.dv NaTaSaRa.dv ]
+		<anchor 1577 0> mark @matraAbove;
+
+	pos base [JaBhaRa.dv NnaBha.dv PhaPa.dv SaLa.dv ]
+		<anchor 1223 0> mark @matraAbove;
+
+	pos base [JaMaYa.dv ]
+		<anchor 1492 0> mark @matraAbove;
+
+	pos base [JaVaYa.dv ]
+		<anchor 1487 0> mark @matraAbove;
+
+	pos base [JhaJha.dv PhaJa.dv PhaNuktaJa.dv ]
+		<anchor 1419 0> mark @matraAbove;
+
+	pos base [JhaNa.dv DaGha.dv DaGhaRa.dv DaGhaNa.dv ]
+		<anchor 897 0> mark @matraAbove;
+
+	pos base [JhaYa.dv LaPaTa.dv ]
+		<anchor 1161 0> mark @matraAbove;
+
+	pos base [JhaJhaYa.dv ]
+		<anchor 1585 0> mark @matraAbove;
+
+	pos base [JhaRaYa.dv ]
+		<anchor 1203 0> mark @matraAbove;
+
+	pos base [NyaKa.dv NyaPa.dv NnaDa.dv SsaTthaVa.dv ]
+		<anchor 1084 0> mark @matraAbove;
+
+	pos base [NyaKha.dv ]
+		<anchor 1380 0> mark @matraAbove;
+
+	pos base [NyaCha.dv DaGaYa.dv LaGha.dv ]
+		<anchor 1199 0> mark @matraAbove;
+
+	pos base [NyaJha.dv ]
+		<anchor 1322 0> mark @matraAbove;
+
+	pos base [NyaTtha.dv NyaGaRa.dv BhaLa.dv ]
+		<anchor 1137 0> mark @matraAbove;
+
+	pos base [NyaNna.dv PhaMa.dv ]
+		<anchor 1272 0> mark @matraAbove;
+
+	pos base [NyaMa.dv ShaMa.dv ]
+		<anchor 1152 0> mark @matraAbove;
+
+	pos base [NyaYa.dv ]
+		<anchor 1264 0> mark @matraAbove;
+
+	pos base [NyaLa.dv ]
+		<anchor 1233 0> mark @matraAbove;
+
+	pos base [NyaVa.dv NaThaRa.dv SaDdha.dv SaRaVa.dv ]
+		<anchor 1116 0> mark @matraAbove;
+
+	pos base [NyaSa.dv SaNya.dv SaSha.dv ]
+		<anchor 1279 0> mark @matraAbove;
+
+	pos base [NyaHa.dv TaLa.dv SaHa.dv ]
+		<anchor 1050 0> mark @matraAbove;
+
+	pos base [NyaKaVa.dv ]
+		<anchor 1750 0> mark @matraAbove;
+
+	pos base [NyaKaTa.dv DaDaVaYa.dv DhaMa.dv ]
+		<anchor 1119 0> mark @matraAbove;
+
+	pos base [NyaCaCha.dv ]
+		<anchor 1604 0> mark @matraAbove;
+
+	pos base [NyaCaMa.dv ]
+		<anchor 1578 0> mark @matraAbove;
+
+	pos base [NyaCaYa.dv SaThaNaYa.dv ]
+		<anchor 1553 0> mark @matraAbove;
+
+	pos base [NyaCaVa.dv ]
+		<anchor 1536 0> mark @matraAbove;
+
+	pos base [NyaChaNa.dv ]
+		<anchor 1147 -2> mark @matraAbove;
+
+	pos base [NyaChaYa.dv ShaChaYa.dv ]
+		<anchor 1873 0> mark @matraAbove;
+
+	pos base [NyaChaLa.dv NyaChaVa.dv ]
+		<anchor 1146 0> mark @matraAbove;
+
+	pos base [NyaJaNya.dv DaRaYa.dv ]
+		<anchor 1205 0> mark @matraAbove;
+
+	pos base [NyaJaMa.dv SaPhaYa.dv ]
+		<anchor 1655 0> mark @matraAbove;
+
+	pos base [NyaJaYa.dv NnaSaMa.dv ]
+		<anchor 1618 0> mark @matraAbove;
+
+	pos base [NyaJaVa.dv ]
+		<anchor 1590 0> mark @matraAbove;
+
+	pos base [NyaNyaYa.dv NnaDdaRaYa.dv ]
+		<anchor 1634 0> mark @matraAbove;
+
+	pos base [NyaBhaYa.dv ]
+		<anchor 1507 0> mark @matraAbove;
+
+	pos base [NyaSaNa.dv ]
+		<anchor 1328 0> mark @matraAbove;
+
+	pos base [NyaShaMa.dv ]
+		<anchor 1602 0> mark @matraAbove;
+
+	pos base [NyaShaYa.dv ]
+		<anchor 1573 0> mark @matraAbove;
+
+	pos base [NyaShaLa.dv TaSaTaRa.dv ]
+		<anchor 1240 0> mark @matraAbove;
+
+	pos base [NyaShaVa.dv ]
+		<anchor 1270 0> mark @matraAbove;
+
+	pos base [TtaKha.dv ]
+		<anchor 721 0> mark @matraAbove;
+
+	pos base [TtaTta.dv ]
+		<anchor 697 0> mark @matraAbove;
+
+	pos base [TtaDdha.dv TtaDa.dv ]
+		<anchor 701 0> mark @matraAbove;
+
+	pos base [TtaTha.dv ]
+		<anchor 997 0> mark @matraAbove;
+
+	pos base [TtaBa.dv ]
+		<anchor 692 -2> mark @matraAbove;
+
+	pos base [TtaYa.dv ]
+		<anchor 1182 0> mark @matraAbove;
+
+	pos base [TtaTthaYa.dv PaVaYa.dv ]
+		<anchor 1345 0> mark @matraAbove;
+
+	pos base [TtaTaVa.dv ]
+		<anchor 692 -1> mark @matraAbove;
+
+	pos base [TtaTaSa.dv ]
+		<anchor 782 0> mark @matraAbove;
+
+	pos base [TtaShaRa.dv ]
+		<anchor 712 0> mark @matraAbove;
+
+	pos base [TtaSaTa.dv TtaSaPa.dv TtaSaLa.dv TtaSaVa.dv LaLa.dv ]
+		<anchor 742 0> mark @matraAbove;
+
+	pos base [TtaSaTha.dv ]
+		<anchor 977 0> mark @matraAbove;
+
+	pos base [TtaShaVaYa.dv ]
+		<anchor 1295 0> mark @matraAbove;
+
+	pos base [TthaKa.dv TthaTtha.dv TthaNna.dv TthaNa.dv TthaMa.dv TthaLa.dv TthaVa.dv TthaSa.dv TaNa.dv MaLa.dv ]
+		<anchor 695 0> mark @matraAbove;
+
+	pos base [TthaTha.dv ]
+		<anchor 1017 0> mark @matraAbove;
+
+	pos base [TthaTthaYa.dv LaSa.dv ]
+		<anchor 1348 0> mark @matraAbove;
+
+	pos base [TthaThaYa.dv PaTtha.dv ]
+		<anchor 992 0> mark @matraAbove;
+
+	pos base [DdaDha.dv ]
+		<anchor 719 0> mark @matraAbove;
+
+	pos base [DdaYa.dv ]
+		<anchor 1224 0> mark @matraAbove;
+
+	pos base [DdaGaYa.dv MaKa.dv ]
+		<anchor 942 0> mark @matraAbove;
+
+	pos base [DdaJaYa.dv ]
+		<anchor 972 0> mark @matraAbove;
+
+	pos base [DdaBhaYa.dv ]
+		<anchor 932 0> mark @matraAbove;
+
+	pos base [DdaVaYa.dv NaKha.dv NaSaNa.dv ]
+		<anchor 1249 0> mark @matraAbove;
+
+	pos base [DdhaYa.dv DdhaRaYa.dv NnaLa.dv ThaLa.dv NaSha.dv LaMa.dv LaVa.dv SaCha.dv SaTaTa.dv ]
+		<anchor 1189 0> mark @matraAbove;
+
+	pos base [DdhaDdhaYa.dv ]
+		<anchor 1258 0> mark @matraAbove;
+
+	pos base [NnaKa.dv NaTa.dv SsaGa.dv ]
+		<anchor 1070 0> mark @matraAbove;
+
+	pos base [NnaTta.dv NaCha.dv ]
+		<anchor 1073 0> mark @matraAbove;
+
+	pos base [NnaTtha.dv ]
+		<anchor 1087 0> mark @matraAbove;
+
+	pos base [NnaDdha.dv ]
+		<anchor 1076 0> mark @matraAbove;
+
+	pos base [NnaNna.dv SaNna.dv ]
+		<anchor 1302 0> mark @matraAbove;
+
+	pos base [NnaTa.dv NaDaYa.dv ShaTta.dv JaJaNukta.dv ]
+		<anchor 1123 0> mark @matraAbove;
+
+	pos base [NnaTha.dv TaSaRa.dv NaSa.dv LaPha.dv LaPhaNukta.dv ]
+		<anchor 1177 0> mark @matraAbove;
+
+	pos base [NnaMa.dv DaDaYa.dv VaNna.dv ]
+		<anchor 1132 0> mark @matraAbove;
+
+	pos base [NnaHa.dv PaCha.dv ]
+		<anchor 1040 0> mark @matraAbove;
+
+	pos base [NnaJaYa.dv NaJaYa.dv BaJaYa.dv ]
+		<anchor 1560 0> mark @matraAbove;
+
+	pos base [NnaTthaYa.dv NaKhaYa.dv ]
+		<anchor 1701 0> mark @matraAbove;
+
+	pos base [NnaDdaYa.dv ]
+		<anchor 1644 0> mark @matraAbove;
+
+	pos base [NnaDdaRa.dv MaPaRa.dv ]
+		<anchor 1056 0> mark @matraAbove;
+
+	pos base [NnaDdhaYa.dv ]
+		<anchor 1629 0> mark @matraAbove;
+
+	pos base [NnaThaYa.dv ]
+		<anchor 1549 0> mark @matraAbove;
+
+	pos base [NnaVaYa.dv ShaVaYa.dv ]
+		<anchor 1445 0> mark @matraAbove;
+
+	pos base [TaKa.dv PaDda.dv ]
+		<anchor 911 0> mark @matraAbove;
+
+	pos base [TaKha.dv LaGa.dv ]
+		<anchor 1202 0> mark @matraAbove;
+
+	pos base [TaGa.dv VaDdha.dv ]
+		<anchor 976 0> mark @matraAbove;
+
+	pos base [TaGha.dv PaKa.dv ]
+		<anchor 978 0> mark @matraAbove;
+
+	pos base [TaNga.dv ]
+		<anchor 918 0> mark @matraAbove;
+
+	pos base [TaCa.dv ]
+		<anchor 998 0> mark @matraAbove;
+
+	pos base [TaCha.dv DhaDa.dv MaPa.dv ]
+		<anchor 1054 0> mark @matraAbove;
+
+	pos base [TaJha.dv PaLaYa.dv ]
+		<anchor 1219 0> mark @matraAbove;
+
+	pos base [TaNya.dv SaBha.dv ]
+		<anchor 1195 0> mark @matraAbove;
+
+	pos base [TaTtha.dv ]
+		<anchor 987 0> mark @matraAbove;
+
+	pos base [TaDda.dv ]
+		<anchor 934 0> mark @matraAbove;
+
+	pos base [TaDdha.dv ]
+		<anchor 966 0> mark @matraAbove;
+
+	pos base [TaNna.dv ]
+		<anchor 1135 0> mark @matraAbove;
+
+	pos base [TaTa.dv ]
+		<anchor 769 0> mark @matraAbove;
+
+	pos base [TaPa.dv ]
+		<anchor 957 0> mark @matraAbove;
+
+	pos base [TaPha.dv ]
+		<anchor 931 0> mark @matraAbove;
+
+	pos base [TaBa.dv NaPaRa.dv MaBa.dv ]
+		<anchor 961 0> mark @matraAbove;
+
+	pos base [TaBha.dv NaYa.dv BaDdha.dv ]
+		<anchor 1006 0> mark @matraAbove;
+
+	pos base [TaMa.dv TaVa.dv NaDaRa.dv ]
+		<anchor 969 0> mark @matraAbove;
+
+	pos base [TaYa.dv BaDda.dv ]
+		<anchor 1004 0> mark @matraAbove;
+
+	pos base [TaSsa.dv MaPha.dv ]
+		<anchor 1015 0> mark @matraAbove;
+
+	pos base [TaSa.dv ]
+		<anchor 1141 0> mark @matraAbove;
+
+	pos base [TaHa.dv ]
+		<anchor 940 0> mark @matraAbove;
+
+	pos base [TaKaMa.dv ]
+		<anchor 1660 0> mark @matraAbove;
+
+	pos base [TaKaYa.dv ]
+		<anchor 1612 0> mark @matraAbove;
+
+	pos base [TaKaRa.dv ]
+		<anchor 951 0> mark @matraAbove;
+
+	pos base [TaKaLa.dv ]
+		<anchor 955 0> mark @matraAbove;
+
+	pos base [TaKaVa.dv ]
+		<anchor 1600 0> mark @matraAbove;
+
+	pos base [TaKaSsa.dv ]
+		<anchor 1170 0> mark @matraAbove;
+
+	pos base [TaKaSa.dv ]
+		<anchor 1772 0> mark @matraAbove;
+
+	pos base [TaKhaNa.dv NaHaYa.dv PhaRaYa.dv ]
+		<anchor 1211 0> mark @matraAbove;
+
+	pos base [TaKhaRa.dv LaTa.dv LlaDdha.dv ]
+		<anchor 1197 0> mark @matraAbove;
+
+	pos base [TaTaKa.dv BhaDa.dv ]
+		<anchor 1064 0> mark @matraAbove;
+
+	pos base [TaTaNa.dv ]
+		<anchor 1094 0> mark @matraAbove;
+
+	pos base [TaTaMa.dv ]
+		<anchor 1059 0> mark @matraAbove;
+
+	pos base [TaRaYa.dv ]
+		<anchor 1026 0> mark @matraAbove;
+
+	pos base [TaTaVa.dv MaDa.dv YaPa.dv SsaPha.dv ]
+		<anchor 984 0> mark @matraAbove;
+
+	pos base [TaThaYa.dv ]
+		<anchor 1410 0> mark @matraAbove;
+
+	pos base [TaNaYa.dv MaPaYa.dv ]
+		<anchor 1318 0> mark @matraAbove;
+
+	pos base [TaPaRa.dv PaPaRa.dv ]
+		<anchor 956 0> mark @matraAbove;
+
+	pos base [TaPaLa.dv ]
+		<anchor 991 0> mark @matraAbove;
+
+	pos base [TaPhaRa.dv ]
+		<anchor 958 0> mark @matraAbove;
+
+	pos base [TaYaVa.dv NaDhaYa.dv ]
+		<anchor 1316 0> mark @matraAbove;
+
+	pos base [TaRaVa.dv SsaBa.dv ]
+		<anchor 1016 0> mark @matraAbove;
+
+	pos base [TaVaYa.dv PaTaVa.dv SaSa.dv ]
+		<anchor 1305 0> mark @matraAbove;
+
+	pos base [TaSsaTtha.dv NaGhaRa.dv ]
+		<anchor 1043 0> mark @matraAbove;
+
+	pos base [TaSaKha.dv ]
+		<anchor 1682 0> mark @matraAbove;
+
+	pos base [TaSaTa.dv PaShaYa.dv ]
+		<anchor 1481 0> mark @matraAbove;
+
+	pos base [TaSaTha.dv ]
+		<anchor 1539 0> mark @matraAbove;
+
+	pos base [TaSaPa.dv LaVaDda.dv SaSaYa.dv ]
+		<anchor 1470 0> mark @matraAbove;
+
+	pos base [TaSaPha.dv ]
+		<anchor 1458 0> mark @matraAbove;
+
+	pos base [TaSaMa.dv ]
+		<anchor 1513 0> mark @matraAbove;
+
+	pos base [TaSaVa.dv ]
+		<anchor 1453 0> mark @matraAbove;
+
+	pos base [TaKaSsaMa.dv ]
+		<anchor 1451 0> mark @matraAbove;
+
+	pos base [TaKaSsaVa.dv ]
+		<anchor 1378 0> mark @matraAbove;
+
+	pos base [TaTaKaSsa.dv NaKaSsa.dv SsaTtaYa.dv ]
+		<anchor 1250 0> mark @matraAbove;
+
+	pos base [TaTaSaYa.dv ]
+		<anchor 1538 0> mark @matraAbove;
+
+	pos base [TaSaNaYa.dv ]
+		<anchor 1808 0> mark @matraAbove;
+
+	pos base [TaSaMaYa.dv ]
+		<anchor 1802 0> mark @matraAbove;
+
+	pos base [TaSaThaYa.dv ]
+		<anchor 1890 0> mark @matraAbove;
+
+	pos base [TaSaPaRa.dv MaBhaMa.dv SaNaYa.dv ]
+		<anchor 1426 0> mark @matraAbove;
+
+	pos base [TaSaPhaYa.dv ]
+		<anchor 2001 0> mark @matraAbove;
+
+	pos base [ThaNa.dv ]
+		<anchor 740 0> mark @matraAbove;
+
+	pos base [ThaMa.dv NaMaLa.dv SsaMa.dv ]
+		<anchor 1085 0> mark @matraAbove;
+
+	pos base [ThaYa.dv ]
+		<anchor 1100 0> mark @matraAbove;
+
+	pos base [ThaThaYa.dv ]
+		<anchor 1443 0> mark @matraAbove;
+
+	pos base [ThaNaYa.dv ]
+		<anchor 1411 0> mark @matraAbove;
+
+	pos base [ThaVaYa.dv ]
+		<anchor 1421 0> mark @matraAbove;
+
+	pos base [DaDda.dv DaDdaDda.dv ]
+		<anchor 652 0> mark @matraAbove;
+
+	pos base [DaDa.dv DaDaNa.dv DaDaBa.dv DaDaRa.dv DaDaVa.dv DaDaBaRa.dv DaDaVaRa.dv ]
+		<anchor 528 0> mark @matraAbove;
+
+	pos base [DaDha.dv DaDhaNa.dv DaDhaRa.dv DaDhaVa.dv SsaPa.dv ]
+		<anchor 1008 0> mark @matraAbove;
+
+	pos base [DaBa.dv DaBaRa.dv ]
+		<anchor 766 0> mark @matraAbove;
+
+	pos base [DaBha.dv DaBhaRa.dv DaBhaVa.dv ]
+		<anchor 928 0> mark @matraAbove;
+
+	pos base [DaMa.dv ]
+		<anchor 850 0> mark @matraAbove;
+
+	pos base [DaDhaMa.dv HaNaYa.dv ]
+		<anchor 1200 0> mark @matraAbove;
+
+	pos base [DaBhaYa.dv ]
+		<anchor 1428 0> mark @matraAbove;
+
+	pos base [DaMaYa.dv ]
+		<anchor 1162 0> mark @matraAbove;
+
+	pos base [DaDhaNaYa.dv ]
+		<anchor 1589 0> mark @matraAbove;
+
+	pos base [DhaDha.dv SaTta.dv ]
+		<anchor 1102 0> mark @matraAbove;
+
+	pos base [DhaNa.dv ]
+		<anchor 789 0> mark @matraAbove;
+
+	pos base [DhaYa.dv ]
+		<anchor 1067 0> mark @matraAbove;
+
+	pos base [DhaLa.dv ShaCaYa.dv ]
+		<anchor 1183 0> mark @matraAbove;
+
+	pos base [DhaVa.dv ]
+		<anchor 1069 0> mark @matraAbove;
+
+	pos base [DhaDhaYa.dv ]
+		<anchor 1444 0> mark @matraAbove;
+
+	pos base [DhaNaYa.dv DhaRaYa.dv ]
+		<anchor 1101 0> mark @matraAbove;
+
+	pos base [DhaVaYa.dv ]
+		<anchor 1435 0> mark @matraAbove;
+
+	pos base [DhaVaRa.dv NaDaDha.dv ]
+		<anchor 1088 0> mark @matraAbove;
+
+	pos base [NaKa.dv NaKaRa.dv BaKa.dv ]
+		<anchor 981 0> mark @matraAbove;
+
+	pos base [NaGa.dv SsaPaLa.dv ]
+		<anchor 1021 0> mark @matraAbove;
+
+	pos base [NaGha.dv ]
+		<anchor 1027 0> mark @matraAbove;
+
+	pos base [NaNga.dv ]
+		<anchor 952 0> mark @matraAbove;
+
+	pos base [NaJa.dv ]
+		<anchor 1185 0> mark @matraAbove;
+
+	pos base [NaJha.dv LaTha.dv ]
+		<anchor 1252 0> mark @matraAbove;
+
+	pos base [NaTta.dv PaYa.dv ]
+		<anchor 986 0> mark @matraAbove;
+
+	pos base [NaTtha.dv ]
+		<anchor 959 0> mark @matraAbove;
+
+	pos base [NaTha.dv SsaKaLa.dv ]
+		<anchor 1035 0> mark @matraAbove;
+
+	pos base [NaDa.dv ]
+		<anchor 967 0> mark @matraAbove;
+
+	pos base [NaPa.dv NaPha.dv ]
+		<anchor 965 0> mark @matraAbove;
+
+	pos base [NaBa.dv VaVa.dv ]
+		<anchor 1005 0> mark @matraAbove;
+
+	pos base [NaMa.dv BaGa.dv ]
+		<anchor 1019 0> mark @matraAbove;
+
+	pos base [NaLa.dv LaHa.dv ]
+		<anchor 1097 0> mark @matraAbove;
+
+	pos base [NaHa.dv ]
+		<anchor 912 0> mark @matraAbove;
+
+	pos base [NaKaTa.dv ]
+		<anchor 1030 0> mark @matraAbove;
+
+	pos base [NaKaLa.dv PaCa.dv ]
+		<anchor 1025 0> mark @matraAbove;
+
+	pos base [NaKaVa.dv ]
+		<anchor 1650 0> mark @matraAbove;
+
+	pos base [NaKaSa.dv ]
+		<anchor 1825 0> mark @matraAbove;
+
+	pos base [NaGaRa.dv PaTha.dv MaMaLa.dv ]
+		<anchor 1057 0> mark @matraAbove;
+
+	pos base [NaGhaNa.dv NaBhaRa.dv ]
+		<anchor 1023 0> mark @matraAbove;
+
+	pos base [NaGhaYa.dv ]
+		<anchor 1381 0> mark @matraAbove;
+
+	pos base [NaJaVa.dv ]
+		<anchor 1531 0> mark @matraAbove;
+
+	pos base [NaNnaVa.dv ]
+		<anchor 1446 0> mark @matraAbove;
+
+	pos base [NaTaTha.dv HaMaYa.dv ]
+		<anchor 1360 0> mark @matraAbove;
+
+	pos base [NaTaVa.dv NaTaTaVa.dv ]
+		<anchor 1369 0> mark @matraAbove;
+
+	pos base [NaTaSa.dv ]
+		<anchor 1541 0> mark @matraAbove;
+
+	pos base [NaThaVa.dv PhaNna.dv SaNaVa.dv ]
+		<anchor 1422 0> mark @matraAbove;
+
+	pos base [NaDaVa.dv NaVaRa.dv VaMa.dv ]
+		<anchor 1002 0> mark @matraAbove;
+
+	pos base [NaDhaMa.dv ]
+		<anchor 1399 0> mark @matraAbove;
+
+	pos base [NaDhaVa.dv MaDhaVa.dv KaNuktaLa.dv ]
+		<anchor 1349 0> mark @matraAbove;
+
+	pos base [NaNaBha.dv VaDaYa.dv ]
+		<anchor 1063 0> mark @matraAbove;
+
+	pos base [NaNaVa.dv SsaTa.dv ]
+		<anchor 1046 0> mark @matraAbove;
+
+	pos base [NaPaLa.dv ]
+		<anchor 1051 0> mark @matraAbove;
+
+	pos base [NaPaSa.dv NaSaVa.dv SaSaMa.dv ]
+		<anchor 1518 0> mark @matraAbove;
+
+	pos base [NaPhaRa.dv PaSsa.dv ]
+		<anchor 975 0> mark @matraAbove;
+
+	pos base [NaBaRa.dv ]
+		<anchor 1011 0> mark @matraAbove;
+
+	pos base [NaBhaYa.dv ]
+		<anchor 1387 0> mark @matraAbove;
+
+	pos base [NaBhaVa.dv ]
+		<anchor 1356 0> mark @matraAbove;
+
+	pos base [NaMaYa.dv MaBaVa.dv SsaMaYa.dv ]
+		<anchor 1312 0> mark @matraAbove;
+
+	pos base [NaYaVa.dv MaBhaVa.dv LlaLlaYa.dv ]
+		<anchor 1396 0> mark @matraAbove;
+
+	pos base [NaVaYa.dv ]
+		<anchor 1385 0> mark @matraAbove;
+
+	pos base [NaSaKa.dv ]
+		<anchor 1456 0> mark @matraAbove;
+
+	pos base [NaSaKha.dv ]
+		<anchor 1712 0> mark @matraAbove;
+
+	pos base [NaSaTta.dv ]
+		<anchor 1482 0> mark @matraAbove;
+
+	pos base [NaSaPha.dv ]
+		<anchor 1498 0> mark @matraAbove;
+
+	pos base [NaSaMa.dv ]
+		<anchor 1558 0> mark @matraAbove;
+
+	pos base [NaSaYa.dv ]
+		<anchor 1508 0> mark @matraAbove;
+
+	pos base [NaHaRa.dv ]
+		<anchor 971 0> mark @matraAbove;
+
+	pos base [NaHaVa.dv BhaYa.dv ]
+		<anchor 1117 0> mark @matraAbove;
+
+	pos base [NaTaRaYa.dv ]
+		<anchor 1386 0> mark @matraAbove;
+
+	pos base [NaTaVaYa.dv ]
+		<anchor 1705 0> mark @matraAbove;
+
+	pos base [NaTaSaTa.dv ]
+		<anchor 1830 0> mark @matraAbove;
+
+	pos base [NaTaSaTha.dv ]
+		<anchor 1899 0> mark @matraAbove;
+
+	pos base [NaTaSaNa.dv ]
+		<anchor 1587 0> mark @matraAbove;
+
+	pos base [NaTaSaPa.dv ]
+		<anchor 1840 0> mark @matraAbove;
+
+	pos base [NaTaSaYa.dv ]
+		<anchor 1848 0> mark @matraAbove;
+
+	pos base [NaTaSaVa.dv ]
+		<anchor 1858 0> mark @matraAbove;
+
+	pos base [NaDaDaRa.dv ]
+		<anchor 908 0> mark @matraAbove;
+
+	pos base [NaDaDhaYa.dv ]
+		<anchor 1649 0> mark @matraAbove;
+
+	pos base [NaDaDhaVa.dv ]
+		<anchor 1228 0> mark @matraAbove;
+
+	pos base [NaDaVaYa.dv ]
+		<anchor 1579 0> mark @matraAbove;
+
+	pos base [NaDhaRaYa.dv PaTaRaYa.dv BaDhaVa.dv LlaNna.dv ]
+		<anchor 1336 0> mark @matraAbove;
+
+	pos base [NaSaPhaYa.dv ]
+		<anchor 2178 0> mark @matraAbove;
+
+	pos base [NaSaTaRa.dv SaKaSsa.dv ]
+		<anchor 1280 0> mark @matraAbove;
+
+	pos base [PaKha.dv ]
+		<anchor 1210 0> mark @matraAbove;
+
+	pos base [PaNna.dv VaRaLa.dv SaDa.dv SaBa.dv ]
+		<anchor 1099 0> mark @matraAbove;
+
+	pos base [PaTa.dv PaNa.dv PaLa.dv MaNa.dv VaNa.dv ]
+		<anchor 651 0> mark @matraAbove;
+
+	pos base [PaPa.dv ]
+		<anchor 943 0> mark @matraAbove;
+
+	pos base [PaPha.dv ]
+		<anchor 945 0> mark @matraAbove;
+
+	pos base [PaVa.dv BaVa.dv MaDaVa.dv ]
+		<anchor 982 0> mark @matraAbove;
+
+	pos base [PaSa.dv ]
+		<anchor 1148 0> mark @matraAbove;
+
+	pos base [PaKaSsa.dv BaSha.dv SaTtha.dv SaRaYa.dv ]
+		<anchor 1145 0> mark @matraAbove;
+
+	pos base [PaNnaVa.dv ]
+		<anchor 1416 0> mark @matraAbove;
+
+	pos base [PaTaYa.dv MaYa.dv ]
+		<anchor 962 0> mark @matraAbove;
+
+	pos base [PaNaYa.dv MaMaYa.dv ]
+		<anchor 1296 0> mark @matraAbove;
+
+	pos base [PaPaYa.dv BhaNna.dv ]
+		<anchor 1262 0> mark @matraAbove;
+
+	pos base [PaRaYa.dv BaTta.dv BaTa.dv BaGaRa.dv BaRaYa.dv ]
+		<anchor 1007 0> mark @matraAbove;
+
+	pos base [PaLaVa.dv ]
+		<anchor 1522 0> mark @matraAbove;
+
+	pos base [PaSaTha.dv ]
+		<anchor 1529 0> mark @matraAbove;
+
+	pos base [PaSaNa.dv ]
+		<anchor 1188 0> mark @matraAbove;
+
+	pos base [PaSaMa.dv MaPaSa.dv ]
+		<anchor 1488 0> mark @matraAbove;
+
+	pos base [PaSaNaYa.dv ]
+		<anchor 1503 0> mark @matraAbove;
+
+	pos base [PhaNa.dv ]
+		<anchor 629 0> mark @matraAbove;
+
+	pos base [PhaPhaYa.dv ]
+		<anchor 1828 0> mark @matraAbove;
+
+	pos base [BaKha.dv ]
+		<anchor 1238 0> mark @matraAbove;
+
+	pos base [BaGha.dv VaBha.dv ]
+		<anchor 993 0> mark @matraAbove;
+
+	pos base [BaCha.dv MaBhaRa.dv ]
+		<anchor 1066 0> mark @matraAbove;
+
+	pos base [BaJha.dv ]
+		<anchor 1201 0> mark @matraAbove;
+
+	pos base [BaDha.dv ]
+		<anchor 1000 0> mark @matraAbove;
+
+	pos base [BaNa.dv ]
+		<anchor 654 0> mark @matraAbove;
+
+	pos base [BaLa.dv ]
+		<anchor 1083 0> mark @matraAbove;
+
+	pos base [BaSa.dv ]
+		<anchor 1173 0> mark @matraAbove;
+
+	pos base [BaDhaYa.dv ]
+		<anchor 1354 0> mark @matraAbove;
+
+	pos base [BaDhaRa.dv ]
+		<anchor 1028 0> mark @matraAbove;
+
+	pos base [BaBaYa.dv ]
+		<anchor 1353 0> mark @matraAbove;
+
+	pos base [BaBhaYa.dv ]
+		<anchor 1377 0> mark @matraAbove;
+
+	pos base [BaBhaRa.dv SsaSsa.dv ]
+		<anchor 1003 0> mark @matraAbove;
+
+	pos base [BaLaYa.dv SaThaYa.dv ]
+		<anchor 1540 0> mark @matraAbove;
+
+	pos base [BaVaYa.dv ]
+		<anchor 1365 0> mark @matraAbove;
+
+	pos base [BhaNa.dv ]
+		<anchor 758 0> mark @matraAbove;
+
+	pos base [BhaBha.dv SaVa.dv ]
+		<anchor 1138 0> mark @matraAbove;
+
+	pos base [BhaMa.dv ]
+		<anchor 1116 -2> mark @matraAbove;
+
+	pos base [BhaNaVa.dv ]
+		<anchor 1402 0> mark @matraAbove;
+
+	pos base [BhaTaYa.dv ]
+		<anchor 1424 0> mark @matraAbove;
+
+	pos base [BhaBhaYa.dv ]
+		<anchor 1447 0> mark @matraAbove;
+
+	pos base [MaNna.dv LaDa.dv LaSsa.dv ]
+		<anchor 1175 0> mark @matraAbove;
+
+	pos base [MaBha.dv ]
+		<anchor 1065 0> mark @matraAbove;
+
+	pos base [MaVa.dv ]
+		<anchor 1018 0> mark @matraAbove;
+
+	pos base [MaSha.dv ]
+		<anchor 1159 0> mark @matraAbove;
+
+	pos base [MaHa.dv ]
+		<anchor 922 0> mark @matraAbove;
+
+	pos base [MaPaLa.dv ]
+		<anchor 1001 0> mark @matraAbove;
+
+	pos base [MaPhaYa.dv ]
+		<anchor 1555 0> mark @matraAbove;
+
+	pos base [MaBaPa.dv ]
+		<anchor 1284 0> mark @matraAbove;
+
+	pos base [MaBaYa.dv VaNaYa.dv ]
+		<anchor 1326 0> mark @matraAbove;
+
+	pos base [MaBaLa.dv SaTaMa.dv ]
+		<anchor 1363 0> mark @matraAbove;
+
+	pos base [MaBhaYa.dv ]
+		<anchor 1417 0> mark @matraAbove;
+
+	pos base [MaMaRa.dv ]
+		<anchor 970 0> mark @matraAbove;
+
+	pos base [MaVaRa.dv ]
+		<anchor 968 0> mark @matraAbove;
+
+	pos base [MaVaLa.dv LaHaYa.dv VaDhaMa.dv ]
+		<anchor 1351 0> mark @matraAbove;
+
+	pos base [MaVaRaYa.dv ]
+		<anchor 1300 0> mark @matraAbove;
+
+	pos base [MaPaSaYa.dv ]
+		<anchor 1751 0> mark @matraAbove;
+
+	pos base [YaYa.dv VaYa.dv SsaKa.dv SsaKaRa.dv ]
+		<anchor 995 0> mark @matraAbove;
+
+	pos base [YaLa.dv ]
+		<anchor 1134 0> mark @matraAbove;
+
+	pos base [YaHa.dv ]
+		<anchor 948 0> mark @matraAbove;
+
+	pos base [LaKa.dv ]
+		<anchor 1186 0> mark @matraAbove;
+
+	pos base [LaNga.dv LaDda.dv ]
+		<anchor 1080 0> mark @matraAbove;
+
+	pos base [LaJha.dv ]
+		<anchor 1438 0> mark @matraAbove;
+
+	pos base [LaTta.dv ]
+		<anchor 1184 0> mark @matraAbove;
+
+	pos base [LaDha.dv ]
+		<anchor 1248 0> mark @matraAbove;
+
+	pos base [LaYa.dv ]
+		<anchor 1166 0> mark @matraAbove;
+
+	pos base [LaRa.dv ]
+		<anchor 739 0> mark @matraAbove;
+
+	pos base [LaKaYa.dv ]
+		<anchor 1792 0> mark @matraAbove;
+
+	pos base [LaGaYa.dv ]
+		<anchor 1502 0> mark @matraAbove;
+
+	pos base [LaGaVa.dv ]
+		<anchor 1484 0> mark @matraAbove;
+
+	pos base [LaNgaYa.dv ]
+		<anchor 1672 0> mark @matraAbove;
+
+	pos base [LaPaTha.dv ]
+		<anchor 1527 0> mark @matraAbove;
+
+	pos base [LaPaYa.dv ]
+		<anchor 1466 0> mark @matraAbove;
+
+	pos base [LaPaSa.dv ]
+		<anchor 1638 0> mark @matraAbove;
+
+	pos base [LaBhaYa.dv ]
+		<anchor 1557 0> mark @matraAbove;
+
+	pos base [LaLaYa.dv ]
+		<anchor 1514 0> mark @matraAbove;
+
+	pos base [LaGaVaYa.dv ]
+		<anchor 1805 0> mark @matraAbove;
+
+	pos base [LaPaTaYa.dv ]
+		<anchor 1472 0> mark @matraAbove;
+
+	pos base [LaPaTaVa.dv ]
+		<anchor 1815 0> mark @matraAbove;
+
+	pos base [LaPaSaMa.dv ]
+		<anchor 1928 0> mark @matraAbove;
+
+	pos base [LaPaSaYa.dv ]
+		<anchor 1898 0> mark @matraAbove;
+
+	pos base [LaPaSaVa.dv ]
+		<anchor 1888 0> mark @matraAbove;
+
+	pos base [LaVaDhaVa.dv ]
+		<anchor 1759 0> mark @matraAbove;
+
+	pos base [VaJha.dv ]
+		<anchor 1192 0> mark @matraAbove;
+
+	pos base [VaDa.dv ]
+		<anchor 944 0> mark @matraAbove;
+
+	pos base [VaDha.dv ]
+		<anchor 973 0> mark @matraAbove;
+
+	pos base [VaHa.dv ]
+		<anchor 927 0> mark @matraAbove;
+
+	pos base [VaDhaYa.dv ]
+		<anchor 1327 0> mark @matraAbove;
+
+	pos base [VaDhaVa.dv SaJa.dv ]
+		<anchor 1299 0> mark @matraAbove;
+
+	pos base [VaVaYa.dv ]
+		<anchor 1347 0> mark @matraAbove;
+
+	pos base [VaDhaRaYa.dv ]
+		<anchor 1331 0> mark @matraAbove;
+
+	pos base [ShaCa.dv ShaCaRa.dv ]
+		<anchor 838 0> mark @matraAbove;
+
+	pos base [ShaCha.dv ]
+		<anchor 1209 0> mark @matraAbove;
+
+	pos base [ShaJha.dv SaJha.dv ]
+		<anchor 1362 0> mark @matraAbove;
+
+	pos base [ShaYa.dv ]
+		<anchor 1121 0> mark @matraAbove;
+
+	pos base [ShaVa.dv ]
+		<anchor 828 0> mark @matraAbove;
+
+	pos base [ShaSha.dv LlaYa.dv ]
+		<anchor 1289 0> mark @matraAbove;
+
+	pos base [ShaMaYa.dv ]
+		<anchor 1462 0> mark @matraAbove;
+
+	pos base [SsaKha.dv ]
+		<anchor 1276 0> mark @matraAbove;
+
+	pos base [SsaNna.dv ]
+		<anchor 1178 0> mark @matraAbove;
+
+	pos base [SsaYa.dv ]
+		<anchor 980 0> mark @matraAbove;
+
+	pos base [SsaLa.dv ]
+		<anchor 1122 0> mark @matraAbove;
+
+	pos base [SsaVa.dv ]
+		<anchor 1029 0> mark @matraAbove;
+
+	pos base [SsaKaYa.dv ]
+		<anchor 1677 0> mark @matraAbove;
+
+	pos base [SsaKaVa.dv ]
+		<anchor 1676 0> mark @matraAbove;
+
+	pos base [SsaTtaLa.dv ]
+		<anchor 658 0> mark @matraAbove;
+
+	pos base [SsaTtaVa.dv ]
+		<anchor 669 0> mark @matraAbove;
+
+	pos base [SsaTthaYa.dv ]
+		<anchor 1255 0> mark @matraAbove;
+
+	pos base [SsaNnaYa.dv SaYaYa.dv SaVaYa.dv ]
+		<anchor 1455 0> mark @matraAbove;
+
+	pos base [SsaPaYa.dv ]
+		<anchor 1337 0> mark @matraAbove;
+
+	pos base [SsaPaRa.dv ]
+		<anchor 986 -3> mark @matraAbove;
+
+	pos base [SaKa.dv SaPaRa.dv ]
+		<anchor 1096 0> mark @matraAbove;
+
+	pos base [SaKha.dv ]
+		<anchor 1342 0> mark @matraAbove;
+
+	pos base [SaGa.dv ]
+		<anchor 1141 -2> mark @matraAbove;
+
+	pos base [SaCa.dv ]
+		<anchor 1208 -2> mark @matraAbove;
+
+	pos base [SaTa.dv ]
+		<anchor 1140 0> mark @matraAbove;
+
+	pos base [SaTha.dv ]
+		<anchor 1199 -2> mark @matraAbove;
+
+	pos base [SaNa.dv ]
+		<anchor 858 0> mark @matraAbove;
+
+	pos base [SaPa.dv ]
+		<anchor 1130 0> mark @matraAbove;
+
+	pos base [SaPha.dv SaPhaNukta.dv ]
+		<anchor 1118 0> mark @matraAbove;
+
+	pos base [SaMa.dv ]
+		<anchor 1168 0> mark @matraAbove;
+
+	pos base [SaKaYa.dv ]
+		<anchor 1752 0> mark @matraAbove;
+
+	pos base [SaKaRa.dv ]
+		<anchor 1111 0> mark @matraAbove;
+
+	pos base [SaTaYa.dv ]
+		<anchor 1394 0> mark @matraAbove;
+
+	pos base [SaTaRa.dv ]
+		<anchor 900 0> mark @matraAbove;
+
+	pos base [SaTaSa.dv ]
+		<anchor 1571 0> mark @matraAbove;
+
+	pos base [SaThaNa.dv HaRaYa.dv ]
+		<anchor 1190 0> mark @matraAbove;
+
+	pos base [SaPaMa.dv SaTaTaYa.dv ]
+		<anchor 1454 0> mark @matraAbove;
+
+	pos base [SaMaRa.dv ]
+		<anchor 1110 0> mark @matraAbove;
+
+	pos base [SaVaRa.dv ]
+		<anchor 1128 0> mark @matraAbove;
+
+	pos base [SaVaVa.dv ]
+		<anchor 1465 0> mark @matraAbove;
+
+	pos base [SaTaVaYa.dv ]
+		<anchor 1695 0> mark @matraAbove;
+
+	pos base [HaNa.dv HaNaVa.dv ]
+		<anchor 627 0> mark @matraAbove;
+
+	pos base [HaMa.dv ]
+		<anchor 832 -3> mark @matraAbove;
+
+	pos base [HaLa.dv ]
+		<anchor 748 0> mark @matraAbove;
+
+	pos base [LlaTta.dv ]
+		<anchor 1198 0> mark @matraAbove;
+
+	pos base [LlaDda.dv ]
+		<anchor 1095 0> mark @matraAbove;
+
+	pos base [LlaHa.dv ]
+		<anchor 1158 0> mark @matraAbove;
+
+	pos base [LlaLla.dv ]
+		<anchor 754 0> mark @matraAbove;
+
+	pos base [KaKaNukta.dv ]
+		<anchor 1234 0> mark @matraAbove;
+
+	pos base [KaNuktaTa.dv ]
+		<anchor 1293 0> mark @matraAbove;
+
+	pos base [JaNuktaBa.dv ]
+		<anchor 1144 0> mark @matraAbove;
+
+	pos base [JhaNukta.dv ]
+		<anchor 872 0> mark @matraAbove;
+
+	pos base [matraIi01.dv matraIi02.dv matraIi03.dv matraIi04.dv matraIi05.dv ]
+		<anchor 371 0> mark @matraAbove;
+
+	pos base [matraIi01Bindu.dv matraIi02Bindu.dv matraIi03Bindu.dv matraIi04Bindu.dv ]
+		<anchor 487 0> mark @matraAbove;
+
+	pos base [matraIi05Bindu.dv ]
+		<anchor 478 0> mark @matraAbove;
+
+	pos base [matraIi01Chandrabindu.dv matraIi02Chandrabindu.dv matraIi03Chandrabindu.dv matraIi04Chandrabindu.dv matraIi00Chandrabindu.dv ]
+		<anchor 596 0> mark @matraAbove;
+
+	pos base [matraIi05Chandrabindu.dv ]
+		<anchor 586 0> mark @matraAbove;
+
+	pos base [matraIi01Reph.dv matraIi02Reph.dv matraIi03Reph.dv matraIi04Reph.dv matraIi05Reph.dv ]
+		<anchor 498 0> mark @matraAbove;
+
+	pos base [matraIi01RephChandrabindu.dv matraIi02RephChandrabindu.dv matraIi03RephChandrabindu.dv matraIi04RephChandrabindu.dv matraIi05RephChandrabindu.dv matraIi00RephChandrabindu.dv ]
+		<anchor 580 0> mark @matraAbove;
+
+	pos base [matraIi00Bindu.dv ]
+		<anchor 493 0> mark @matraAbove;
+
+	pos base [ChandrabinduVirama.dv ChandrabinduViramaDvi.dv ]
+		<anchor 346 0> mark @matraAbove;
+
+	pos base [ChandrabinduViramaSaDvi.dv ChandrabinduViramaSaDvi01.dv ChandrabinduViramaAvagraha.dv ]
+		<anchor 354 0> mark @matraAbove;
+
+lookup abvm1 {
+
+	@SvaritaKutumb = [Svarita.dv DeerghaSvarita.dv AtiDeerghaSvarita.dv];
+
+	pos mark [Chandrabindu.dv ]
+		<anchor 193 0> mark @SvaritaKutumb;
+
+	pos mark [Bindu.dv BinduAnudatta.dv ]
+		<anchor 141 0> mark @SvaritaKutumb;
+
+	pos mark [matraHrasvaE.dv matraE.dv matraAi.dv matraEAnudatta.dv matraAiAnudatta.dv matraHrasvaEAnudatta.dv ]
+		<anchor 85 0> mark @SvaritaKutumb;
+
+	pos mark [Chandra.dv matraAiBindu.dv ]
+		<anchor 190 0> mark @SvaritaKutumb;
+
+	pos mark [uni0900 ]
+		<anchor 233 0> mark @SvaritaKutumb;
+
+	pos mark [Reph.dv Reph_alt.dv Reph_altAnudatta.dv ]
+		<anchor 143 0> mark @SvaritaKutumb;
+
+	pos mark [RephBindu.dv matraAiRephBindu.dv ]
+		<anchor 173 0> mark @SvaritaKutumb;
+
+	pos mark [RephChandrabindu.dv ]
+		<anchor 221 0> mark @SvaritaKutumb;
+
+	pos mark [matraEBindu.dv matraHrasvaEBindu.dv ]
+		<anchor 200 0> mark @SvaritaKutumb;
+
+	pos mark [matraEChandrabindu.dv ]
+		<anchor 306 0> mark @SvaritaKutumb;
+
+	pos mark [matraEReph.dv matraAiReph.dv ]
+		<anchor 154 0> mark @SvaritaKutumb;
+
+	pos mark [matraERephBindu.dv ]
+		<anchor 177 0> mark @SvaritaKutumb;
+
+	pos mark [matraERephChandrabindu.dv ]
+		<anchor 240 0> mark @SvaritaKutumb;
+
+	pos mark [matraAiChandrabindu.dv ]
+		<anchor 305 0> mark @SvaritaKutumb;
+
+	pos mark [matraAiRephChandrabindu.dv ]
+		<anchor 230 0> mark @SvaritaKutumb;
+
+	pos mark [matraHrasvaEChandrabindu.dv ]
+		<anchor 316 0> mark @SvaritaKutumb;
+
+	pos mark [matraHrasvaEReph.dv ]
+		<anchor 218 0> mark @SvaritaKutumb;
+
+	pos mark [matraHrasvaERephBindu.dv ]
+		<anchor 225 0> mark @SvaritaKutumb;
+
+	pos mark [matraHrasvaERephChandrabindu.dv ]
+		<anchor 294 0> mark @SvaritaKutumb;
+
+	pos mark [matraHrasvaAiBindu.dv ]
+		<anchor 320 0> mark @SvaritaKutumb;
+
+	pos mark [matraHrasvaAiChandrabindu.dv ]
+		<anchor 426 0> mark @SvaritaKutumb;
+
+	pos mark [matraHrasvaAiReph.dv ]
+		<anchor 315 0> mark @SvaritaKutumb;
+
+	pos mark [matraHrasvaAiRephBindu.dv ]
+		<anchor 325 0> mark @SvaritaKutumb;
+
+	pos mark [mHrasvaAiRephChandrabindu.dv ]
+		<anchor 404 0> mark @SvaritaKutumb;
+
+	pos mark [matraHrasvaAi.dv matraHrasvaAiAnudatta.dv ]
+		<anchor 168 0> mark @SvaritaKutumb;
+
+	pos mark [LaghuChandrabindu.dv ]
+		<anchor 253 0> mark @SvaritaKutumb;
+
+
+} abvm1;
+} abvm;
+
+feature blwm {
+
+	@matraBelow = [matraU.dv matraUu.dv matraUsmall.dv matraUusmall.dv matraUAnudatta.dv matraUuAnudatta.dv matraUsmallAnudatta.dv matraUusmallAnudatta.dv matraRu.dv matraRuu.dv matraRusmallAnudatta.dv matraRuAnudatta.dv matraRusmall.dv  NuktaVattumatraU.dv NuktaVattumatraUu.dv NuktaVattumatraRu.dv matraLru.dv matraLruu.dv Vattu.dv VattumatraU.dv VattumatraUu.dv VattumatraRu.dv Nukta.dv Halant.dv Anudatta.dv Anudatta_alt.dv];
+
+	pos base [vowelA.dv HrasvavowelA.dv ]
+		<anchor 840 0> mark @matraBelow;
+
+	pos base [vowelAa.dv vowelHrasvaO.dv vowelO.dv vowelAu.dv vowelChandraO.dv GaDaYa.dv TaSha.dv ]
+		<anchor 1129 0> mark @matraBelow;
+
+	pos base [vowelI.dv ]
+		<anchor 459 -207> mark @matraBelow;
+
+	pos base [vowelU.dv vowelUu.dv ]
+		<anchor 466 7> mark @matraBelow;
+
+	pos base [vowelRu.dv NaRa.dv ]
+		<anchor 647 0> mark @matraBelow;
+
+	pos base [vowelHrasvaE.dv vowelE.dv vowelAi.dv vowelChandraE.dv ]
+		<anchor 621 -129> mark @matraBelow;
+
+	pos base [Ka.dv KaNukta.dv ]
+		<anchor 614 0> mark @matraBelow;
+
+	pos base [Kha.dv KhaNukta.dv ]
+		<anchor 890 0> mark @matraBelow;
+
+	pos base [Ga.dv GaNukta.dv ]
+		<anchor 678 0> mark @matraBelow;
+
+	pos base [Gha.dv ]
+		<anchor 738 0> mark @matraBelow;
+
+	pos base [Nga.dv ]
+		<anchor 510 0> mark @matraBelow;
+
+	pos base [Ca.dv ]
+		<anchor 788 0> mark @matraBelow;
+
+	pos base [Cha.dv ]
+		<anchor 555 20> mark @matraBelow;
+
+	pos base [Ja.dv Sa.dv JaNukta.dv ]
+		<anchor 829 0> mark @matraBelow;
+
+	pos base [Jha.dv JhaNukta.dv ]
+		<anchor 872 0> mark @matraBelow;
+
+	pos base [Nya.dv NyaRa.dv ]
+		<anchor 849 0> mark @matraBelow;
+
+	pos base [Tta.dv ]
+		<anchor 507 36> mark @matraBelow;
+
+	pos base [Ttha.dv ]
+		<anchor 480 73> mark @matraBelow;
+
+	pos base [Dda.dv ]
+		<anchor 508 18> mark @matraBelow;
+
+	pos base [Ddha.dv ]
+		<anchor 517 57> mark @matraBelow;
+
+	pos base [Nna.dv NnaRa.dv HaMa.dv ]
+		<anchor 832 0> mark @matraBelow;
+
+	pos base [Ta.dv Ya.dv YaNukta.dv YaNa.dv YaRa.dv ]
+		<anchor 663 0> mark @matraBelow;
+
+	pos base [Tha.dv ]
+		<anchor 747 0> mark @matraBelow;
+
+	pos base [Da.dv DaGa.dv ]
+		<anchor 646 -56> mark @matraBelow;
+
+	pos base [Dha.dv ]
+		<anchor 762 0> mark @matraBelow;
+
+	pos base [Na.dv NaNukta.dv ]
+		<anchor 644 0> mark @matraBelow;
+
+	pos base [Pa.dv ]
+		<anchor 634 0> mark @matraBelow;
+
+	pos base [Pha.dv PhaNukta.dv KaKa.dv ]
+		<anchor 626 0> mark @matraBelow;
+
+	pos base [Ba.dv BaRa.dv MaRa.dv ]
+		<anchor 650 0> mark @matraBelow;
+
+	pos base [Bha.dv BhaRa.dv ]
+		<anchor 763 0> mark @matraBelow;
+
+	pos base [Ma.dv ]
+		<anchor 662 0> mark @matraBelow;
+
+	pos base [Ra.dv ]
+		<anchor 538 21> mark @matraBelow;
+
+	pos base [RaNukta.dv ]
+		<anchor 534 30> mark @matraBelow;
+
+	pos base [La.dv ]
+		<anchor 724 28> mark @matraBelow;
+
+	pos base [LlaNukta.dv ]
+		<anchor 760 66> mark @matraBelow;
+
+	pos base [Lla.dv ]
+		<anchor 753 63> mark @matraBelow;
+
+	pos base [Va.dv ]
+		<anchor 646 0> mark @matraBelow;
+
+	pos base [Sha.dv ]
+		<anchor 839 0> mark @matraBelow;
+
+	pos base [Ssa.dv SsaRa.dv ]
+		<anchor 665 0> mark @matraBelow;
+
+	pos base [Ha.dv ]
+		<anchor 608 -149> mark @matraBelow;
+
+	pos base [DdaNukta.dv ]
+		<anchor 508 10> mark @matraBelow;
+
+	pos base [DdhaNukta.dv ]
+		<anchor 509 49> mark @matraBelow;
+
+	pos base [vowelRuu.dv VaRa.dv KaNa.dv ]
+		<anchor 648 0> mark @matraBelow;
+
+	pos base [vowelLruu.dv ]
+		<anchor 896 -250> mark @matraBelow;
+
+	pos base [vowelLru.dv ]
+		<anchor 804 -70> mark @matraBelow;
+
+	pos base [KaSsa.dv ]
+		<anchor 830 0> mark @matraBelow;
+
+	pos base [JaNya.dv ]
+		<anchor 795 0> mark @matraBelow;
+
+	pos base [KaRa.dv ]
+		<anchor 631 0> mark @matraBelow;
+
+	pos base [KhaRa.dv ]
+		<anchor 887 0> mark @matraBelow;
+
+	pos base [GaRa.dv ]
+		<anchor 677 0> mark @matraBelow;
+
+	pos base [GhaRa.dv ]
+		<anchor 753 0> mark @matraBelow;
+
+	pos base [CaRa.dv DhaRa.dv ]
+		<anchor 768 0> mark @matraBelow;
+
+	pos base [JaRa.dv TaNga.dv JaNuktaRa.dv ]
+		<anchor 800 0> mark @matraBelow;
+
+	pos base [JhaRa.dv ]
+		<anchor 903 0> mark @matraBelow;
+
+	pos base [TaRa.dv ]
+		<anchor 668 0> mark @matraBelow;
+
+	pos base [ThaRa.dv ]
+		<anchor 736 0> mark @matraBelow;
+
+	pos base [DaRa.dv ]
+		<anchor 649 -60> mark @matraBelow;
+
+	pos base [PaRa.dv ]
+		<anchor 636 0> mark @matraBelow;
+
+	pos base [PhaRa.dv PhaNuktaRa.dv ]
+		<anchor 628 0> mark @matraBelow;
+
+	pos base [ShaRa.dv ]
+		<anchor 801 0> mark @matraBelow;
+
+	pos base [SaRa.dv NyaNa.dv ]
+		<anchor 857 0> mark @matraBelow;
+
+	pos base [HaRa.dv ]
+		<anchor 516 -208> mark @matraBelow;
+
+	pos base [DamatraRu.dv ]
+		<anchor 620 -16> mark @matraBelow;
+
+	pos base [RamatraU.dv ]
+		<anchor 663 -13> mark @matraBelow;
+
+	pos base [RamatraUu.dv ]
+		<anchor 650 13> mark @matraBelow;
+
+	pos base [HamatraRu.dv ]
+		<anchor 576 -166> mark @matraBelow;
+
+	pos base [TtaRamatraU.dv ]
+		<anchor 641 -321> mark @matraBelow;
+
+	pos base [TthaRamatraU.dv ]
+		<anchor 681 -321> mark @matraBelow;
+
+	pos base [DdaRamatraU.dv ]
+		<anchor 663 -369> mark @matraBelow;
+
+	pos base [DdhaRamatraU.dv ]
+		<anchor 664 -331> mark @matraBelow;
+
+	pos base [TtaRamatraUu.dv ]
+		<anchor 679 -285> mark @matraBelow;
+
+	pos base [TthaRamatraUu.dv ]
+		<anchor 692 -284> mark @matraBelow;
+
+	pos base [DdaRamatraUu.dv ]
+		<anchor 695 -349> mark @matraBelow;
+
+	pos base [DdhaRamatraUu.dv ]
+		<anchor 730 -305> mark @matraBelow;
+
+	pos base [JhamatraU.dv ]
+		<anchor 879 -203> mark @matraBelow;
+
+	pos base [DamatraU.dv ]
+		<anchor 697 -326> mark @matraBelow;
+
+	pos base [LamatraU.dv ]
+		<anchor 761 -253> mark @matraBelow;
+
+	pos base [ShamatraU.dv ]
+		<anchor 823 -277> mark @matraBelow;
+
+	pos base [HamatraU.dv ]
+		<anchor 561 -344> mark @matraBelow;
+
+	pos base [JhamatraUu.dv ]
+		<anchor 938 -218> mark @matraBelow;
+
+	pos base [DamatraUu.dv ]
+		<anchor 740 -339> mark @matraBelow;
+
+	pos base [LamatraUu.dv ]
+		<anchor 756 -267> mark @matraBelow;
+
+	pos base [ShamatraUu.dv ]
+		<anchor 881 -280> mark @matraBelow;
+
+	pos base [HamatraUu.dv ]
+		<anchor 623 -349> mark @matraBelow;
+
+	pos base [HaMamatraU.dv ]
+		<anchor 832 -333> mark @matraBelow;
+
+	pos base [HaYamatraU.dv ]
+		<anchor 830 -325> mark @matraBelow;
+
+	pos base [HaMamatraUu.dv ]
+		<anchor 825 -313> mark @matraBelow;
+
+	pos base [HaYamatraUu.dv ]
+		<anchor 846 -310> mark @matraBelow;
+
+	pos base [JhaNamatraU.dv ]
+		<anchor 900 -346> mark @matraBelow;
+
+	pos base [JhaNamatraUu.dv ]
+		<anchor 925 -361> mark @matraBelow;
+
+	pos base [KamatraLru.dv ]
+		<anchor 728 -357> mark @matraBelow;
+
+	pos base [KamatraLruu.dv ]
+		<anchor 764 -533> mark @matraBelow;
+
+	pos base [altYa.dv ]
+		<anchor 619 0> mark @matraBelow;
+
+	pos base [ShamatraRu.dv ]
+		<anchor 828 -269> mark @matraBelow;
+
+	pos base [KaKha.dv ]
+		<anchor 1464 0> mark @matraBelow;
+
+	pos base [KaNga.dv ]
+		<anchor 1088 10> mark @matraBelow;
+
+	pos base [KaCa.dv KaYa.dv KaRaYa.dv NnaHaMa.dv ]
+		<anchor 1292 0> mark @matraBelow;
+
+	pos base [KaCha.dv ]
+		<anchor 1115 32> mark @matraBelow;
+
+	pos base [KaJa.dv ]
+		<anchor 1439 0> mark @matraBelow;
+
+	pos base [KaTta.dv ]
+		<anchor 1117 46> mark @matraBelow;
+
+	pos base [KaTtha.dv ]
+		<anchor 1112 57> mark @matraBelow;
+
+	pos base [KaNna.dv ]
+		<anchor 1423 0> mark @matraBelow;
+
+	pos base [KaTa.dv ]
+		<anchor 699 0> mark @matraBelow;
+
+	pos base [KaTha.dv ]
+		<anchor 1320 0> mark @matraBelow;
+
+	pos base [KaDa.dv ]
+		<anchor 1253 -56> mark @matraBelow;
+
+	pos base [KaPa.dv ]
+		<anchor 1236 0> mark @matraBelow;
+
+	pos base [KaPha.dv JhaMa.dv TaSaNa.dv KaNuktaPha.dv ]
+		<anchor 1207 0> mark @matraBelow;
+
+	pos base [KaBa.dv KaNuktaBa.dv ]
+		<anchor 1260 0> mark @matraBelow;
+
+	pos base [KaBha.dv ]
+		<anchor 1339 0> mark @matraBelow;
+
+	pos base [KaMa.dv TtaTtaYa.dv KaNuktaMa.dv ]
+		<anchor 1330 0> mark @matraBelow;
+
+	pos base [KaLa.dv ]
+		<anchor 770 -309> mark @matraBelow;
+
+	pos base [KaVa.dv HaVaYa.dv ]
+		<anchor 1290 0> mark @matraBelow;
+
+	pos base [KaSha.dv KaNuktaSha.dv ]
+		<anchor 1397 0> mark @matraBelow;
+
+	pos base [KaSa.dv SaMaYa.dv KaNuktaSa.dv ]
+		<anchor 1432 0> mark @matraBelow;
+
+	pos base [KaKaNna.dv ]
+		<anchor 2083 0> mark @matraBelow;
+
+	pos base [KaKaYa.dv ]
+		<anchor 1837 0> mark @matraBelow;
+
+	pos base [KaKaRa.dv TthaYa.dv ]
+		<anchor 1261 0> mark @matraBelow;
+
+	pos base [KaKaLa.dv ]
+		<anchor 1355 -315> mark @matraBelow;
+
+	pos base [KaKaVa.dv ]
+		<anchor 1225 -157> mark @matraBelow;
+
+	pos base [KaKaSha.dv ]
+		<anchor 1997 0> mark @matraBelow;
+
+	pos base [KaKaSsa.dv ]
+		<anchor 1450 0> mark @matraBelow;
+
+	pos base [KaKhaYa.dv ]
+		<anchor 1896 0> mark @matraBelow;
+
+	pos base [KaCaCha.dv ]
+		<anchor 1614 35> mark @matraBelow;
+
+	pos base [KaTaCa.dv ]
+		<anchor 1608 0> mark @matraBelow;
+
+	pos base [KaTaYa.dv ]
+		<anchor 1269 0> mark @matraBelow;
+
+	pos base [KaTaRa.dv ]
+		<anchor 1275 0> mark @matraBelow;
+
+	pos base [KaTaVa.dv DaDhaRaYa.dv NaSaTha.dv ]
+		<anchor 1569 0> mark @matraBelow;
+
+	pos base [KaThaNa.dv ]
+		<anchor 1310 0> mark @matraBelow;
+
+	pos base [KaThaYa.dv ]
+		<anchor 1670 0> mark @matraBelow;
+
+	pos base [KaThaVa.dv NnaTtaYa.dv TaKhaYa.dv ]
+		<anchor 1622 0> mark @matraBelow;
+
+	pos base [KaNaYa.dv CaKaTa.dv TaJa.dv VaJa.dv ]
+		<anchor 1169 0> mark @matraBelow;
+
+	pos base [KaPaRa.dv PhaTa.dv PhaNuktaTa.dv ]
+		<anchor 1256 0> mark @matraBelow;
+
+	pos base [KaPaLa.dv ]
+		<anchor 1265 -281> mark @matraBelow;
+
+	pos base [KaMaYa.dv ]
+		<anchor 1592 0> mark @matraBelow;
+
+	pos base [KaLaYa.dv DdaDdhaYa.dv TaTaSa.dv ]
+		<anchor 1239 0> mark @matraBelow;
+
+	pos base [KaVaYa.dv ]
+		<anchor 1575 0> mark @matraBelow;
+
+	pos base [KaShaMa.dv ]
+		<anchor 1681 0> mark @matraBelow;
+
+	pos base [KaShaRa.dv ]
+		<anchor 1371 0> mark @matraBelow;
+
+	pos base [KaShaLa.dv ]
+		<anchor 1344 -49> mark @matraBelow;
+
+	pos base [KaShaVa.dv ]
+		<anchor 1373 0> mark @matraBelow;
+
+	pos base [KaShaSha.dv ]
+		<anchor 1859 0> mark @matraBelow;
+
+	pos base [KaSsaNna.dv ]
+		<anchor 1282 0> mark @matraBelow;
+
+	pos base [KaSsaMa.dv ]
+		<anchor 1131 0> mark @matraBelow;
+
+	pos base [KaSsaYa.dv ]
+		<anchor 1133 0> mark @matraBelow;
+
+	pos base [KaSsaRa.dv ]
+		<anchor 870 0> mark @matraBelow;
+
+	pos base [KaSsaLa.dv ]
+		<anchor 1162 29> mark @matraBelow;
+
+	pos base [KaSsaVa.dv ]
+		<anchor 1058 0> mark @matraBelow;
+
+	pos base [KaSaTta.dv ]
+		<anchor 1558 61> mark @matraBelow;
+
+	pos base [KaSaDda.dv ]
+		<anchor 1525 14> mark @matraBelow;
+
+	pos base [KaSaTa.dv ]
+		<anchor 1740 0> mark @matraBelow;
+
+	pos base [KaSaTha.dv ]
+		<anchor 1799 0> mark @matraBelow;
+
+	pos base [KaSaNa.dv PaSaYa.dv PaSaVa.dv SsaNnaVa.dv ]
+		<anchor 1448 0> mark @matraBelow;
+
+	pos base [KaSaPa.dv ]
+		<anchor 1699 0> mark @matraBelow;
+
+	pos base [KaSaPha.dv ]
+		<anchor 1706 0> mark @matraBelow;
+
+	pos base [KaSaMa.dv ]
+		<anchor 1768 0> mark @matraBelow;
+
+	pos base [KaSaYa.dv ]
+		<anchor 1708 0> mark @matraBelow;
+
+	pos base [KaSaVa.dv ]
+		<anchor 1718 0> mark @matraBelow;
+
+	pos base [KaTaRaYa.dv KhaNaYa.dv ]
+		<anchor 1606 0> mark @matraBelow;
+
+	pos base [KaTaVaYa.dv ]
+		<anchor 1635 0> mark @matraBelow;
+
+	pos base [KaSsaNnaYa.dv NnaNnaYa.dv ]
+		<anchor 1574 0> mark @matraBelow;
+
+	pos base [KaSsaMaYa.dv ]
+		<anchor 1442 0> mark @matraBelow;
+
+	pos base [KaSaTaRa.dv NaThaYa.dv ]
+		<anchor 1490 0> mark @matraBelow;
+
+	pos base [KaSaPaRa.dv ]
+		<anchor 1665 0> mark @matraBelow;
+
+	pos base [KaSaPaLa.dv ]
+		<anchor 1717 -295> mark @matraBelow;
+
+	pos base [KhaKha.dv ]
+		<anchor 1526 0> mark @matraBelow;
+
+	pos base [KhaTa.dv TaPaPha.dv KhaNuktaTa.dv ]
+		<anchor 1265 0> mark @matraBelow;
+
+	pos base [KhaNa.dv ]
+		<anchor 881 0> mark @matraBelow;
+
+	pos base [KhaMa.dv KhaNuktaMa.dv ]
+		<anchor 1364 0> mark @matraBelow;
+
+	pos base [KhaYa.dv NnaHaYa.dv KhaNuktaYa.dv ]
+		<anchor 1301 0> mark @matraBelow;
+
+	pos base [KhaLa.dv ]
+		<anchor 1316 27> mark @matraBelow;
+
+	pos base [KhaVa.dv KhaNuktaVa.dv ]
+		<anchor 1226 0> mark @matraBelow;
+
+	pos base [KhaSha.dv GaDhaVa.dv PhaSha.dv SaTaVa.dv KhaNuktaSha.dv ]
+		<anchor 1379 0> mark @matraBelow;
+
+	pos base [KhaSa.dv KhaNuktaSa.dv ]
+		<anchor 1404 0> mark @matraBelow;
+
+	pos base [KhaKhaYa.dv ]
+		<anchor 1839 0> mark @matraBelow;
+
+	pos base [KhaRaYa.dv SsaKaSsa.dv SaGha.dv SaDha.dv ]
+		<anchor 1193 0> mark @matraBelow;
+
+	pos base [GaGa.dv ]
+		<anchor 1038 0> mark @matraBelow;
+
+	pos base [GaGha.dv GaDhaRa.dv ]
+		<anchor 1078 0> mark @matraBelow;
+
+	pos base [GaJa.dv GaNuktaJaNukta.dv ]
+		<anchor 1157 0> mark @matraBelow;
+
+	pos base [GaJha.dv ]
+		<anchor 1232 0> mark @matraBelow;
+
+	pos base [GaDda.dv ]
+		<anchor 836 6> mark @matraBelow;
+
+	pos base [GaDdha.dv ]
+		<anchor 858 46> mark @matraBelow;
+
+	pos base [GaNna.dv ]
+		<anchor 1181 0> mark @matraBelow;
+
+	pos base [GaDa.dv ]
+		<anchor 1005 -56> mark @matraBelow;
+
+	pos base [GaDha.dv ]
+		<anchor 1082 0> mark @matraBelow;
+
+	pos base [GaNa.dv ]
+		<anchor 726 0> mark @matraBelow;
+
+	pos base [GaBa.dv TaTha.dv NaMaRa.dv BaBaRa.dv MaRaYa.dv ]
+		<anchor 1010 0> mark @matraBelow;
+
+	pos base [GaBha.dv GaBhaRa.dv ThaRaYa.dv ]
+		<anchor 1093 0> mark @matraBelow;
+
+	pos base [GaMa.dv TaDha.dv ThaVa.dv MaDha.dv ]
+		<anchor 1042 0> mark @matraBelow;
+
+	pos base [GaYa.dv NaVa.dv ]
+		<anchor 1012 0> mark @matraBelow;
+
+	pos base [GaLa.dv ]
+		<anchor 1060 31> mark @matraBelow;
+
+	pos base [GaVa.dv NaNaPa.dv PaMa.dv MaMa.dv ]
+		<anchor 994 0> mark @matraBelow;
+
+	pos base [GaSa.dv ]
+		<anchor 1167 0> mark @matraBelow;
+
+	pos base [GaHa.dv ]
+		<anchor 966 -154> mark @matraBelow;
+
+	pos base [GaGaRa.dv ]
+		<anchor 1036 0> mark @matraBelow;
+
+	pos base [GaGhaYa.dv LaKha.dv ]
+		<anchor 1431 0> mark @matraBelow;
+
+	pos base [GaGhaRa.dv BhaRaYa.dv ]
+		<anchor 1105 0> mark @matraBelow;
+
+	pos base [GaJaNya.dv CaSsa.dv SaSsa.dv ]
+		<anchor 1125 0> mark @matraBelow;
+
+	pos base [GaJaYa.dv ]
+		<anchor 1535 0> mark @matraBelow;
+
+	pos base [GaJaVa.dv NaSaTa.dv NaSaPa.dv ]
+		<anchor 1510 0> mark @matraBelow;
+
+	pos base [GaDaDha.dv ]
+		<anchor 1346 -51> mark @matraBelow;
+
+	pos base [GaDaRa.dv ]
+		<anchor 998 -56> mark @matraBelow;
+
+	pos base [GaDaVa.dv ]
+		<anchor 1104 -69> mark @matraBelow;
+
+	pos base [GaDhaYa.dv VaBhaYa.dv ]
+		<anchor 1407 0> mark @matraBelow;
+
+	pos base [GaNaYa.dv BaBa.dv ]
+		<anchor 999 0> mark @matraBelow;
+
+	pos base [GaBaRa.dv NaTaRa.dv MaBaRa.dv VaRaYa.dv ]
+		<anchor 990 0> mark @matraBelow;
+
+	pos base [GaBhaYa.dv ]
+		<anchor 1437 0> mark @matraBelow;
+
+	pos base [GaMaYa.dv TaNaVa.dv TaMaYa.dv ]
+		<anchor 1332 0> mark @matraBelow;
+
+	pos base [GaRaYa.dv NaDhaRa.dv PaBa.dv ]
+		<anchor 1009 0> mark @matraBelow;
+
+	pos base [GaRaVa.dv BaYa.dv ]
+		<anchor 996 0> mark @matraBelow;
+
+	pos base [GaVaYa.dv MaVaYa.dv ]
+		<anchor 1315 0> mark @matraBelow;
+
+	pos base [GaVaRa.dv TaTaRa.dv PaTaRa.dv ]
+		<anchor 988 0> mark @matraBelow;
+
+	pos base [GaDaDhaVa.dv ]
+		<anchor 1403 -88> mark @matraBelow;
+
+	pos base [GaDaVaYa.dv NaDaRaYa.dv ]
+		<anchor 1559 0> mark @matraBelow;
+
+	pos base [GaDhaRaYa.dv ]
+		<anchor 1401 0> mark @matraBelow;
+
+	pos base [GhaGha.dv ]
+		<anchor 1092 0> mark @matraBelow;
+
+	pos base [GhaNa.dv ]
+		<anchor 753 -137> mark @matraBelow;
+
+	pos base [GhaMa.dv ]
+		<anchor 1072 0> mark @matraBelow;
+
+	pos base [GhaYa.dv BhaBa.dv ]
+		<anchor 1081 0> mark @matraBelow;
+
+	pos base [GhaLa.dv ]
+		<anchor 1134 26> mark @matraBelow;
+
+	pos base [GhaVa.dv TaTaYa.dv ]
+		<anchor 1024 0> mark @matraBelow;
+
+	pos base [GhaGhaYa.dv ]
+		<anchor 1461 0> mark @matraBelow;
+
+	pos base [GhaNaYa.dv ]
+		<anchor 1418 0> mark @matraBelow;
+
+	pos base [GhaRaYa.dv SsaNa.dv ]
+		<anchor 1071 0> mark @matraBelow;
+
+	pos base [GhaVaYa.dv BhaVaYa.dv ]
+		<anchor 1425 0> mark @matraBelow;
+
+	pos base [NgaKa.dv ]
+		<anchor 553 -319> mark @matraBelow;
+
+	pos base [NgaKha.dv ]
+		<anchor 707 -333> mark @matraBelow;
+
+	pos base [NgaGa.dv ]
+		<anchor 669 -303> mark @matraBelow;
+
+	pos base [NgaGha.dv ]
+		<anchor 681 -320> mark @matraBelow;
+
+	pos base [NgaNga.dv ]
+		<anchor 521 -306> mark @matraBelow;
+
+	pos base [NgaCa.dv ]
+		<anchor 678 -345> mark @matraBelow;
+
+	pos base [NgaJa.dv ]
+		<anchor 705 -346> mark @matraBelow;
+
+	pos base [NgaNna.dv ]
+		<anchor 713 -313> mark @matraBelow;
+
+	pos base [NgaTa.dv ]
+		<anchor 664 -316> mark @matraBelow;
+
+	pos base [NgaDa.dv ]
+		<anchor 695 -388> mark @matraBelow;
+
+	pos base [NgaDha.dv ]
+		<anchor 769 -379> mark @matraBelow;
+
+	pos base [NgaNa.dv ]
+		<anchor 663 -352> mark @matraBelow;
+
+	pos base [NgaPa.dv ]
+		<anchor 661 -351> mark @matraBelow;
+
+	pos base [NgaBa.dv ]
+		<anchor 663 -347> mark @matraBelow;
+
+	pos base [NgaBha.dv ]
+		<anchor 664 -444> mark @matraBelow;
+
+	pos base [NgaMa.dv ]
+		<anchor 674 -355> mark @matraBelow;
+
+	pos base [NgaYa.dv ]
+		<anchor 1242 0> mark @matraBelow;
+
+	pos base [NgaRa.dv ]
+		<anchor 478 18> mark @matraBelow;
+
+	pos base [NgaLa.dv ]
+		<anchor 657 -317> mark @matraBelow;
+
+	pos base [NgaVa.dv ]
+		<anchor 663 -360> mark @matraBelow;
+
+	pos base [NgaSha.dv ]
+		<anchor 703 -347> mark @matraBelow;
+
+	pos base [NgaSsa.dv ]
+		<anchor 661 -333> mark @matraBelow;
+
+	pos base [NgaSa.dv ]
+		<anchor 681 -336> mark @matraBelow;
+
+	pos base [NgaHa.dv ]
+		<anchor 654 -452> mark @matraBelow;
+
+	pos base [NgaKaTa.dv ]
+		<anchor 578 -304> mark @matraBelow;
+
+	pos base [NgaKaTha.dv ]
+		<anchor 1127 -308> mark @matraBelow;
+
+	pos base [NgaKaYa.dv ]
+		<anchor 1062 -306> mark @matraBelow;
+
+	pos base [NgaKaRa.dv ]
+		<anchor 553 -306> mark @matraBelow;
+
+	pos base [NgaKaLa.dv ]
+		<anchor 681 -566> mark @matraBelow;
+
+	pos base [NgaKaVa.dv ]
+		<anchor 553 -400> mark @matraBelow;
+
+	pos base [NgaKaSa.dv ]
+		<anchor 837 -259> mark @matraBelow;
+
+	pos base [NgaKaSsa.dv ]
+		<anchor 690 -374> mark @matraBelow;
+
+	pos base [NgaKhaNa.dv ]
+		<anchor 707 -426> mark @matraBelow;
+
+	pos base [NgaKhaYa.dv ]
+		<anchor 1062 -302> mark @matraBelow;
+
+	pos base [NgaKhaRa.dv ]
+		<anchor 707 -359> mark @matraBelow;
+
+	pos base [NgaGaDha.dv ]
+		<anchor 806 -365> mark @matraBelow;
+
+	pos base [NgaGaMa.dv ]
+		<anchor 803 -333> mark @matraBelow;
+
+	pos base [NgaGaYa.dv ]
+		<anchor 1032 -300> mark @matraBelow;
+
+	pos base [NgaGaRa.dv ]
+		<anchor 668 -286> mark @matraBelow;
+
+	pos base [NgaGaLa.dv ]
+		<anchor 840 -315> mark @matraBelow;
+
+	pos base [NgaGaVa.dv ]
+		<anchor 803 -305> mark @matraBelow;
+
+	pos base [NgaGhaNa.dv ]
+		<anchor 681 -305> mark @matraBelow;
+
+	pos base [NgaGhaYa.dv ]
+		<anchor 1039 -308> mark @matraBelow;
+
+	pos base [NgaGhaRa.dv ]
+		<anchor 681 -314> mark @matraBelow;
+
+	pos base [NgaTaRa.dv ]
+		<anchor 695 -348> mark @matraBelow;
+
+	pos base [NgaTaVa.dv ]
+		<anchor 803 -343> mark @matraBelow;
+
+	pos base [NgaDhaYa.dv ]
+		<anchor 1033 -346> mark @matraBelow;
+
+	pos base [NgaNaYa.dv ]
+		<anchor 1034 -349> mark @matraBelow;
+
+	pos base [NgaNaRa.dv ]
+		<anchor 663 -349> mark @matraBelow;
+
+	pos base [NgaNnaVa.dv ]
+		<anchor 753 -503> mark @matraBelow;
+
+	pos base [NgaPaRa.dv ]
+		<anchor 701 -355> mark @matraBelow;
+
+	pos base [NgaBhaYa.dv ]
+		<anchor 1033 -342> mark @matraBelow;
+
+	pos base [NgaRaVa.dv ]
+		<anchor 693 -304> mark @matraBelow;
+
+	pos base [NgaVaYa.dv ]
+		<anchor 1037 -340> mark @matraBelow;
+
+	pos base [NgaVaRa.dv ]
+		<anchor 663 -362> mark @matraBelow;
+
+	pos base [NgaSaGa.dv ]
+		<anchor 812 -333> mark @matraBelow;
+
+	pos base [NgaSaTha.dv ]
+		<anchor 1037 -369> mark @matraBelow;
+
+	pos base [NgaSaPa.dv NgaSaVa.dv NgaTaTaVa.dv ]
+		<anchor 813 -333> mark @matraBelow;
+
+	pos base [NgaHaYa.dv ]
+		<anchor 994 -411> mark @matraBelow;
+
+	pos base [NgaHaRa.dv ]
+		<anchor 620 -511> mark @matraBelow;
+
+	pos base [NgaKaTaYa.dv ]
+		<anchor 1042 -348> mark @matraBelow;
+
+	pos base [NgaKaTaVa.dv ]
+		<anchor 1055 -348> mark @matraBelow;
+
+	pos base [NgaKaTaRa.dv ]
+		<anchor 555 -312> mark @matraBelow;
+
+	pos base [NgaKaSsaNna.dv ]
+		<anchor 983 -313> mark @matraBelow;
+
+	pos base [NgaKaSsaMa.dv ]
+		<anchor 903 -309> mark @matraBelow;
+
+	pos base [NgaKaSsaYa.dv ]
+		<anchor 1062 -333> mark @matraBelow;
+
+	pos base [NgaKaSsaRa.dv ]
+		<anchor 700 -407> mark @matraBelow;
+
+	pos base [NgaKaSsaVa.dv ]
+		<anchor 852 -317> mark @matraBelow;
+
+	pos base [NgaGaDhaYa.dv ]
+		<anchor 1044 -303> mark @matraBelow;
+
+	pos base [NgaGaDhaVa.dv ]
+		<anchor 838 -324> mark @matraBelow;
+
+	pos base [NgaGhaRaYa.dv ]
+		<anchor 1038 -296> mark @matraBelow;
+
+	pos base [NgaRaVaYa.dv ]
+		<anchor 1036 -253> mark @matraBelow;
+
+	pos base [NgaKaTaRaYa.dv ]
+		<anchor 1045 -342> mark @matraBelow;
+
+	pos base [NgaKaSsaNnaVa.dv ]
+		<anchor 983 -547> mark @matraBelow;
+
+	pos base [CaKa.dv NnaNa.dv NnaYa.dv ]
+		<anchor 1114 0> mark @matraBelow;
+
+	pos base [CaKha.dv ]
+		<anchor 1370 0> mark @matraBelow;
+
+	pos base [CaCa.dv ]
+		<anchor 794 0> mark @matraBelow;
+
+	pos base [CaCha.dv ]
+		<anchor 996 38> mark @matraBelow;
+
+	pos base [CaNya.dv ]
+		<anchor 794 -90> mark @matraBelow;
+
+	pos base [CaTa.dv NyaBha.dv BaJa.dv ]
+		<anchor 1163 0> mark @matraBelow;
+
+	pos base [CaNa.dv ]
+		<anchor 774 0> mark @matraBelow;
+
+	pos base [CaPa.dv ShaKa.dv ShaPa.dv ShaKaNukta.dv ]
+		<anchor 1104 0> mark @matraBelow;
+
+	pos base [CaPha.dv BaDaYa.dv ]
+		<anchor 1103 0> mark @matraBelow;
+
+	pos base [CaMa.dv NnaCa.dv ]
+		<anchor 1218 0> mark @matraBelow;
+
+	pos base [CaYa.dv CaNyaYa.dv ShaNaYa.dv ]
+		<anchor 1153 0> mark @matraBelow;
+
+	pos base [CaLa.dv ]
+		<anchor 1217 30> mark @matraBelow;
+
+	pos base [CaVa.dv ThaTha.dv DhaNaVa.dv ShaRaVa.dv ]
+		<anchor 1136 0> mark @matraBelow;
+
+	pos base [CaSa.dv LaJa.dv ShaJa.dv ]
+		<anchor 1319 0> mark @matraBelow;
+
+	pos base [CaCaYa.dv TaSaYa.dv DaDhaYa.dv ]
+		<anchor 1468 0> mark @matraBelow;
+
+	pos base [CaChaMa.dv ]
+		<anchor 1204 -420> mark @matraBelow;
+
+	pos base [CaChaYa.dv ]
+		<anchor 1909 0> mark @matraBelow;
+
+	pos base [CaChaLa.dv ]
+		<anchor 1176 -369> mark @matraBelow;
+
+	pos base [CaChaVa.dv ]
+		<anchor 1103 -377> mark @matraBelow;
+
+	pos base [CaPaRa.dv NnaVa.dv ]
+		<anchor 1106 0> mark @matraBelow;
+
+	pos base [CaRaYa.dv PaSha.dv ]
+		<anchor 1147 0> mark @matraBelow;
+
+	pos base [CaVaYa.dv LaVaYa.dv ]
+		<anchor 1495 0> mark @matraBelow;
+
+	pos base [CaSaVa.dv ]
+		<anchor 1636 0> mark @matraBelow;
+
+	pos base [ChaNa.dv ]
+		<anchor 663 -356> mark @matraBelow;
+
+	pos base [ChaMa.dv ]
+		<anchor 694 -367> mark @matraBelow;
+
+	pos base [ChaYa.dv ]
+		<anchor 1403 0> mark @matraBelow;
+
+	pos base [ChaLa.dv ]
+		<anchor 690 -358> mark @matraBelow;
+
+	pos base [ChaVa.dv ]
+		<anchor 693 -376> mark @matraBelow;
+
+	pos base [ChaRaYa.dv ]
+		<anchor 1383 0> mark @matraBelow;
+
+	pos base [JaKa.dv ]
+		<anchor 1113 0> mark @matraBelow;
+
+	pos base [JaJa.dv ]
+		<anchor 849 -171> mark @matraBelow;
+
+	pos base [JaJha.dv ]
+		<anchor 1391 0> mark @matraBelow;
+
+	pos base [JaTta.dv ]
+		<anchor 1018 51> mark @matraBelow;
+
+	pos base [JaDda.dv ]
+		<anchor 1000 9> mark @matraBelow;
+
+	pos base [JaDa.dv NyaDa.dv ]
+		<anchor 1146 -56> mark @matraBelow;
+
+	pos base [JaNa.dv ]
+		<anchor 822 0> mark @matraBelow;
+
+	pos base [JaPa.dv ]
+		<anchor 1124 0> mark @matraBelow;
+
+	pos base [JaBa.dv ]
+		<anchor 1150 0> mark @matraBelow;
+
+	pos base [JaMa.dv JaRaYa.dv PhaYa.dv JaNuktaMa.dv ]
+		<anchor 1215 0> mark @matraBelow;
+
+	pos base [JaYa.dv JhaVa.dv JaNuktaYa.dv ]
+		<anchor 1180 0> mark @matraBelow;
+
+	pos base [JaLa.dv ]
+		<anchor 1240 21> mark @matraBelow;
+
+	pos base [JaVa.dv MaSa.dv ]
+		<anchor 1156 0> mark @matraBelow;
+
+	pos base [JaJaYa.dv SaDhaVa.dv ]
+		<anchor 1479 0> mark @matraBelow;
+
+	pos base [JaJaVa.dv TaSaKa.dv SaPaYa.dv ]
+		<anchor 1436 0> mark @matraBelow;
+
+	pos base [JaJaNya.dv ]
+		<anchor 1191 0> mark @matraBelow;
+
+	pos base [JaJhaYa.dv ]
+		<anchor 1651 0> mark @matraBelow;
+
+	pos base [JaJhaRa.dv NaTaYa.dv ]
+		<anchor 1393 0> mark @matraBelow;
+
+	pos base [JaNyaYa.dv NaCa.dv SaYa.dv ]
+		<anchor 1098 0> mark @matraBelow;
+
+	pos base [JaNyaRa.dv ]
+		<anchor 825 0> mark @matraBelow;
+
+	pos base [JaNyaVa.dv BhaVa.dv BhaRaVa.dv ]
+		<anchor 1086 0> mark @matraBelow;
+
+	pos base [JaBhaYa.dv ]
+		<anchor 1577 0> mark @matraBelow;
+
+	pos base [JaBhaRa.dv NnaBha.dv PhaPa.dv ]
+		<anchor 1223 0> mark @matraBelow;
+
+	pos base [JaMaYa.dv ]
+		<anchor 1492 0> mark @matraBelow;
+
+	pos base [JaVaYa.dv ]
+		<anchor 1487 0> mark @matraBelow;
+
+	pos base [JhaJha.dv PhaJa.dv PhaNuktaJa.dv ]
+		<anchor 1419 0> mark @matraBelow;
+
+	pos base [JhaNa.dv ]
+		<anchor 897 0> mark @matraBelow;
+
+	pos base [JhaYa.dv LaPaTa.dv ]
+		<anchor 1161 0> mark @matraBelow;
+
+	pos base [JhaLa.dv ]
+		<anchor 1251 29> mark @matraBelow;
+
+	pos base [JhaJhaYa.dv ]
+		<anchor 1585 0> mark @matraBelow;
+
+	pos base [JhaRaYa.dv ]
+		<anchor 1203 0> mark @matraBelow;
+
+	pos base [NyaKha.dv ]
+		<anchor 1380 0> mark @matraBelow;
+
+	pos base [NyaCa.dv NyaJa.dv ]
+		<anchor 849 -163> mark @matraBelow;
+
+	pos base [NyaCha.dv ]
+		<anchor 1003 28> mark @matraBelow;
+
+	pos base [NyaJha.dv ]
+		<anchor 1322 0> mark @matraBelow;
+
+	pos base [NyaNya.dv ]
+		<anchor 849 -164> mark @matraBelow;
+
+	pos base [NyaTtha.dv ]
+		<anchor 990 55> mark @matraBelow;
+
+	pos base [NyaNna.dv PhaMa.dv ]
+		<anchor 1272 0> mark @matraBelow;
+
+	pos base [NyaPa.dv ThaMa.dv ]
+		<anchor 1084 0> mark @matraBelow;
+
+	pos base [NyaYa.dv ]
+		<anchor 1264 0> mark @matraBelow;
+
+	pos base [NyaLa.dv ]
+		<anchor 1218 29> mark @matraBelow;
+
+	pos base [NyaVa.dv NaThaRa.dv BhaMa.dv SaRaVa.dv ]
+		<anchor 1116 0> mark @matraBelow;
+
+	pos base [NyaSha.dv NnaSa.dv PhaVa.dv SsaTtaRaYa.dv ]
+		<anchor 1259 0> mark @matraBelow;
+
+	pos base [NyaSa.dv SaNya.dv SaSha.dv ]
+		<anchor 1279 0> mark @matraBelow;
+
+	pos base [NyaHa.dv ]
+		<anchor 1088 -143> mark @matraBelow;
+
+	pos base [NyaKaVa.dv ]
+		<anchor 1750 0> mark @matraBelow;
+
+	pos base [NyaKaTa.dv DaDaVaYa.dv DhaMa.dv ]
+		<anchor 1119 0> mark @matraBelow;
+
+	pos base [NyaGaRa.dv ]
+		<anchor 1137 0> mark @matraBelow;
+
+	pos base [NyaCaCha.dv ]
+		<anchor 1417 29> mark @matraBelow;
+
+	pos base [NyaCaMa.dv NaTaSaRa.dv ]
+		<anchor 1578 0> mark @matraBelow;
+
+	pos base [NyaCaYa.dv SaThaNaYa.dv ]
+		<anchor 1553 0> mark @matraBelow;
+
+	pos base [NyaCaVa.dv ]
+		<anchor 1536 0> mark @matraBelow;
+
+	pos base [NyaChaNa.dv ]
+		<anchor 1134 -333> mark @matraBelow;
+
+	pos base [NyaChaYa.dv ShaChaYa.dv ]
+		<anchor 1873 0> mark @matraBelow;
+
+	pos base [NyaChaLa.dv ]
+		<anchor 1151 -368> mark @matraBelow;
+
+	pos base [NyaChaVa.dv ]
+		<anchor 1103 -374> mark @matraBelow;
+
+	pos base [NyaJaNya.dv DaRaYa.dv ]
+		<anchor 1205 0> mark @matraBelow;
+
+	pos base [NyaJaMa.dv SaPhaYa.dv ]
+		<anchor 1655 0> mark @matraBelow;
+
+	pos base [NyaJaYa.dv NnaSaMa.dv ]
+		<anchor 1618 0> mark @matraBelow;
+
+	pos base [NyaJaVa.dv ]
+		<anchor 1590 0> mark @matraBelow;
+
+	pos base [NyaNyaYa.dv NnaDdaRaYa.dv ]
+		<anchor 1634 0> mark @matraBelow;
+
+	pos base [NyaDaVa.dv ]
+		<anchor 1188 -60> mark @matraBelow;
+
+	pos base [NyaBhaYa.dv ]
+		<anchor 1507 0> mark @matraBelow;
+
+	pos base [NyaSaNa.dv ]
+		<anchor 1328 0> mark @matraBelow;
+
+	pos base [NyaShaMa.dv ]
+		<anchor 1602 0> mark @matraBelow;
+
+	pos base [NyaShaYa.dv ]
+		<anchor 1573 0> mark @matraBelow;
+
+	pos base [NyaShaRa.dv ]
+		<anchor 1251 0> mark @matraBelow;
+
+	pos base [NyaShaLa.dv ]
+		<anchor 1234 -68> mark @matraBelow;
+
+	pos base [NyaShaVa.dv ]
+		<anchor 1270 0> mark @matraBelow;
+
+	pos base [TtaKa.dv ]
+		<anchor 572 -316> mark @matraBelow;
+
+	pos base [TtaKha.dv ]
+		<anchor 741 -313> mark @matraBelow;
+
+	pos base [TtaCa.dv ]
+		<anchor 708 -323> mark @matraBelow;
+
+	pos base [TtaCha.dv ]
+		<anchor 492 -328> mark @matraBelow;
+
+	pos base [TtaTta.dv ]
+		<anchor 530 -293> mark @matraBelow;
+
+	pos base [TtaTtha.dv ]
+		<anchor 558 -313> mark @matraBelow;
+
+	pos base [TtaDdha.dv ]
+		<anchor 584 -316> mark @matraBelow;
+
+	pos base [TtaNna.dv ]
+		<anchor 753 -306> mark @matraBelow;
+
+	pos base [TtaTa.dv ]
+		<anchor 664 -323> mark @matraBelow;
+
+	pos base [TtaTha.dv ]
+		<anchor 997 -321> mark @matraBelow;
+
+	pos base [TtaDa.dv ]
+		<anchor 714 -405> mark @matraBelow;
+
+	pos base [TtaNa.dv ]
+		<anchor 693 -333> mark @matraBelow;
+
+	pos base [TtaPa.dv ]
+		<anchor 671 -333> mark @matraBelow;
+
+	pos base [TtaPha.dv ]
+		<anchor 596 -333> mark @matraBelow;
+
+	pos base [TtaBa.dv ]
+		<anchor 683 -339> mark @matraBelow;
+
+	pos base [TtaMa.dv ]
+		<anchor 683 -337> mark @matraBelow;
+
+	pos base [TtaYa.dv ]
+		<anchor 1182 0> mark @matraBelow;
+
+	pos base [TtaLa.dv ]
+		<anchor 711 -298> mark @matraBelow;
+
+	pos base [TtaVa.dv ]
+		<anchor 683 -346> mark @matraBelow;
+
+	pos base [TtaSha.dv ]
+		<anchor 708 -333> mark @matraBelow;
+
+	pos base [TtaSsa.dv ]
+		<anchor 681 -313> mark @matraBelow;
+
+	pos base [TtaSa.dv ]
+		<anchor 701 -311> mark @matraBelow;
+
+	pos base [TtaKaRa.dv ]
+		<anchor 572 -312> mark @matraBelow;
+
+	pos base [TtaKaSsa.dv ]
+		<anchor 710 -333> mark @matraBelow;
+
+	pos base [TtaTthaYa.dv PaVaYa.dv ]
+		<anchor 1345 0> mark @matraBelow;
+
+	pos base [TtaTaRa.dv ]
+		<anchor 695 -333> mark @matraBelow;
+
+	pos base [TtaTaVa.dv ]
+		<anchor 751 -333> mark @matraBelow;
+
+	pos base [TtaTaSa.dv TtaSaVa.dv ]
+		<anchor 838 -333> mark @matraBelow;
+
+	pos base [TtaPaRa.dv ]
+		<anchor 691 -333> mark @matraBelow;
+
+	pos base [TtaRaVa.dv ]
+		<anchor 693 -310> mark @matraBelow;
+
+	pos base [TtaShaRa.dv ]
+		<anchor 751 -425> mark @matraBelow;
+
+	pos base [TtaShaLa.dv ]
+		<anchor 713 -566> mark @matraBelow;
+
+	pos base [TtaShaVa.dv ]
+		<anchor 758 -568> mark @matraBelow;
+
+	pos base [TtaSaTa.dv ]
+		<anchor 814 -320> mark @matraBelow;
+
+	pos base [TtaSaTha.dv ]
+		<anchor 977 -320> mark @matraBelow;
+
+	pos base [TtaSaNa.dv ]
+		<anchor 742 -333> mark @matraBelow;
+
+	pos base [TtaSaPa.dv ]
+		<anchor 813 -338> mark @matraBelow;
+
+	pos base [TtaSaLa.dv ]
+		<anchor 878 -322> mark @matraBelow;
+
+	pos base [TtaShaVaYa.dv ]
+		<anchor 1295 0> mark @matraBelow;
+
+	pos base [TthaKa.dv ]
+		<anchor 577 -307> mark @matraBelow;
+
+	pos base [TthaTtha.dv ]
+		<anchor 520 -333> mark @matraBelow;
+
+	pos base [TthaNna.dv ]
+		<anchor 753 -303> mark @matraBelow;
+
+	pos base [TthaTha.dv ]
+		<anchor 1017 -320> mark @matraBelow;
+
+	pos base [TthaNa.dv ]
+		<anchor 683 -333> mark @matraBelow;
+
+	pos base [TthaMa.dv ]
+		<anchor 683 -342> mark @matraBelow;
+
+	pos base [TthaLa.dv ]
+		<anchor 692 -313> mark @matraBelow;
+
+	pos base [TthaVa.dv ]
+		<anchor 683 -350> mark @matraBelow;
+
+	pos base [TthaSa.dv ]
+		<anchor 711 -333> mark @matraBelow;
+
+	pos base [TthaTthaYa.dv LaSa.dv ]
+		<anchor 1348 0> mark @matraBelow;
+
+	pos base [TthaThaYa.dv ]
+		<anchor 992 -302> mark @matraBelow;
+
+	pos base [DdaKa.dv ]
+		<anchor 564 -303> mark @matraBelow;
+
+	pos base [DdaKha.dv ]
+		<anchor 708 -302> mark @matraBelow;
+
+	pos base [DdaGa.dv ]
+		<anchor 670 -300> mark @matraBelow;
+
+	pos base [DdaGha.dv DdaGhaRa.dv ]
+		<anchor 681 -310> mark @matraBelow;
+
+	pos base [DdaJa.dv ]
+		<anchor 693 -302> mark @matraBelow;
+
+	pos base [DdaJha.dv ]
+		<anchor 712 -346> mark @matraBelow;
+
+	pos base [DdaTta.dv ]
+		<anchor 509 -322> mark @matraBelow;
+
+	pos base [DdaDda.dv ]
+		<anchor 522 -321> mark @matraBelow;
+
+	pos base [DdaDdha.dv ]
+		<anchor 525 -357> mark @matraBelow;
+
+	pos base [DdaNna.dv ]
+		<anchor 713 -299> mark @matraBelow;
+
+	pos base [DdaDa.dv ]
+		<anchor 704 -391> mark @matraBelow;
+
+	pos base [DdaDha.dv ]
+		<anchor 769 -342> mark @matraBelow;
+
+	pos base [DdaNa.dv ]
+		<anchor 683 -305> mark @matraBelow;
+
+	pos base [DdaBa.dv ]
+		<anchor 673 -303> mark @matraBelow;
+
+	pos base [DdaBha.dv ]
+		<anchor 664 -380> mark @matraBelow;
+
+	pos base [DdaMa.dv ]
+		<anchor 674 -311> mark @matraBelow;
+
+	pos base [DdaYa.dv ]
+		<anchor 1224 0> mark @matraBelow;
+
+	pos base [DdaLa.dv ]
+		<anchor 643 -297> mark @matraBelow;
+
+	pos base [DdaVa.dv ]
+		<anchor 673 -305> mark @matraBelow;
+
+	pos base [DdaGaYa.dv ]
+		<anchor 942 -305> mark @matraBelow;
+
+	pos base [DdaGaRa.dv ]
+		<anchor 670 -306> mark @matraBelow;
+
+	pos base [DdaJaNya.dv ]
+		<anchor 685 -303> mark @matraBelow;
+
+	pos base [DdaJaYa.dv ]
+		<anchor 972 -302> mark @matraBelow;
+
+	pos base [DdaDdaYa.dv SaTaRaYa.dv ]
+		<anchor 1253 0> mark @matraBelow;
+
+	pos base [DdaDdaVa.dv ]
+		<anchor 673 -758> mark @matraBelow;
+
+	pos base [DdaDdhaVa.dv ]
+		<anchor 653 -751> mark @matraBelow;
+
+	pos base [DdaDaVa.dv ]
+		<anchor 781 -442> mark @matraBelow;
+
+	pos base [DdaBaRa.dv ]
+		<anchor 673 -306> mark @matraBelow;
+
+	pos base [DdaBhaYa.dv ]
+		<anchor 932 -341> mark @matraBelow;
+
+	pos base [DdaBhaRa.dv ]
+		<anchor 664 -430> mark @matraBelow;
+
+	pos base [DdaVaYa.dv NaKha.dv NaSaNa.dv ]
+		<anchor 1249 0> mark @matraBelow;
+
+	pos base [DdhaDdha.dv ]
+		<anchor 516 -311> mark @matraBelow;
+
+	pos base [DdhaNna.dv ]
+		<anchor 693 -306> mark @matraBelow;
+
+	pos base [DdhaNa.dv ]
+		<anchor 623 -305> mark @matraBelow;
+
+	pos base [DdhaMa.dv ]
+		<anchor 644 -306> mark @matraBelow;
+
+	pos base [DdhaYa.dv DdhaRaYa.dv NaSha.dv LaMa.dv LaVa.dv SaTaTa.dv ]
+		<anchor 1189 0> mark @matraBelow;
+
+	pos base [DdhaLa.dv ]
+		<anchor 631 -291> mark @matraBelow;
+
+	pos base [DdhaVa.dv ]
+		<anchor 633 -333> mark @matraBelow;
+
+	pos base [DdhaDdhaYa.dv ]
+		<anchor 1258 0> mark @matraBelow;
+
+	pos base [NnaKa.dv NaTa.dv SsaGa.dv ]
+		<anchor 1070 0> mark @matraBelow;
+
+	pos base [NnaTta.dv ]
+		<anchor 946 45> mark @matraBelow;
+
+	pos base [NnaTtha.dv ]
+		<anchor 942 55> mark @matraBelow;
+
+	pos base [NnaDda.dv ]
+		<anchor 910 5> mark @matraBelow;
+
+	pos base [NnaDdha.dv ]
+		<anchor 956 44> mark @matraBelow;
+
+	pos base [NnaNna.dv SaNna.dv ]
+		<anchor 1302 0> mark @matraBelow;
+
+	pos base [NnaTa.dv NaDaYa.dv JaJaNukta.dv ]
+		<anchor 1123 0> mark @matraBelow;
+
+	pos base [NnaTha.dv TaSaRa.dv LaPhaNukta.dv ]
+		<anchor 1177 0> mark @matraBelow;
+
+	pos base [NnaDa.dv ]
+		<anchor 1137 -47> mark @matraBelow;
+
+	pos base [NnaMa.dv DaDaYa.dv VaNna.dv ]
+		<anchor 1132 0> mark @matraBelow;
+
+	pos base [NnaLa.dv ]
+		<anchor 1168 27> mark @matraBelow;
+
+	pos base [NnaHa.dv ]
+		<anchor 1060 -146> mark @matraBelow;
+
+	pos base [NnaJaYa.dv NaJaYa.dv BaJaYa.dv ]
+		<anchor 1560 0> mark @matraBelow;
+
+	pos base [NnaTthaYa.dv NaKhaYa.dv ]
+		<anchor 1701 0> mark @matraBelow;
+
+	pos base [NnaDdaDdha.dv ]
+		<anchor 965 -359> mark @matraBelow;
+
+	pos base [NnaDdaYa.dv ]
+		<anchor 1644 0> mark @matraBelow;
+
+	pos base [NnaDdaRa.dv ]
+		<anchor 906 6> mark @matraBelow;
+
+	pos base [NnaDdaVa.dv ]
+		<anchor 1113 -308> mark @matraBelow;
+
+	pos base [NnaDdhaYa.dv ]
+		<anchor 1629 0> mark @matraBelow;
+
+	pos base [NnaThaYa.dv ]
+		<anchor 1550 0> mark @matraBelow;
+
+	pos base [NnaVaYa.dv ]
+		<anchor 1445 0> mark @matraBelow;
+
+	pos base [NnaHaVa.dv ]
+		<anchor 1233 -175> mark @matraBelow;
+
+	pos base [TaKa.dv ]
+		<anchor 911 0> mark @matraBelow;
+
+	pos base [TaKha.dv LaGa.dv ]
+		<anchor 1202 0> mark @matraBelow;
+
+	pos base [TaGa.dv ]
+		<anchor 976 0> mark @matraBelow;
+
+	pos base [TaGha.dv PaKa.dv ]
+		<anchor 978 0> mark @matraBelow;
+
+	pos base [TaCa.dv ]
+		<anchor 998 0> mark @matraBelow;
+
+	pos base [TaCha.dv ]
+		<anchor 858 31> mark @matraBelow;
+
+	pos base [TaJha.dv PaLaYa.dv ]
+		<anchor 1219 0> mark @matraBelow;
+
+	pos base [TaNya.dv SaBha.dv ]
+		<anchor 1195 0> mark @matraBelow;
+
+	pos base [TaTta.dv ]
+		<anchor 855 45> mark @matraBelow;
+
+	pos base [TaTtha.dv ]
+		<anchor 841 52> mark @matraBelow;
+
+	pos base [TaDda.dv ]
+		<anchor 810 3> mark @matraBelow;
+
+	pos base [TaDdha.dv ]
+		<anchor 848 42> mark @matraBelow;
+
+	pos base [TaNna.dv ]
+		<anchor 1135 0> mark @matraBelow;
+
+	pos base [TaTa.dv NaDda.dv ]
+		<anchor 769 0> mark @matraBelow;
+
+	pos base [TaDa.dv ]
+		<anchor 996 -56> mark @matraBelow;
+
+	pos base [TaNa.dv ]
+		<anchor 695 0> mark @matraBelow;
+
+	pos base [TaPa.dv ]
+		<anchor 957 0> mark @matraBelow;
+
+	pos base [TaPha.dv ]
+		<anchor 931 0> mark @matraBelow;
+
+	pos base [TaBa.dv NaPaRa.dv MaBa.dv ]
+		<anchor 961 0> mark @matraBelow;
+
+	pos base [TaBha.dv NaYa.dv ]
+		<anchor 1006 0> mark @matraBelow;
+
+	pos base [TaMa.dv TaVa.dv ]
+		<anchor 969 0> mark @matraBelow;
+
+	pos base [TaYa.dv ]
+		<anchor 1004 0> mark @matraBelow;
+
+	pos base [TaLa.dv ]
+		<anchor 1035 32> mark @matraBelow;
+
+	pos base [TaSsa.dv MaPha.dv ]
+		<anchor 1015 0> mark @matraBelow;
+
+	pos base [TaSa.dv SaGa.dv ]
+		<anchor 1141 0> mark @matraBelow;
+
+	pos base [TaHa.dv ]
+		<anchor 952 -146> mark @matraBelow;
+
+	pos base [TaKaMa.dv ]
+		<anchor 1660 0> mark @matraBelow;
+
+	pos base [TaKaYa.dv ]
+		<anchor 1612 0> mark @matraBelow;
+
+	pos base [TaKaRa.dv ]
+		<anchor 951 0> mark @matraBelow;
+
+	pos base [TaKaLa.dv ]
+		<anchor 1064 -317> mark @matraBelow;
+
+	pos base [TaKaVa.dv ]
+		<anchor 1600 0> mark @matraBelow;
+
+	pos base [TaKaSsa.dv ]
+		<anchor 1170 0> mark @matraBelow;
+
+	pos base [TaKaSa.dv ]
+		<anchor 1772 0> mark @matraBelow;
+
+	pos base [TaKhaNa.dv NaHaYa.dv PhaRaYa.dv ]
+		<anchor 1211 0> mark @matraBelow;
+
+	pos base [TaKhaRa.dv LaTa.dv ]
+		<anchor 1197 0> mark @matraBelow;
+
+	pos base [TaTaKa.dv ]
+		<anchor 1064 0> mark @matraBelow;
+
+	pos base [TaTaNa.dv ]
+		<anchor 1094 0> mark @matraBelow;
+
+	pos base [TaTaMa.dv ]
+		<anchor 1059 0> mark @matraBelow;
+
+	pos base [TaRaYa.dv ]
+		<anchor 1026 0> mark @matraBelow;
+
+	pos base [TaTaVa.dv YaPa.dv SsaPha.dv ]
+		<anchor 984 0> mark @matraBelow;
+
+	pos base [TaThaYa.dv ]
+		<anchor 1410 0> mark @matraBelow;
+
+	pos base [TaNaYa.dv MaPaYa.dv ]
+		<anchor 1318 0> mark @matraBelow;
+
+	pos base [TaPaRa.dv PaPaRa.dv ]
+		<anchor 956 0> mark @matraBelow;
+
+	pos base [TaPaLa.dv ]
+		<anchor 966 -294> mark @matraBelow;
+
+	pos base [TaPhaRa.dv ]
+		<anchor 958 0> mark @matraBelow;
+
+	pos base [TaYaVa.dv NaDhaYa.dv ]
+		<anchor 1316 0> mark @matraBelow;
+
+	pos base [TaRaVa.dv SsaBa.dv ]
+		<anchor 1016 0> mark @matraBelow;
+
+	pos base [TaVaYa.dv PaTaVa.dv SaSa.dv ]
+		<anchor 1305 0> mark @matraBelow;
+
+	pos base [TaSsaTtha.dv ]
+		<anchor 863 -14> mark @matraBelow;
+
+	pos base [TaSaKha.dv ]
+		<anchor 1682 0> mark @matraBelow;
+
+	pos base [TaSaTa.dv PaShaYa.dv ]
+		<anchor 1481 0> mark @matraBelow;
+
+	pos base [TaSaTha.dv ]
+		<anchor 1539 0> mark @matraBelow;
+
+	pos base [TaSaPa.dv SaSaYa.dv ]
+		<anchor 1470 0> mark @matraBelow;
+
+	pos base [TaSaPha.dv ]
+		<anchor 1458 0> mark @matraBelow;
+
+	pos base [TaSaMa.dv ]
+		<anchor 1513 0> mark @matraBelow;
+
+	pos base [TaSaVa.dv ]
+		<anchor 1453 0> mark @matraBelow;
+
+	pos base [TaKaSsaMa.dv ]
+		<anchor 1451 0> mark @matraBelow;
+
+	pos base [TaKaSsaVa.dv ]
+		<anchor 1378 0> mark @matraBelow;
+
+	pos base [TaTaKaSsa.dv NaKaSsa.dv SsaTtaYa.dv ]
+		<anchor 1250 0> mark @matraBelow;
+
+	pos base [TaTaSaYa.dv ]
+		<anchor 1538 0> mark @matraBelow;
+
+	pos base [TaSaNaYa.dv ]
+		<anchor 1808 0> mark @matraBelow;
+
+	pos base [TaSaMaYa.dv ]
+		<anchor 1802 0> mark @matraBelow;
+
+	pos base [TaSaTaRa.dv NaDaMa.dv ]
+		<anchor 1240 0> mark @matraBelow;
+
+	pos base [TaSaThaYa.dv ]
+		<anchor 1890 0> mark @matraBelow;
+
+	pos base [TaSaPaRa.dv MaBhaMa.dv SaNaYa.dv ]
+		<anchor 1426 0> mark @matraBelow;
+
+	pos base [TaSaPhaYa.dv ]
+		<anchor 2001 0> mark @matraBelow;
+
+	pos base [ThaNa.dv ]
+		<anchor 740 0> mark @matraBelow;
+
+	pos base [ThaYa.dv ]
+		<anchor 1100 0> mark @matraBelow;
+
+	pos base [ThaLa.dv ]
+		<anchor 1160 30> mark @matraBelow;
+
+	pos base [ThaThaYa.dv ]
+		<anchor 1443 0> mark @matraBelow;
+
+	pos base [ThaNaYa.dv ]
+		<anchor 1411 0> mark @matraBelow;
+
+	pos base [ThaVaYa.dv ]
+		<anchor 1455 29> mark @matraBelow;
+
+	pos base [DaGha.dv ]
+		<anchor 920 -56> mark @matraBelow;
+
+	pos base [DaJha.dv ]
+		<anchor 712 -370> mark @matraBelow;
+
+	pos base [DaDda.dv ]
+		<anchor 527 -333> mark @matraBelow;
+
+	pos base [DaDdha.dv ]
+		<anchor 499 -327> mark @matraBelow;
+
+	pos base [DaDa.dv ]
+		<anchor 623 -140> mark @matraBelow;
+
+	pos base [DaDha.dv ]
+		<anchor 1053 -56> mark @matraBelow;
+
+	pos base [DaNa.dv ]
+		<anchor 663 -56> mark @matraBelow;
+
+	pos base [DaBa.dv DaVa.dv ]
+		<anchor 808 -56> mark @matraBelow;
+
+	pos base [DaBha.dv ]
+		<anchor 973 -56> mark @matraBelow;
+
+	pos base [DaMa.dv ]
+		<anchor 850 0> mark @matraBelow;
+
+	pos base [DaYa.dv DaYaRa.dv ]
+		<anchor 743 0> mark @matraBelow;
+
+	pos base [DaLa.dv ]
+		<anchor 664 -324> mark @matraBelow;
+
+	pos base [DaGaYa.dv LaGha.dv SaTha.dv ]
+		<anchor 1199 0> mark @matraBelow;
+
+	pos base [DaGaRa.dv ]
+		<anchor 723 -220> mark @matraBelow;
+
+	pos base [DaGaLa.dv ]
+		<anchor 669 -538> mark @matraBelow;
+
+	pos base [DaGhaRa.dv ]
+		<anchor 971 -121> mark @matraBelow;
+
+	pos base [DaGhaNa.dv ]
+		<anchor 953 -87> mark @matraBelow;
+
+	pos base [DaDdaDda.dv ]
+		<anchor 514 -762> mark @matraBelow;
+
+	pos base [DaDaNa.dv ]
+		<anchor 638 -192> mark @matraBelow;
+
+	pos base [DaDaBa.dv ]
+		<anchor 641 -157> mark @matraBelow;
+
+	pos base [DaDaRa.dv ]
+		<anchor 613 -140> mark @matraBelow;
+
+	pos base [DaDaVa.dv ]
+		<anchor 633 -150> mark @matraBelow;
+
+	pos base [DaDhaNa.dv ]
+		<anchor 1062 -56> mark @matraBelow;
+
+	pos base [DaDhaMa.dv HaNaYa.dv ]
+		<anchor 1200 0> mark @matraBelow;
+
+	pos base [DaDhaRa.dv ]
+		<anchor 1056 -60> mark @matraBelow;
+
+	pos base [DaDhaVa.dv ]
+		<anchor 1108 -85> mark @matraBelow;
+
+	pos base [DaBaRa.dv ]
+		<anchor 793 -56> mark @matraBelow;
+
+	pos base [DaBhaYa.dv ]
+		<anchor 1429 0> mark @matraBelow;
+
+	pos base [DaBhaRa.dv ]
+		<anchor 1033 -154> mark @matraBelow;
+
+	pos base [DaBhaVa.dv ]
+		<anchor 1068 -152> mark @matraBelow;
+
+	pos base [DaMaYa.dv ]
+		<anchor 1162 -208> mark @matraBelow;
+
+	pos base [DaRaVa.dv ]
+		<anchor 793 -90> mark @matraBelow;
+
+	pos base [DaVaYa.dv DaVaRaYa.dv NaTaMa.dv LaSha.dv ]
+		<anchor 1329 0> mark @matraBelow;
+
+	pos base [DaVaRa.dv ]
+		<anchor 815 -60> mark @matraBelow;
+
+	pos base [DaDaBaRa.dv ]
+		<anchor 688 -210> mark @matraBelow;
+
+	pos base [DaDaVaRa.dv ]
+		<anchor 663 -160> mark @matraBelow;
+
+	pos base [DaDhaNaYa.dv ]
+		<anchor 1589 0> mark @matraBelow;
+
+	pos base [DhaDa.dv ]
+		<anchor 1076 -56> mark @matraBelow;
+
+	pos base [DhaDha.dv ]
+		<anchor 1102 0> mark @matraBelow;
+
+	pos base [DhaNa.dv ]
+		<anchor 789 0> mark @matraBelow;
+
+	pos base [DhaYa.dv ]
+		<anchor 1067 0> mark @matraBelow;
+
+	pos base [DhaLa.dv ]
+		<anchor 1173 43> mark @matraBelow;
+
+	pos base [DhaVa.dv ]
+		<anchor 1069 0> mark @matraBelow;
+
+	pos base [DhaDhaYa.dv ]
+		<anchor 1444 0> mark @matraBelow;
+
+	pos base [DhaNaYa.dv DhaRaYa.dv ]
+		<anchor 1101 0> mark @matraBelow;
+
+	pos base [DhaVaYa.dv ]
+		<anchor 1435 0> mark @matraBelow;
+
+	pos base [DhaVaRa.dv ]
+		<anchor 1088 0> mark @matraBelow;
+
+	pos base [NaKa.dv NaKaRa.dv BaKa.dv ]
+		<anchor 981 0> mark @matraBelow;
+
+	pos base [NaGa.dv ]
+		<anchor 1021 0> mark @matraBelow;
+
+	pos base [NaGha.dv ]
+		<anchor 1027 0> mark @matraBelow;
+
+	pos base [NaNga.dv ]
+		<anchor 834 13> mark @matraBelow;
+
+	pos base [NaCha.dv ]
+		<anchor 861 36> mark @matraBelow;
+
+	pos base [NaJa.dv ]
+		<anchor 1185 0> mark @matraBelow;
+
+	pos base [NaJha.dv LaTha.dv ]
+		<anchor 1252 0> mark @matraBelow;
+
+	pos base [NaTta.dv ]
+		<anchor 859 42> mark @matraBelow;
+
+	pos base [NaTtha.dv ]
+		<anchor 814 54> mark @matraBelow;
+
+	pos base [NaDdha.dv ]
+		<anchor 881 40> mark @matraBelow;
+
+	pos base [NaTha.dv ]
+		<anchor 1035 0> mark @matraBelow;
+
+	pos base [NaDa.dv ]
+		<anchor 1004 -56> mark @matraBelow;
+
+	pos base [NaDha.dv NaRaYa.dv YaVa.dv ]
+		<anchor 1039 0> mark @matraBelow;
+
+	pos base [NaNa.dv ]
+		<anchor 735 0> mark @matraBelow;
+
+	pos base [NaPa.dv NaPha.dv ]
+		<anchor 965 0> mark @matraBelow;
+
+	pos base [NaBa.dv VaVa.dv ]
+		<anchor 1005 0> mark @matraBelow;
+
+	pos base [NaBha.dv ]
+		<anchor 1052 0> mark @matraBelow;
+
+	pos base [NaMa.dv BaGa.dv ]
+		<anchor 1019 0> mark @matraBelow;
+
+	pos base [NaLa.dv ]
+		<anchor 1088 34> mark @matraBelow;
+
+	pos base [NaSsa.dv ]
+		<anchor 1045 0> mark @matraBelow;
+
+	pos base [NaSa.dv LaPha.dv ]
+		<anchor 1176 0> mark @matraBelow;
+
+	pos base [NaHa.dv ]
+		<anchor 921 -146> mark @matraBelow;
+
+	pos base [NaKaTa.dv SsaVa.dv ]
+		<anchor 1029 0> mark @matraBelow;
+
+	pos base [NaKaLa.dv ]
+		<anchor 1156 -300> mark @matraBelow;
+
+	pos base [NaKaVa.dv NaDaDhaYa.dv ]
+		<anchor 1650 0> mark @matraBelow;
+
+	pos base [NaKaSa.dv ]
+		<anchor 1832 0> mark @matraBelow;
+
+	pos base [NaGaRa.dv PaTha.dv ]
+		<anchor 1057 0> mark @matraBelow;
+
+	pos base [NaGaLa.dv ]
+		<anchor 1431 43> mark @matraBelow;
+
+	pos base [NaGhaNa.dv ]
+		<anchor 1023 -140> mark @matraBelow;
+
+	pos base [NaGhaRa.dv ]
+		<anchor 1043 0> mark @matraBelow;
+
+	pos base [NaGhaYa.dv ]
+		<anchor 1381 0> mark @matraBelow;
+
+	pos base [NaJaVa.dv ]
+		<anchor 1531 0> mark @matraBelow;
+
+	pos base [NaNnaVa.dv ]
+		<anchor 1446 0> mark @matraBelow;
+
+	pos base [NaTaTa.dv ]
+		<anchor 1079 0> mark @matraBelow;
+
+	pos base [NaTaTha.dv ]
+		<anchor 1360 0> mark @matraBelow;
+
+	pos base [NaTaVa.dv NaTaTaVa.dv ]
+		<anchor 1369 0> mark @matraBelow;
+
+	pos base [NaTaSa.dv ]
+		<anchor 1541 0> mark @matraBelow;
+
+	pos base [NaThaVa.dv PhaNna.dv SaNaVa.dv ]
+		<anchor 1422 0> mark @matraBelow;
+
+	pos base [NaDaDha.dv ]
+		<anchor 1174 -105> mark @matraBelow;
+
+	pos base [NaDaRa.dv ]
+		<anchor 1007 -56> mark @matraBelow;
+
+	pos base [NaDaVa.dv ]
+		<anchor 1058 -56> mark @matraBelow;
+
+	pos base [NaDhaMa.dv ]
+		<anchor 1399 0> mark @matraBelow;
+
+	pos base [NaDhaVa.dv MaDhaVa.dv ]
+		<anchor 1349 0> mark @matraBelow;
+
+	pos base [NaNaBha.dv VaDaYa.dv ]
+		<anchor 1063 0> mark @matraBelow;
+
+	pos base [NaNaYa.dv ]
+		<anchor 1044 0> mark @matraBelow;
+
+	pos base [NaNaVa.dv SsaTa.dv ]
+		<anchor 1046 0> mark @matraBelow;
+
+	pos base [NaPaLa.dv ]
+		<anchor 1033 -298> mark @matraBelow;
+
+	pos base [NaPaSa.dv NaSaVa.dv SaSaMa.dv ]
+		<anchor 1518 0> mark @matraBelow;
+
+	pos base [NaPhaRa.dv PaSsa.dv ]
+		<anchor 975 0> mark @matraBelow;
+
+	pos base [NaBaRa.dv ]
+		<anchor 1011 0> mark @matraBelow;
+
+	pos base [NaBhaYa.dv ]
+		<anchor 1387 0> mark @matraBelow;
+
+	pos base [NaBhaRa.dv ]
+		<anchor 1023 0> mark @matraBelow;
+
+	pos base [NaBhaVa.dv ]
+		<anchor 1356 0> mark @matraBelow;
+
+	pos base [NaMaYa.dv MaBaVa.dv SsaMaYa.dv ]
+		<anchor 1312 0> mark @matraBelow;
+
+	pos base [NaMaLa.dv ]
+		<anchor 1067 -260> mark @matraBelow;
+
+	pos base [NaYaVa.dv MaBhaVa.dv LlaLlaYa.dv ]
+		<anchor 1396 0> mark @matraBelow;
+
+	pos base [NaVaYa.dv ]
+		<anchor 1385 0> mark @matraBelow;
+
+	pos base [NaVaRa.dv VaMa.dv ]
+		<anchor 1002 0> mark @matraBelow;
+
+	pos base [NaSsaTtha.dv ]
+		<anchor 889 -13> mark @matraBelow;
+
+	pos base [NaSaKa.dv ]
+		<anchor 1456 0> mark @matraBelow;
+
+	pos base [NaSaKha.dv ]
+		<anchor 1712 0> mark @matraBelow;
+
+	pos base [NaSaTta.dv ]
+		<anchor 1357 40> mark @matraBelow;
+
+	pos base [NaSaPha.dv ]
+		<anchor 1498 0> mark @matraBelow;
+
+	pos base [NaSaMa.dv ]
+		<anchor 1558 0> mark @matraBelow;
+
+	pos base [NaSaYa.dv ]
+		<anchor 1508 0> mark @matraBelow;
+
+	pos base [NaSaRa.dv PhaPha.dv LaBha.dv ]
+		<anchor 1237 0> mark @matraBelow;
+
+	pos base [NaHaRa.dv ]
+		<anchor 901 -212> mark @matraBelow;
+
+	pos base [NaHaVa.dv ]
+		<anchor 1143 -180> mark @matraBelow;
+
+	pos base [NaTaRaYa.dv ]
+		<anchor 1386 0> mark @matraBelow;
+
+	pos base [NaTaVaYa.dv ]
+		<anchor 1705 0> mark @matraBelow;
+
+	pos base [NaTaSaTa.dv ]
+		<anchor 1830 0> mark @matraBelow;
+
+	pos base [NaTaSaTha.dv ]
+		<anchor 1899 0> mark @matraBelow;
+
+	pos base [NaTaSaNa.dv ]
+		<anchor 1588 0> mark @matraBelow;
+
+	pos base [NaTaSaPa.dv ]
+		<anchor 1840 0> mark @matraBelow;
+
+	pos base [NaTaSaYa.dv ]
+		<anchor 1848 0> mark @matraBelow;
+
+	pos base [NaTaSaVa.dv ]
+		<anchor 1858 0> mark @matraBelow;
+
+	pos base [NaDaDaRa.dv ]
+		<anchor 995 -148> mark @matraBelow;
+
+	pos base [NaDaDhaVa.dv ]
+		<anchor 1296 -166> mark @matraBelow;
+
+	pos base [NaDaVaYa.dv ]
+		<anchor 1579 0> mark @matraBelow;
+
+	pos base [NaDhaRaYa.dv PaTaRaYa.dv BaDhaVa.dv LlaNna.dv ]
+		<anchor 1336 0> mark @matraBelow;
+
+	pos base [NaSaPhaYa.dv ]
+		<anchor 2178 0> mark @matraBelow;
+
+	pos base [NaSaTaRa.dv SaKaSsa.dv ]
+		<anchor 1280 0> mark @matraBelow;
+
+	pos base [PaKha.dv ]
+		<anchor 1210 0> mark @matraBelow;
+
+	pos base [PaCa.dv ]
+		<anchor 1025 0> mark @matraBelow;
+
+	pos base [PaCha.dv ]
+		<anchor 844 31> mark @matraBelow;
+
+	pos base [PaTta.dv ]
+		<anchor 849 43> mark @matraBelow;
+
+	pos base [PaTtha.dv ]
+		<anchor 842 57> mark @matraBelow;
+
+	pos base [PaDda.dv ]
+		<anchor 786 0> mark @matraBelow;
+
+	pos base [PaNna.dv SaBa.dv ]
+		<anchor 1099 0> mark @matraBelow;
+
+	pos base [PaTa.dv PaNa.dv MaNa.dv VaNa.dv ]
+		<anchor 651 0> mark @matraBelow;
+
+	pos base [PaPa.dv ]
+		<anchor 943 0> mark @matraBelow;
+
+	pos base [PaPha.dv ]
+		<anchor 945 0> mark @matraBelow;
+
+	pos base [PaYa.dv SsaPaRa.dv ]
+		<anchor 986 0> mark @matraBelow;
+
+	pos base [PaLa.dv ]
+		<anchor 629 -283> mark @matraBelow;
+
+	pos base [PaVa.dv BaVa.dv ]
+		<anchor 982 0> mark @matraBelow;
+
+	pos base [PaSa.dv ]
+		<anchor 1148 0> mark @matraBelow;
+
+	pos base [PaKaSsa.dv BaSha.dv SaRaYa.dv ]
+		<anchor 1145 0> mark @matraBelow;
+
+	pos base [PaNnaVa.dv ]
+		<anchor 1416 0> mark @matraBelow;
+
+	pos base [PaTaYa.dv MaYa.dv ]
+		<anchor 962 0> mark @matraBelow;
+
+	pos base [PaNaYa.dv MaMaYa.dv ]
+		<anchor 1296 0> mark @matraBelow;
+
+	pos base [PaPaYa.dv BhaNna.dv ]
+		<anchor 1262 0> mark @matraBelow;
+
+	pos base [PaRaYa.dv BaTa.dv BaGaRa.dv BaRaYa.dv ]
+		<anchor 1007 0> mark @matraBelow;
+
+	pos base [PaLaVa.dv ]
+		<anchor 1522 0> mark @matraBelow;
+
+	pos base [PaSaTha.dv ]
+		<anchor 1529 0> mark @matraBelow;
+
+	pos base [PaSaNa.dv ]
+		<anchor 1188 0> mark @matraBelow;
+
+	pos base [PaSaMa.dv MaPaSa.dv ]
+		<anchor 1488 0> mark @matraBelow;
+
+	pos base [PaSaNaYa.dv ]
+		<anchor 1503 0> mark @matraBelow;
+
+	pos base [PhaTta.dv ]
+		<anchor 1076 50> mark @matraBelow;
+
+	pos base [PhaTtha.dv ]
+		<anchor 1058 50> mark @matraBelow;
+
+	pos base [PhaNa.dv ]
+		<anchor 629 0> mark @matraBelow;
+
+	pos base [PhaLa.dv ]
+		<anchor 1312 29> mark @matraBelow;
+
+	pos base [PhaPhaYa.dv ]
+		<anchor 1828 0> mark @matraBelow;
+
+	pos base [BaKha.dv ]
+		<anchor 1238 0> mark @matraBelow;
+
+	pos base [BaGha.dv VaBha.dv ]
+		<anchor 993 0> mark @matraBelow;
+
+	pos base [BaCha.dv ]
+		<anchor 870 28> mark @matraBelow;
+
+	pos base [BaJha.dv ]
+		<anchor 1201 0> mark @matraBelow;
+
+	pos base [BaTta.dv ]
+		<anchor 879 43> mark @matraBelow;
+
+	pos base [BaDda.dv ]
+		<anchor 880 0> mark @matraBelow;
+
+	pos base [BaDdha.dv ]
+		<anchor 888 39> mark @matraBelow;
+
+	pos base [BaDa.dv ]
+		<anchor 1034 -62> mark @matraBelow;
+
+	pos base [BaDha.dv ]
+		<anchor 1000 0> mark @matraBelow;
+
+	pos base [BaNa.dv ]
+		<anchor 654 0> mark @matraBelow;
+
+	pos base [BaBha.dv MaTa.dv ]
+		<anchor 1033 0> mark @matraBelow;
+
+	pos base [BaMa.dv ]
+		<anchor 1062 0> mark @matraBelow;
+
+	pos base [BaLa.dv ]
+		<anchor 1072 37> mark @matraBelow;
+
+	pos base [BaSa.dv ]
+		<anchor 1173 0> mark @matraBelow;
+
+	pos base [BaDhaYa.dv ]
+		<anchor 1354 0> mark @matraBelow;
+
+	pos base [BaBaYa.dv ]
+		<anchor 1353 0> mark @matraBelow;
+
+	pos base [BaBhaYa.dv ]
+		<anchor 1377 0> mark @matraBelow;
+
+	pos base [BaBhaRa.dv SsaSsa.dv ]
+		<anchor 1003 0> mark @matraBelow;
+
+	pos base [BaLaYa.dv SaThaYa.dv ]
+		<anchor 1540 0> mark @matraBelow;
+
+	pos base [BaVaYa.dv ]
+		<anchor 1365 0> mark @matraBelow;
+
+	pos base [BhaDa.dv ]
+		<anchor 1086 -56> mark @matraBelow;
+
+	pos base [BhaNa.dv ]
+		<anchor 758 0> mark @matraBelow;
+
+	pos base [BhaBha.dv SaVa.dv ]
+		<anchor 1138 0> mark @matraBelow;
+
+	pos base [BhaYa.dv ]
+		<anchor 1117 0> mark @matraBelow;
+
+	pos base [BhaLa.dv ]
+		<anchor 1125 43> mark @matraBelow;
+
+	pos base [BhaNaVa.dv ]
+		<anchor 1402 0> mark @matraBelow;
+
+	pos base [BhaTaYa.dv ]
+		<anchor 1424 0> mark @matraBelow;
+
+	pos base [BhaBhaYa.dv ]
+		<anchor 1447 0> mark @matraBelow;
+
+	pos base [MaKa.dv ]
+		<anchor 942 0> mark @matraBelow;
+
+	pos base [MaNna.dv LaSsa.dv ]
+		<anchor 1175 0> mark @matraBelow;
+
+	pos base [MaDa.dv ]
+		<anchor 1006 -56> mark @matraBelow;
+
+	pos base [MaPa.dv ]
+		<anchor 1053 0> mark @matraBelow;
+
+	pos base [MaBha.dv ]
+		<anchor 1065 0> mark @matraBelow;
+
+	pos base [MaLa.dv ]
+		<anchor 669 -269> mark @matraBelow;
+
+	pos base [MaVa.dv ]
+		<anchor 1018 0> mark @matraBelow;
+
+	pos base [MaSha.dv ]
+		<anchor 1159 0> mark @matraBelow;
+
+	pos base [MaHa.dv ]
+		<anchor 951 -146> mark @matraBelow;
+
+	pos base [MaDaVa.dv ]
+		<anchor 1041 -60> mark @matraBelow;
+
+	pos base [MaNaYa.dv ]
+		<anchor 983 0> mark @matraBelow;
+
+	pos base [MaPaLa.dv ]
+		<anchor 977 -298> mark @matraBelow;
+
+	pos base [MaPhaYa.dv ]
+		<anchor 1555 0> mark @matraBelow;
+
+	pos base [MaBaPa.dv ]
+		<anchor 1284 0> mark @matraBelow;
+
+	pos base [MaBaYa.dv VaNaYa.dv ]
+		<anchor 1326 0> mark @matraBelow;
+
+	pos base [MaBaLa.dv ]
+		<anchor 1361 40> mark @matraBelow;
+
+	pos base [MaBhaYa.dv ]
+		<anchor 1417 0> mark @matraBelow;
+
+	pos base [MaMaRa.dv ]
+		<anchor 970 0> mark @matraBelow;
+
+	pos base [MaMaLa.dv ]
+		<anchor 1007 -279> mark @matraBelow;
+
+	pos base [MaPaRa.dv ]
+		<anchor 1056 0> mark @matraBelow;
+
+	pos base [MaBhaRa.dv ]
+		<anchor 1066 0> mark @matraBelow;
+
+	pos base [MaVaRa.dv ]
+		<anchor 968 0> mark @matraBelow;
+
+	pos base [MaVaLa.dv ]
+		<anchor 1336 44> mark @matraBelow;
+
+	pos base [MaVaRaYa.dv ]
+		<anchor 1300 0> mark @matraBelow;
+
+	pos base [MaPaSaYa.dv ]
+		<anchor 1751 0> mark @matraBelow;
+
+	pos base [YaMa.dv ]
+		<anchor 1032 0> mark @matraBelow;
+
+	pos base [YaYa.dv VaYa.dv SsaKa.dv SsaKaRa.dv ]
+		<anchor 995 0> mark @matraBelow;
+
+	pos base [YaLa.dv ]
+		<anchor 1116 43> mark @matraBelow;
+
+	pos base [YaHa.dv ]
+		<anchor 984 -144> mark @matraBelow;
+
+	pos base [LaKa.dv ]
+		<anchor 1186 0> mark @matraBelow;
+
+	pos base [LaNga.dv ]
+		<anchor 970 -2> mark @matraBelow;
+
+	pos base [LaJha.dv ]
+		<anchor 1438 0> mark @matraBelow;
+
+	pos base [LaTta.dv ]
+		<anchor 1062 41> mark @matraBelow;
+
+	pos base [LaTtha.dv ]
+		<anchor 1035 49> mark @matraBelow;
+
+	pos base [LaDda.dv ]
+		<anchor 970 -3> mark @matraBelow;
+
+	pos base [LaDdha.dv ]
+		<anchor 1061 36> mark @matraBelow;
+
+	pos base [LaDa.dv ]
+		<anchor 1198 -56> mark @matraBelow;
+
+	pos base [LaDha.dv ]
+		<anchor 1248 0> mark @matraBelow;
+
+	pos base [LaNa.dv LaPa.dv ]
+		<anchor 1194 0> mark @matraBelow;
+
+	pos base [LaBa.dv ]
+		<anchor 1229 0> mark @matraBelow;
+
+	pos base [LaYa.dv ]
+		<anchor 1166 0> mark @matraBelow;
+
+	pos base [LaRa.dv ]
+		<anchor 681 -141> mark @matraBelow;
+
+	pos base [LaLa.dv ]
+		<anchor 704 -228> mark @matraBelow;
+
+	pos base [LaHa.dv ]
+		<anchor 1121 -144> mark @matraBelow;
+
+	pos base [LaKaYa.dv ]
+		<anchor 1792 0> mark @matraBelow;
+
+	pos base [LaGaYa.dv ]
+		<anchor 1502 0> mark @matraBelow;
+
+	pos base [LaGaVa.dv ]
+		<anchor 1484 0> mark @matraBelow;
+
+	pos base [LaNgaYa.dv ]
+		<anchor 1672 0> mark @matraBelow;
+
+	pos base [LaPaTha.dv ]
+		<anchor 1527 0> mark @matraBelow;
+
+	pos base [LaPaYa.dv ]
+		<anchor 1466 0> mark @matraBelow;
+
+	pos base [LaPaSa.dv ]
+		<anchor 1638 0> mark @matraBelow;
+
+	pos base [LaBaYa.dv SaSaVa.dv ]
+		<anchor 1496 0> mark @matraBelow;
+
+	pos base [LaBhaYa.dv ]
+		<anchor 1557 0> mark @matraBelow;
+
+	pos base [LaLaYa.dv ]
+		<anchor 1514 0> mark @matraBelow;
+
+	pos base [LaVaDda.dv ]
+		<anchor 1346 0> mark @matraBelow;
+
+	pos base [LaHaYa.dv VaDhaMa.dv ]
+		<anchor 1351 0> mark @matraBelow;
+
+	pos base [LaGaVaYa.dv ]
+		<anchor 1805 0> mark @matraBelow;
+
+	pos base [LaPaTaYa.dv ]
+		<anchor 1472 0> mark @matraBelow;
+
+	pos base [LaPaTaVa.dv ]
+		<anchor 1815 0> mark @matraBelow;
+
+	pos base [LaPaSaMa.dv ]
+		<anchor 1928 0> mark @matraBelow;
+
+	pos base [LaPaSaYa.dv ]
+		<anchor 1898 0> mark @matraBelow;
+
+	pos base [LaPaSaVa.dv ]
+		<anchor 1888 0> mark @matraBelow;
+
+	pos base [LaVaDhaVa.dv ]
+		<anchor 1759 0> mark @matraBelow;
+
+	pos base [VaJha.dv ]
+		<anchor 1192 0> mark @matraBelow;
+
+	pos base [VaDdha.dv ]
+		<anchor 857 38> mark @matraBelow;
+
+	pos base [VaDa.dv ]
+		<anchor 966 -56> mark @matraBelow;
+
+	pos base [VaDha.dv ]
+		<anchor 973 0> mark @matraBelow;
+
+	pos base [VaLa.dv ]
+		<anchor 1057 33> mark @matraBelow;
+
+	pos base [VaHa.dv ]
+		<anchor 951 -124> mark @matraBelow;
+
+	pos base [VaDhaYa.dv ]
+		<anchor 1327 0> mark @matraBelow;
+
+	pos base [VaDhaVa.dv SaJa.dv ]
+		<anchor 1299 0> mark @matraBelow;
+
+	pos base [VaVaYa.dv ]
+		<anchor 1347 0> mark @matraBelow;
+
+	pos base [VaRaLa.dv ]
+		<anchor 1078 43> mark @matraBelow;
+
+	pos base [VaDhaRaYa.dv ]
+		<anchor 1331 0> mark @matraBelow;
+
+	pos base [ShaCa.dv ]
+		<anchor 838 0> mark @matraBelow;
+
+	pos base [ShaCha.dv ]
+		<anchor 1013 23> mark @matraBelow;
+
+	pos base [ShaJha.dv SaJha.dv ]
+		<anchor 1362 0> mark @matraBelow;
+
+	pos base [ShaTta.dv ]
+		<anchor 996 39> mark @matraBelow;
+
+	pos base [ShaTa.dv ShaCaPha.dv ShaRaYa.dv ]
+		<anchor 1143 0> mark @matraBelow;
+
+	pos base [ShaNa.dv ]
+		<anchor 801 1> mark @matraBelow;
+
+	pos base [ShaMa.dv ]
+		<anchor 1152 0> mark @matraBelow;
+
+	pos base [ShaYa.dv ]
+		<anchor 1121 0> mark @matraBelow;
+
+	pos base [ShaLa.dv ]
+		<anchor 785 -62> mark @matraBelow;
+
+	pos base [ShaVa.dv ]
+		<anchor 828 0> mark @matraBelow;
+
+	pos base [ShaSha.dv LlaYa.dv ]
+		<anchor 1289 0> mark @matraBelow;
+
+	pos base [ShaCaYa.dv ]
+		<anchor 1183 0> mark @matraBelow;
+
+	pos base [ShaCaRa.dv ]
+		<anchor 838 -21> mark @matraBelow;
+
+	pos base [ShaMaYa.dv ]
+		<anchor 1462 0> mark @matraBelow;
+
+	pos base [ShaVaYa.dv ]
+		<anchor 1445 1> mark @matraBelow;
+
+	pos base [SsaKha.dv ]
+		<anchor 1276 0> mark @matraBelow;
+
+	pos base [SsaJha.dv ]
+		<anchor 1235 0> mark @matraBelow;
+
+	pos base [SsaTta.dv ]
+		<anchor 512 -17> mark @matraBelow;
+
+	pos base [SsaTtha.dv ]
+		<anchor 505 -10> mark @matraBelow;
+
+	pos base [SsaNna.dv ]
+		<anchor 1178 0> mark @matraBelow;
+
+	pos base [SsaPa.dv ]
+		<anchor 1008 0> mark @matraBelow;
+
+	pos base [SsaMa.dv ]
+		<anchor 1085 0> mark @matraBelow;
+
+	pos base [SsaYa.dv ]
+		<anchor 980 1> mark @matraBelow;
+
+	pos base [SsaLa.dv ]
+		<anchor 1098 32> mark @matraBelow;
+
+	pos base [SsaKaYa.dv ]
+		<anchor 1677 1> mark @matraBelow;
+
+	pos base [SsaKaVa.dv ]
+		<anchor 1676 0> mark @matraBelow;
+
+	pos base [SsaKaLa.dv ]
+		<anchor 1155 -308> mark @matraBelow;
+
+	pos base [SsaTtaLa.dv ]
+		<anchor 674 -373> mark @matraBelow;
+
+	pos base [SsaTtaVa.dv ]
+		<anchor 688 -384> mark @matraBelow;
+
+	pos base [SsaTthaYa.dv ]
+		<anchor 1255 0> mark @matraBelow;
+
+	pos base [SsaTthaVa.dv ]
+		<anchor 1072 -348> mark @matraBelow;
+
+	pos base [SsaNnaYa.dv SaYaYa.dv SaVaYa.dv ]
+		<anchor 1455 0> mark @matraBelow;
+
+	pos base [SsaPaYa.dv ]
+		<anchor 1337 0> mark @matraBelow;
+
+	pos base [SsaPaLa.dv ]
+		<anchor 994 -275> mark @matraBelow;
+
+	pos base [SsaYaYa.dv ]
+		<anchor 1373 1> mark @matraBelow;
+
+	pos base [SsaTtaNaYa.dv ]
+		<anchor 1639 0> mark @matraBelow;
+
+	pos base [SsaTthaRaYa.dv ]
+		<anchor 1269 -1> mark @matraBelow;
+
+	pos base [SaKa.dv SaPaRa.dv ]
+		<anchor 1096 0> mark @matraBelow;
+
+	pos base [SaKha.dv ]
+		<anchor 1342 0> mark @matraBelow;
+
+	pos base [SaNga.dv ]
+		<anchor 922 0> mark @matraBelow;
+
+	pos base [SaCa.dv ]
+		<anchor 1208 0> mark @matraBelow;
+
+	pos base [SaCha.dv ]
+		<anchor 993 24> mark @matraBelow;
+
+	pos base [SaTta.dv ]
+		<anchor 975 44> mark @matraBelow;
+
+	pos base [SaTtha.dv ]
+		<anchor 1004 52> mark @matraBelow;
+
+	pos base [SaDda.dv ]
+		<anchor 924 -5> mark @matraBelow;
+
+	pos base [SaDdha.dv ]
+		<anchor 997 37> mark @matraBelow;
+
+	pos base [SaTa.dv ]
+		<anchor 1140 -1> mark @matraBelow;
+
+	pos base [SaDa.dv ]
+		<anchor 1126 -56> mark @matraBelow;
+
+	pos base [SaNa.dv ]
+		<anchor 858 0> mark @matraBelow;
+
+	pos base [SaPa.dv ]
+		<anchor 1130 0> mark @matraBelow;
+
+	pos base [SaPha.dv SaPhaNukta.dv ]
+		<anchor 1118 0> mark @matraBelow;
+
+	pos base [SaMa.dv ]
+		<anchor 1168 0> mark @matraBelow;
+
+	pos base [SaLa.dv ]
+		<anchor 1222 49> mark @matraBelow;
+
+	pos base [SaHa.dv ]
+		<anchor 1073 -136> mark @matraBelow;
+
+	pos base [SaKaYa.dv ]
+		<anchor 1752 0> mark @matraBelow;
+
+	pos base [SaKaRa.dv ]
+		<anchor 1111 0> mark @matraBelow;
+
+	pos base [SaTaMa.dv ]
+		<anchor 1363 0> mark @matraBelow;
+
+	pos base [SaTaYa.dv ]
+		<anchor 1394 0> mark @matraBelow;
+
+	pos base [SaTaRa.dv ]
+		<anchor 900 0> mark @matraBelow;
+
+	pos base [SaTaSa.dv ]
+		<anchor 1571 0> mark @matraBelow;
+
+	pos base [SaThaNa.dv HaRaYa.dv ]
+		<anchor 1190 0> mark @matraBelow;
+
+	pos base [SaPaMa.dv SaTaTaYa.dv ]
+		<anchor 1454 0> mark @matraBelow;
+
+	pos base [SaMaRa.dv ]
+		<anchor 1110 0> mark @matraBelow;
+
+	pos base [SaVaRa.dv ]
+		<anchor 1128 0> mark @matraBelow;
+
+	pos base [SaVaVa.dv ]
+		<anchor 1465 0> mark @matraBelow;
+
+	pos base [SaTaVaYa.dv ]
+		<anchor 1695 0> mark @matraBelow;
+
+	pos base [HaBa.dv ]
+		<anchor 773 -175> mark @matraBelow;
+
+	pos base [HaNna.dv ]
+		<anchor 773 -92> mark @matraBelow;
+
+	pos base [HaNa.dv ]
+		<anchor 557 -151> mark @matraBelow;
+
+	pos base [HaYa.dv ]
+		<anchor 831 0> mark @matraBelow;
+
+	pos base [HaLa.dv ]
+		<anchor 474 -189> mark @matraBelow;
+
+	pos base [HaVa.dv ]
+		<anchor 773 -176> mark @matraBelow;
+
+	pos base [HaNaVa.dv ]
+		<anchor 697 -507> mark @matraBelow;
+
+	pos base [HaMaYa.dv ]
+		<anchor 1359 0> mark @matraBelow;
+
+	pos base [HaVaRa.dv ]
+		<anchor 773 -270> mark @matraBelow;
+
+	pos base [LlaTta.dv ]
+		<anchor 1070 41> mark @matraBelow;
+
+	pos base [LlaTtha.dv ]
+		<anchor 1062 52> mark @matraBelow;
+
+	pos base [LlaDda.dv ]
+		<anchor 970 6> mark @matraBelow;
+
+	pos base [LlaDdha.dv ]
+		<anchor 1075 37> mark @matraBelow;
+
+	pos base [LlaHa.dv ]
+		<anchor 1175 -146> mark @matraBelow;
+
+	pos base [LlaLla.dv ]
+		<anchor 773 -286> mark @matraBelow;
+
+	pos base [KaNuktaTa.dv ]
+		<anchor 1293 0> mark @matraBelow;
+
+	pos base [KaNuktaLa.dv ]
+		<anchor 1328 43> mark @matraBelow;
+
+	pos base [KhaNuktaRa.dv ]
+		<anchor 886 -128> mark @matraBelow;
+
+	pos base [GaNuktaRa.dv ]
+		<anchor 676 -90> mark @matraBelow;
+
+	pos base [JaNuktaBa.dv ]
+		<anchor 1151 0> mark @matraBelow;
+
+	pos base [PhaNuktaTta.dv ]
+		<anchor 1073 51> mark @matraBelow;
+
+	pos base [ChandrabinduVirama.dv ]
+		<anchor 434 0> mark @matraBelow;
+
+	pos base [ChandrabinduViramaDvi.dv ]
+		<anchor 434 -118> mark @matraBelow;
+
+	pos base [ChandrabinduViramaSaDvi.dv ]
+		<anchor 390 -15> mark @matraBelow;
+
+	pos base [ChandrabinduViramaSaDvi01.dv ]
+		<anchor 389 -74> mark @matraBelow;
+
+	pos base [ChandrabinduViramaAvagraha.dv ]
+		<anchor 404 -8> mark @matraBelow;
+
+lookup blwm1 {
+lookupflag MarkAttachmentType @matraBelow;
+
+	@Anudatta = [Anudatta.dv Anudatta01.dv Anudatta02.dv Anudatta03.dv Anudatta04.dv Anudatta05.dv Anudatta06.dv Anudatta07.dv Anudatta08.dv Anudatta09.dv Anudatta10.dv Anudatta11.dv Anudatta12.dv Anudatta13.dv];
+
+	pos mark [matraA.dv ]
+		<anchor 308 -8> mark @Anudatta;
+
+	pos mark [matraU.dv ]
+		<anchor 117 -286> mark @Anudatta;
+
+	pos mark [matraUu.dv ]
+		<anchor 141 -254> mark @Anudatta;
+
+	pos mark [matraRu.dv ]
+		<anchor 152 -311> mark @Anudatta;
+
+	pos mark [matraRuu.dv ]
+		<anchor 170 -415> mark @Anudatta;
+
+	pos mark [matraLru.dv ]
+		<anchor 75 -362> mark @Anudatta;
+
+	pos mark [matraLruu.dv ]
+		<anchor 97 -497> mark @Anudatta;
+
+	pos mark [Vattu.dv ]
+		<anchor 179 -233> mark @Anudatta;
+
+	pos mark [matraUsmall.dv ]
+		<anchor 95 -248> mark @Anudatta;
+
+	pos mark [matraUusmall.dv ]
+		<anchor 244 -249> mark @Anudatta;
+
+	pos mark [VattumatraU.dv ]
+		<anchor 175 -385> mark @Anudatta;
+
+	pos mark [VattumatraUu.dv ]
+		<anchor 225 -350> mark @Anudatta;
+
+	pos mark [VattumatraRu.dv ]
+		<anchor 212 -385> mark @Anudatta;
+
+	pos mark [NuktaVattumatraU.dv ]
+		<anchor 165 -695> mark @Anudatta;
+
+	pos mark [NuktaVattumatraUu.dv ]
+		<anchor 223 -660> mark @Anudatta;
+
+	pos mark [NuktaVattumatraRu.dv ]
+		<anchor 212 -700> mark @Anudatta;
+
+	pos mark [matraRusmall.dv ]
+		<anchor 116 -266> mark @Anudatta;
+
+
+} blwm1;
+} blwm;
