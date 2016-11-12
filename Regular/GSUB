@@ -219,62 +219,20 @@ lookup half1 { # Ardha forms
 		sub PhaNukta.dv Halant.dv by ardhaPhaNukta.dv;
 } half1;
 
-lookup haln1 { # Halant forms
- 	sub Ka.dv Halant.dv by KaHalant.dv;
-	sub Kha.dv Halant.dv by KhaHalant.dv;
-	sub Ga.dv Halant.dv by GaHalant.dv;
-	sub Gha.dv Halant.dv by GhaHalant.dv;		
-	sub Nga.dv Halant.dv by NgaHalant.dv;
-	sub Ca.dv Halant.dv by CaHalant.dv;
-	sub Cha.dv Halant.dv by ChaHalant.dv;	
-	sub Ja.dv Halant.dv by JaHalant.dv;
-	sub Jha.dv Halant.dv by JhaHalant.dv;
-	sub Nya.dv Halant.dv by NyaHalant.dv;
-	sub Tta.dv Halant.dv by TtaHalant.dv;
-	sub Ttha.dv Halant.dv by TthaHalant.dv;
-	sub Dda.dv Halant.dv by DdaHalant.dv;
-	sub Ddha.dv Halant.dv by DdhaHalant.dv;
-	sub Nna.dv Halant.dv by NnaHalant.dv;
-	sub Ta.dv Halant.dv by TaHalant.dv;
-	sub Tha.dv Halant.dv by ThaHalant.dv;
-	sub Da.dv Halant.dv by DaHalant.dv;
-	sub Dha.dv Halant.dv by DhaHalant.dv;
-	sub Na.dv Halant.dv by NaHalant.dv;
-	sub Pa.dv Halant.dv by PaHalant.dv;
-	sub Pha.dv Halant.dv by PhaHalant.dv;
-	sub Ba.dv Halant.dv by BaHalant.dv;
-	sub Bha.dv Halant.dv by BhaHalant.dv;
-	sub Ma.dv Halant.dv by MaHalant.dv;
-	sub Ya.dv Halant.dv by YaHalant.dv;
-	sub Ra.dv Halant.dv by RaHalant.dv;
-	sub La.dv Halant.dv by LaHalant.dv;
-	sub Va.dv Halant.dv by VaHalant.dv;
-	sub Sha.dv Halant.dv by ShaHalant.dv;
-	sub Ssa.dv Halant.dv by SsaHalant.dv;
-	sub Sa.dv Halant.dv by SaHalant.dv;
-	sub Ha.dv Halant.dv by HaHalant.dv;
-	sub Lla.dv Halant.dv by LlaHalant.dv;
-	sub TaRa.dv Halant.dv by TaRaHalant.dv;
-	sub KaSsa.dv Halant.dv by KaSsaHalant.dv;
-	sub JaNya.dv Halant.dv by JaNyaHalant.dv;
-} haln1;
 
 	script dev2;
 	language HIN;
 	lookup half_rakar1;
 	lookup half_rakar2;
 	lookup half1;
-	lookup haln1;
 
 	script deva;
 	language dflt;
 	lookup half1;
-	lookup haln1;
 
 	script deva;
 	language HIN;
 	lookup half1;
-	lookup haln1;
 
 } half;
 
@@ -1773,6 +1731,8 @@ feature blws { # Belowbase substitution
 
 lookup blws_Anudatta_alt{ # Anudatta with Madhya Danda Glyphs
 	sub @MadhyaDanda Anudatta.dv' by Anudatta_alt.dv;
+	sub HaMa.dv Anudatta.dv' by Anudatta05.dv;
+	sub DaDhaVa.dv Anudatta.dv' by Anudatta05.dv;
 }blws_Anudatta_alt;
 
 lookup blws1 {
@@ -1858,7 +1818,48 @@ lookup psts_Anudatta {
 #--------------------------------------------------------------------
 
 feature haln { # Halant forms
-	lookup haln1;
+lookup haln1 { # Halant forms
+ 	sub Ka.dv Halant.dv by KaHalant.dv;
+	sub Kha.dv Halant.dv by KhaHalant.dv;
+	sub Ga.dv Halant.dv by GaHalant.dv;
+	sub Gha.dv Halant.dv by GhaHalant.dv;		
+	sub Nga.dv Halant.dv by NgaHalant.dv;
+	sub Ca.dv Halant.dv by CaHalant.dv;
+	sub Cha.dv Halant.dv by ChaHalant.dv;	
+	sub Ja.dv Halant.dv by JaHalant.dv;
+	sub Jha.dv Halant.dv by JhaHalant.dv;
+	sub Nya.dv Halant.dv by NyaHalant.dv;
+	sub Tta.dv Halant.dv by TtaHalant.dv;
+	sub Ttha.dv Halant.dv by TthaHalant.dv;
+	sub Dda.dv Halant.dv by DdaHalant.dv;
+	sub Ddha.dv Halant.dv by DdhaHalant.dv;
+	sub Nna.dv Halant.dv by NnaHalant.dv;
+	sub Ta.dv Halant.dv by TaHalant.dv;
+	sub Tha.dv Halant.dv by ThaHalant.dv;
+	sub Da.dv Halant.dv by DaHalant.dv;
+	sub Dha.dv Halant.dv by DhaHalant.dv;
+	sub Na.dv Halant.dv by NaHalant.dv;
+	sub Pa.dv Halant.dv by PaHalant.dv;
+	sub Pha.dv Halant.dv by PhaHalant.dv;
+	sub Ba.dv Halant.dv by BaHalant.dv;
+	sub Bha.dv Halant.dv by BhaHalant.dv;
+	sub Ma.dv Halant.dv by MaHalant.dv;
+	sub Ya.dv Halant.dv by YaHalant.dv;
+	sub Ra.dv Halant.dv by RaHalant.dv;
+	sub La.dv Halant.dv by LaHalant.dv;
+	sub Va.dv Halant.dv by VaHalant.dv;
+	sub Sha.dv Halant.dv by ShaHalant.dv;
+	sub Ssa.dv Halant.dv by SsaHalant.dv;
+	sub Sa.dv Halant.dv by SaHalant.dv;
+	sub Ha.dv Halant.dv by HaHalant.dv;
+	sub Lla.dv Halant.dv by LlaHalant.dv;
+	sub TaRa.dv Halant.dv by TaRaHalant.dv;
+	sub KaSsa.dv Halant.dv by KaSsaHalant.dv;
+	sub JaNya.dv Halant.dv by JaNyaHalant.dv;
+} haln1;
+
+
+ 	lookup haln1;
 	
 lookup CBVirama{
 	sub ChandrabinduVirama.dv Anudatta.dv by CBViramaAnudatta.dv;

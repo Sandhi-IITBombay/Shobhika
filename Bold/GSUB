@@ -13,7 +13,7 @@ feature ccmp { # Latin Conjuncts
 	sub l ring by l_ringBelow;
 	sub R ring by R_ringBelow;
 	sub r ring by r_ringBelow;
-	
+
 	sub L macron ring by Lmacron_ringBelow;
 	sub l macron ring by lmacron_ringBelow;
 	sub R macron ring by Rmacron_ringBelow;
@@ -184,7 +184,7 @@ lookup half1 { # Ardha forms
 	sub Ka.dv Halant.dv by ardhaKa.dv;
 	sub Kha.dv Halant.dv by ardhaKha.dv;
 	sub Ga.dv Halant.dv by ardhaGa.dv;
-	sub Gha.dv Halant.dv by ardhaGha.dv;		
+	sub Gha.dv Halant.dv by ardhaGha.dv;
 	sub Nga.dv Halant.dv by ardhaNga.dv;
 	sub Ca.dv Halant.dv by ardhaCa.dv;
 	sub Cha.dv Halant.dv by ardhaCha.dv;
@@ -225,62 +225,20 @@ lookup half1 { # Ardha forms
 	sub PhaNukta.dv Halant.dv by ardhaPhaNukta.dv;
 } half1;
 
-lookup haln1 {
- 	sub Ka.dv Halant.dv by KaHalant.dv;
-	sub Kha.dv Halant.dv by KhaHalant.dv;
-	sub Ga.dv Halant.dv by GaHalant.dv;
-	sub Gha.dv Halant.dv by GhaHalant.dv;		
-	sub Nga.dv Halant.dv by NgaHalant.dv;
-	sub Ca.dv Halant.dv by CaHalant.dv;
-	sub Cha.dv Halant.dv by ChaHalant.dv;	
-	sub Ja.dv Halant.dv by JaHalant.dv;
-	sub Jha.dv Halant.dv by JhaHalant.dv;
-	sub Nya.dv Halant.dv by NyaHalant.dv;
-	sub Tta.dv Halant.dv by TtaHalant.dv;
-	sub Ttha.dv Halant.dv by TthaHalant.dv;
-	sub Dda.dv Halant.dv by DdaHalant.dv;
-	sub Ddha.dv Halant.dv by DdhaHalant.dv;
-	sub Nna.dv Halant.dv by NnaHalant.dv;
-	sub Ta.dv Halant.dv by TaHalant.dv;
-	sub Tha.dv Halant.dv by ThaHalant.dv;
-	sub Da.dv Halant.dv by DaHalant.dv;
-	sub Dha.dv Halant.dv by DhaHalant.dv;
-	sub Na.dv Halant.dv by NaHalant.dv;
-	sub Pa.dv Halant.dv by PaHalant.dv;
-	sub Pha.dv Halant.dv by PhaHalant.dv;
-	sub Ba.dv Halant.dv by BaHalant.dv;
-	sub Bha.dv Halant.dv by BhaHalant.dv;
-	sub Ma.dv Halant.dv by MaHalant.dv;
-	sub Ya.dv Halant.dv by YaHalant.dv;
-	sub Ra.dv Halant.dv by RaHalant.dv;
-	sub La.dv Halant.dv by LaHalant.dv;
-	sub Va.dv Halant.dv by VaHalant.dv;
-	sub Sha.dv Halant.dv by ShaHalant.dv;
-	sub Ssa.dv Halant.dv by SsaHalant.dv;
-	sub Sa.dv Halant.dv by SaHalant.dv;
-	sub Ha.dv Halant.dv by HaHalant.dv;
-	sub Lla.dv Halant.dv by LlaHalant.dv;
-	sub TaRa.dv Halant.dv by TaRaHalant.dv;
-	sub KaSsa.dv Halant.dv by KaSsaHalant.dv;
-	sub JaNya.dv Halant.dv by JaNyaHalant.dv;
-} haln1;
 
 	script dev2;
 	language HIN;
 	lookup half_rakar1;
 	lookup half_rakar2;
 	lookup half1;
-	lookup haln1;
 
 	script deva;
 	language dflt;
 	lookup half1;
-	lookup haln1;
 
 	script deva;
 	language HIN;
 	lookup half1;
-	lookup haln1;
 
 } half;
 
@@ -369,7 +327,7 @@ lookup vatu_half { #Vattu with ardha forms gives ardha-rakar forms
 feature pres { # Pre-base Substitutions
 
 lookup pres4 { # Four-letter conjuncts
-	sub ardhaNga.dv ardhaKaSsa.dv ardhaNna.dv Va.dv by NgaKaSsaNnaVa.dv; 
+	sub ardhaNga.dv ardhaKaSsa.dv ardhaNna.dv Va.dv by NgaKaSsaNnaVa.dv;
 	sub ardhaNga.dv ardhaKa.dv ardhaTaRa.dv Ya.dv by NgaKaTaRaYa.dv;
 	sub ardhaTta.dv ardhaSha.dv ardhaVa.dv Ya.dv by TtaShaVaYa.dv;
 	sub ardhaKa.dv ardhaTa.dv ardhaVa.dv Ya.dv by KaTaVaYa.dv;
@@ -882,49 +840,49 @@ lookup pres2 { # Two-letter conjuncts
 	sub ardhaTta.dv KaRa.dv by TtaKaRa.dv;
 	sub ardhaNga.dv KaSsaRa.dv by NgaKaSsaRa.dv;
 	sub ardhaKa.dv PaRa.dv by KaPaRa.dv;
-	sub ardhaKaRa.dv Ya.dv by KaRaYa.dv;                                       
+	sub ardhaKaRa.dv Ya.dv by KaRaYa.dv;
 	sub ardhaKa.dv KaRa.dv by KaKaRa.dv;
 	sub ardhaKa.dv SaRa.dv by KaSaRa.dv;
 	sub ardhaKhaRa.dv Ya.dv by KhaRaYa.dv;
 	sub ardhaGa.dv GaRa.dv by GaGaRa.dv;
 	sub ardhaGa.dv GhaRa.dv by GaGhaRa.dv;
 	sub ardhaGa.dv DaRa.dv by GaDaRa.dv;
-	sub ardhaGa.dv DhaRa.dv by GaDhaRa.dv;		
-	sub ardhaGaRa.dv Ya.dv by GaRaYa.dv;		
-	sub ardhaGaRa.dv Va.dv by GaRaVa.dv;		
+	sub ardhaGa.dv DhaRa.dv by GaDhaRa.dv;
+	sub ardhaGaRa.dv Ya.dv by GaRaYa.dv;
+	sub ardhaGaRa.dv Va.dv by GaRaVa.dv;
 	sub ardhaGa.dv VaRa.dv by GaVaRa.dv;
 	sub ardhaGa.dv BaRa.dv by GaBaRa.dv;
 	sub ardhaGa.dv BhaRa.dv by GaBhaRa.dv;
 	sub ardhaGhaRa.dv Ya.dv by GhaRaYa.dv;
-	sub ardhaNga.dv KhaRa.dv by NgaKhaRa.dv;		
-	sub ardhaNga.dv GaRa.dv by NgaGaRa.dv;		
+	sub ardhaNga.dv KhaRa.dv by NgaKhaRa.dv;
+	sub ardhaNga.dv GaRa.dv by NgaGaRa.dv;
 	sub ardhaNga.dv GhaRa.dv by NgaGhaRa.dv;
 	sub ardhaNga.dv NaRa.dv by NgaNaRa.dv;
 	sub ardhaNga.dv PaRa.dv by NgaPaRa.dv;
 	sub ardhaNgaRa.dv Va.dv by NgaRaVa.dv;
 	sub ardhaNga.dv VaRa.dv by NgaVaRa.dv;
 	sub ardhaNga.dv HaRa.dv by NgaHaRa.dv;
-	sub ardhaCa.dv PaRa.dv by CaPaRa.dv;		
+	sub ardhaCa.dv PaRa.dv by CaPaRa.dv;
 	sub ardhaCaRa.dv Ya.dv by CaRaYa.dv;
-	sub ardhaJa.dv JhaRa.dv by JaJhaRa.dv;		
+	sub ardhaJa.dv JhaRa.dv by JaJhaRa.dv;
 	sub ardhaJa.dv BhaRa.dv by JaBhaRa.dv;
 	sub ardhaJaRa.dv Ya.dv by JaRaYa.dv;
 	sub ardhaJhaRa.dv Ya.dv by JhaRaYa.dv;
 	sub ardhaNya.dv GaRa.dv by NyaGaRa.dv;
-	sub ardhaTta.dv PaRa.dv by TtaPaRa.dv;		
+	sub ardhaTta.dv PaRa.dv by TtaPaRa.dv;
 	sub ardhaTtaRa.dv Va.dv by TtaRaVa.dv;
-	sub ardhaThaRa.dv Ya.dv by ThaRaYa.dv;		
+	sub ardhaThaRa.dv Ya.dv by ThaRaYa.dv;
 	sub ardhaDa.dv GaRa.dv by DaGaRa.dv;
-	sub ardhaDda.dv GaRa.dv by DdaGaRa.dv;		
+	sub ardhaDda.dv GaRa.dv by DdaGaRa.dv;
 	sub ardhaDda.dv GhaRa.dv by DdaGhaRa.dv;
-	sub ardhaDda.dv BaRa.dv by DdaBaRa.dv;		
+	sub ardhaDda.dv BaRa.dv by DdaBaRa.dv;
 	sub ardhaDda.dv BhaRa.dv by DdaBhaRa.dv;
 	sub ardhaDdhaRa.dv Ya.dv by DdhaRaYa.dv;
 	sub ardhaNna.dv ardhaDdaRa.dv by NnaDdaRa.dv;
-	sub ardhaTa.dv KaRa.dv by TaKaRa.dv;		
-	sub ardhaTa.dv KhaRa.dv by TaKhaRa.dv;		
-	sub ardhaTa.dv PaRa.dv by TaPaRa.dv;		
-	sub ardhaTa.dv PhaRa.dv by TaPhaRa.dv;		
+	sub ardhaTa.dv KaRa.dv by TaKaRa.dv;
+	sub ardhaTa.dv KhaRa.dv by TaKhaRa.dv;
+	sub ardhaTa.dv PaRa.dv by TaPaRa.dv;
+	sub ardhaTa.dv PhaRa.dv by TaPhaRa.dv;
 	sub ardhaTa.dv SaRa.dv by TaSaRa.dv;
 	sub ardhaDa.dv DaRa.dv by DaDaRa.dv;
 	sub ardhaMa.dv VaRa.dv by MaVaRa.dv;
@@ -952,7 +910,7 @@ lookup pres2 { # Two-letter conjuncts
 	sub ardhaKa.dv TaRa.dv by KaTaRa.dv       ;
 	sub ardhaTa.dv TaRa.dv by TaTaRa.dv       ;
 	sub ardhaTaRa.dv Va.dv by TaRaVa.dv       ;
-	sub ardhaTaRa.dv Ya.dv by TaRaYa.dv       ;                                             
+	sub ardhaTaRa.dv Ya.dv by TaRaYa.dv       ;
 	sub ardhaDda.dv JaNya.dv by DdaJaNya.dv   ;
 	sub ardhaNya.dv JaNya.dv by NyaJaNya.dv   ;
 	sub ardhaJa.dv JaNya.dv by JaJaNya.dv     ;
@@ -1478,7 +1436,7 @@ lookup pres2 { # Two-letter conjuncts
 	sub ardhaLla.dv Ya.dv by LlaYa.dv         ;
 	sub ardhaLla.dv Ha.dv by LlaHa.dv         ;
 	sub ardhaLla.dv Lla.dv by LlaLla.dv       ;
-	
+
 # Nukta conjuncts
 	sub ardhaGaNukta.dv JaNukta.dv by GaNuktaJaNukta.dv;
 	sub ardhaJa.dv JaNukta.dv by JaJaNukta.dv;
@@ -1497,7 +1455,7 @@ lookup pres2 { # Two-letter conjuncts
 	sub ardhaKhaNukta.dv Sa.dv by KhaNuktaSa.dv;
 	sub ardhaKhaNukta.dv Sha.dv by KhaNuktaSha.dv;
 	sub ardhaKhaNukta.dv Ta.dv by KhaNuktaTa.dv;
-	sub ardhaKhaNukta.dv Va.dv by KhaNuktaVa.dv;	
+	sub ardhaKhaNukta.dv Va.dv by KhaNuktaVa.dv;
 	sub ardhaKhaNukta.dv Ya.dv by KhaNuktaYa.dv;
 	sub ardhaLa.dv PhaNukta.dv by LaPhaNukta.dv;
 	sub ardhaPhaNukta.dv Ja.dv by PhaNuktaJa.dv;
@@ -1634,7 +1592,7 @@ lookup abvs_Anudattamatra{
 	sub matraHrasvaAiAnudatta.dv by Anudatta.dv matraHrasvaAi.dv;
 }abvs_Anudattamatra;
 
-lookup abvs3 { 
+lookup abvs3 {
 	sub vowelAi.dv Chandrabindu.dv' by LaghuChandrabindu.dv;
 	sub vowelO.dv Chandrabindu.dv' by LaghuChandrabindu.dv;
 	sub vowelAu.dv Chandrabindu.dv' by LaghuChandrabindu.dv;
@@ -1700,10 +1658,10 @@ lookup abvs1 {
 	sub matraIi00.dv Bindu.dv by matraIi00Bindu.dv;
 	sub matraIi00.dv Chandrabindu.dv by matraIi00Chandrabindu.dv;
 	sub matraI00.dv Bindu.dv by matraI00Bindu.dv;
-	
+
 	sub Chandra.dv Bindu.dv by Chandrabindu.dv;
 	sub Bindu.dv Chandra.dv by Chandrabindu.dv;
-	
+
 	sub matraHrasvaE.dv Bindu.dv by matraHrasvaEBindu.dv;
 	sub matraHrasvaE.dv Chandrabindu.dv by matraHrasvaEChandrabindu.dv;
 
@@ -1773,6 +1731,7 @@ feature blws { # Belowbase substitution
 
 lookup blws_Anudatta_alt{
 	sub @MadhyaDanda Anudatta.dv' by Anudatta_alt.dv;
+	sub HaMa.dv Anudatta.dv' by Anudatta03.dv;
 }blws_Anudatta_alt;
 
 lookup blws1 {
@@ -1820,7 +1779,7 @@ lookup blws_Vertical_Conjuncts {
 
 #------ Postbase Matra Substitution -------------------------------------
 
-feature psts { 
+feature psts {
 lookup psts1 { # Postbase (matraIi) matra substitutions
 	sub @Width_matraIi01 @matraIi00' by @matraIi01;
 	sub @Width_matraIi02 @matraIi00' by @matraIi02;
@@ -1858,7 +1817,47 @@ lookup psts_Anudatta {
 #--------------------------------------------------------------------
 
 feature haln { # Halant forms
-	lookup haln1;
+lookup haln1 {
+ 	sub Ka.dv Halant.dv by KaHalant.dv;
+	sub Kha.dv Halant.dv by KhaHalant.dv;
+	sub Ga.dv Halant.dv by GaHalant.dv;
+	sub Gha.dv Halant.dv by GhaHalant.dv;
+	sub Nga.dv Halant.dv by NgaHalant.dv;
+	sub Ca.dv Halant.dv by CaHalant.dv;
+	sub Cha.dv Halant.dv by ChaHalant.dv;
+	sub Ja.dv Halant.dv by JaHalant.dv;
+	sub Jha.dv Halant.dv by JhaHalant.dv;
+	sub Nya.dv Halant.dv by NyaHalant.dv;
+	sub Tta.dv Halant.dv by TtaHalant.dv;
+	sub Ttha.dv Halant.dv by TthaHalant.dv;
+	sub Dda.dv Halant.dv by DdaHalant.dv;
+	sub Ddha.dv Halant.dv by DdhaHalant.dv;
+	sub Nna.dv Halant.dv by NnaHalant.dv;
+	sub Ta.dv Halant.dv by TaHalant.dv;
+	sub Tha.dv Halant.dv by ThaHalant.dv;
+	sub Da.dv Halant.dv by DaHalant.dv;
+	sub Dha.dv Halant.dv by DhaHalant.dv;
+	sub Na.dv Halant.dv by NaHalant.dv;
+	sub Pa.dv Halant.dv by PaHalant.dv;
+	sub Pha.dv Halant.dv by PhaHalant.dv;
+	sub Ba.dv Halant.dv by BaHalant.dv;
+	sub Bha.dv Halant.dv by BhaHalant.dv;
+	sub Ma.dv Halant.dv by MaHalant.dv;
+	sub Ya.dv Halant.dv by YaHalant.dv;
+	sub Ra.dv Halant.dv by RaHalant.dv;
+	sub La.dv Halant.dv by LaHalant.dv;
+	sub Va.dv Halant.dv by VaHalant.dv;
+	sub Sha.dv Halant.dv by ShaHalant.dv;
+	sub Ssa.dv Halant.dv by SsaHalant.dv;
+	sub Sa.dv Halant.dv by SaHalant.dv;
+	sub Ha.dv Halant.dv by HaHalant.dv;
+	sub Lla.dv Halant.dv by LlaHalant.dv;
+	sub TaRa.dv Halant.dv by TaRaHalant.dv;
+	sub KaSsa.dv Halant.dv by KaSsaHalant.dv;
+	sub JaNya.dv Halant.dv by JaNyaHalant.dv;
+} haln1;
+
+lookup haln1;
 
 lookup CBVirama{
 	sub ChandrabinduVirama.dv Anudatta.dv by CBViramaAnudatta.dv;
@@ -1867,8 +1866,8 @@ lookup CBVirama{
 	sub ChandrabinduViramaDvi.dv Svarita.dv by CBViramaDviSvarita.dv;
 	sub ChandrabinduVirama.dv DeerghaSvarita.dv by CBViramaDSvarita.dv;
 	sub ChandrabinduViramaDvi.dv DeerghaSvarita.dv by CBViramaDviDSvarita.dv;
-}CBVirama;	
-	
+}CBVirama;
+
 } haln;
 
 #--------------------------------------------------------------------
