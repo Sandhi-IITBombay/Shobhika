@@ -258,14 +258,9 @@ lookup vatu1 { # Vattu with with all other (non-Akhand glyphs)
 	sub Ga.dv Vattu.dv by GaRa.dv;
 	sub Gha.dv Vattu.dv by GhaRa.dv;
 	sub Ca.dv Vattu.dv by CaRa.dv;
-	sub Cha.dv Vattu.dv by ChaRa.dv;
 	sub Ja.dv Vattu.dv by JaRa.dv;
 	sub Jha.dv Vattu.dv by JhaRa.dv;
 	sub Nya.dv Vattu.dv by NyaRa.dv;
-	sub Tta.dv Vattu.dv by TtaRa.dv;
-	sub Ttha.dv Vattu.dv by TthaRa.dv;
-	sub Dda.dv Vattu.dv by DdaRa.dv;
-	sub Ddha.dv Vattu.dv by DdhaRa.dv;
 	sub Nna.dv Vattu.dv by NnaRa.dv;
 	sub Ta.dv Vattu.dv by TaRa.dv;
 	sub Tha.dv Vattu.dv by ThaRa.dv;
@@ -331,7 +326,6 @@ lookup pres4 { # Four-letter conjuncts
 	sub ardhaNga.dv ardhaKa.dv ardhaTaRa.dv Ya.dv by NgaKaTaRaYa.dv;
 	sub ardhaTta.dv ardhaSha.dv ardhaVa.dv Ya.dv by TtaShaVaYa.dv;
 	sub ardhaKa.dv ardhaTa.dv ardhaVa.dv Ya.dv by KaTaVaYa.dv;
-	sub ardhaKa.dv ardhaSa.dv Tta.dv Vattu.dv by KaSaTtaRa.dv;
 	sub ardhaKa.dv ardhaSa.dv ardhaPa.dv La.dv by KaSaPaLa.dv;
 	sub ardhaGa.dv ardhaDa.dv ardhaDha.dv Va.dv by GaDaDhaVa.dv;
 	sub ardhaGa.dv ardhaDa.dv ardhaVa.dv Ya.dv by GaDaVaYa.dv;
@@ -878,7 +872,6 @@ lookup pres2 { # Two-letter conjuncts
 	sub ardhaDda.dv BaRa.dv by DdaBaRa.dv;
 	sub ardhaDda.dv BhaRa.dv by DdaBhaRa.dv;
 	sub ardhaDdhaRa.dv Ya.dv by DdhaRaYa.dv;
-	sub ardhaNna.dv ardhaDdaRa.dv by NnaDdaRa.dv;
 	sub ardhaTa.dv KaRa.dv by TaKaRa.dv;
 	sub ardhaTa.dv KhaRa.dv by TaKhaRa.dv;
 	sub ardhaTa.dv PaRa.dv by TaPaRa.dv;
@@ -1550,6 +1543,32 @@ lookup abvs_VisargaAnudatta{
 lookup abvs_AnudattaVisarga{
 	sub VisargaAnudatta.dv by Anudatta.dv Visarga.dv;
 }abvs_AnudattaVisarga;
+
+# The next two lookup operations are meant to swap Visarga and Svarita
+lookup abvs_VisargaSvarita{
+	sub Visarga.dv Svarita.dv by VisargaSvarita.dv;
+	sub Visarga.dv DeerghaSvarita.dv by VisargaDeerghaSvarita.dv;
+}abvs_VisargaSvarita;
+
+lookup abvs_SvaritaVisarga{
+	sub VisargaSvarita.dv by Svarita.dv Visarga.dv;
+	sub VisargaDeerghaSvarita.dv by DeerghaSvarita.dv Visarga.dv;
+}abvs_SvaritaVisarga;
+
+# The next two lookup operations are to get the right output for Ra.dv + matraRu.dv etc. 
+lookup abvs_RaMatraRu{
+	sub Ra.dv matraRu.dv by RephVowelRu.dv;
+	sub Ra.dv matraRuu.dv by RephVowelRuu.dv;
+	sub Ra.dv matraLru.dv by RephVowelLru.dv;
+	sub Ra.dv matraLruu.dv by RephVowelLruu.dv;
+}abvs_RaMatraRu;
+
+lookup abvs_RephVowelRu{
+	sub RephVowelRu.dv by vowelRu.dv Reph.dv ;
+	sub RephVowelRuu.dv by vowelRuu.dv Reph.dv ;
+	sub RephVowelLru.dv by vowelLru.dv Reph.dv ;
+	sub RephVowelLruu.dv by vowelLruu.dv Reph.dv ;
+}abvs_RephVowelRu;
 
 lookup abvs_Reph{
 	sub @matraAboveBase Reph.dv' by Reph_alt.dv;

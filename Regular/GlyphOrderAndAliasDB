@@ -920,13 +920,8 @@ KhaRa.dv	KhaRa.dv
 GaRa.dv	GaRa.dv	
 GhaRa.dv	GhaRa.dv	
 CaRa.dv	CaRa.dv	
-ChaRa.dv	ChaRa.dv	
 JaRa.dv	JaRa.dv	
 JhaRa.dv	JhaRa.dv	
-TtaRa.dv	TtaRa.dv	
-TthaRa.dv	TthaRa.dv	
-DdaRa.dv	DdaRa.dv	
-DdhaRa.dv	DdhaRa.dv	
 TaRa.dv	TaRa.dv	
 ThaRa.dv	ThaRa.dv	
 DaRa.dv	DaRa.dv	
@@ -1083,12 +1078,12 @@ matraUuAnudatta.dv	matraUuAnudatta.dv
 matraRuAnudatta.dv	matraRuAnudatta.dv	
 uni2218	uni2218	uni2218
 uni2213	uni2213	uni2213
-proportional	proportional	
-orthogonal	orthogonal	
-angle	angle	
+proportional	proportional uni221D	
+orthogonal	orthogonal	uni221F
+angle	angle	uni2220
 uni2225	uni2225	uni2225
 uni2223	uni2223	uni2223
-therefore	therefore	therefore
+therefore	therefore	uni2234
 uni2235	uni2235	uni2235
 uni2237	uni2237	uni2237
 uni2236	uni2236	uni2236
@@ -1097,12 +1092,12 @@ equivalence	equivalence
 uni2262	uni2262	uni2262
 uni226E	uni226E	uni226E
 uni226F	uni226F	uni226F
-perpendicular	perpendicular	
-H22073	H22073	
+perpendicular	perpendicular	uni22A5	
+H22073	H22073	uni25A1
 uni25AD	uni25AD	uni25AD
 uni25B1	uni25B1	uni25B1
 uni25B3	uni25B3	uni25B3
-circle	circle	
+circle	circle	uni25CB
 DottedCircle	DottedCircle	uni25CC
 uni2A7D	uni2A7D	uni2A7D
 uni2A7E	uni2A7E	uni2A7E
@@ -1163,8 +1158,6 @@ KaKaSha.dv	KaKaSha.dv
 KaKaSsa.dv	KaKaSsa.dv	
 KaKhaYa.dv	KaKhaYa.dv	
 KaCaCha.dv	KaCaCha.dv	
-KaTtaRa.dv	KaTtaRa.dv	
-KaTthaRa.dv	KaTthaRa.dv	
 KaTaCa.dv	KaTaCa.dv	
 KaTaYa.dv	KaTaYa.dv	
 KaTaRa.dv	KaTaRa.dv	
@@ -1205,7 +1198,6 @@ KaTaRaYa.dv	KaTaRaYa.dv
 KaTaVaYa.dv	KaTaVaYa.dv	
 KaSsaNnaYa.dv	KaSsaNnaYa.dv	
 KaSsaMaYa.dv	KaSsaMaYa.dv	
-KaSaTtaRa.dv	KaSaTtaRa.dv	
 KaSaTaRa.dv	KaSaTaRa.dv	
 KaSaPaRa.dv	KaSaPaRa.dv	
 KaSaPaLa.dv	KaSaPaLa.dv	
@@ -1369,7 +1361,6 @@ CaCaYa.dv	CaCaYa.dv
 CaKaTa.dv	CaKaTa.dv	
 CaChaMa.dv	CaChaMa.dv	
 CaChaYa.dv	CaChaYa.dv	
-CaChaRa.dv	CaChaRa.dv	
 CaChaLa.dv	CaChaLa.dv	
 CaChaVa.dv	CaChaVa.dv	
 CaNyaYa.dv	CaNyaYa.dv	
@@ -1448,7 +1439,6 @@ NyaCaYa.dv	NyaCaYa.dv
 NyaCaVa.dv	NyaCaVa.dv	
 NyaChaNa.dv	NyaChaNa.dv	
 NyaChaYa.dv	NyaChaYa.dv	
-NyaChaRa.dv	NyaChaRa.dv	
 NyaChaLa.dv	NyaChaLa.dv	
 NyaChaVa.dv	NyaChaVa.dv	
 NyaJaNya.dv	NyaJaNya.dv	
@@ -1583,10 +1573,8 @@ NnaTtaYa.dv	NnaTtaYa.dv
 NnaTthaYa.dv	NnaTthaYa.dv	
 NnaDdaDdha.dv	NnaDdaDdha.dv	
 NnaDdaYa.dv	NnaDdaYa.dv	
-NnaDdaRa.dv	NnaDdaRa.dv	
 NnaDdaVa.dv	NnaDdaVa.dv	
 NnaDdhaYa.dv	NnaDdhaYa.dv	
-NnaDdhaRa.dv	NnaDdhaRa.dv	
 NnaNnaYa.dv	NnaNnaYa.dv	
 NnaThaYa.dv	NnaThaYa.dv	
 NnaVaYa.dv	NnaVaYa.dv	
@@ -1791,10 +1779,6 @@ NaGhaRa.dv	NaGhaRa.dv
 NaGhaYa.dv	NaGhaYa.dv	
 NaJaYa.dv	NaJaYa.dv	
 NaJaVa.dv	NaJaVa.dv	
-NaTtaRa.dv	NaTtaRa.dv	
-NaTthaRa.dv	NaTthaRa.dv	
-NaDdaRa.dv	NaDdaRa.dv	
-NaDdhaRa.dv	NaDdhaRa.dv	
 NaNnaVa.dv	NaNnaVa.dv	
 NaTaTa.dv	NaTaTa.dv	
 NaTaTha.dv	NaTaTha.dv	
@@ -1866,7 +1850,6 @@ NaDaDhaVa.dv	NaDaDhaVa.dv
 NaDaRaYa.dv	NaDaRaYa.dv	
 NaDaVaYa.dv	NaDaVaYa.dv	
 NaDhaRaYa.dv	NaDhaRaYa.dv	
-NaSaTtaRa.dv	NaSaTtaRa.dv	
 NaSaPhaYa.dv	NaSaPhaYa.dv	
 NaSaTaRa.dv	NaSaTaRa.dv	
 PaKa.dv	PaKa.dv	
@@ -1891,7 +1874,6 @@ PaSha.dv	PaSha.dv
 PaSsa.dv	PaSsa.dv	
 PaSa.dv	PaSa.dv	
 PaKaSsa.dv	PaKaSsa.dv	
-PaTtaRa.dv	PaTtaRa.dv	
 PaNnaVa.dv	PaNnaVa.dv	
 PaTaYa.dv	PaTaYa.dv	
 PaTaRa.dv	PaTaRa.dv	
@@ -2060,10 +2042,6 @@ LaKaYa.dv	LaKaYa.dv
 LaGaYa.dv	LaGaYa.dv	
 LaGaVa.dv	LaGaVa.dv	
 LaNgaYa.dv	LaNgaYa.dv	
-LaTtaRa.dv	LaTtaRa.dv	
-LaTthaRa.dv	LaTthaRa.dv	
-LaDdaRa.dv	LaDdaRa.dv	
-LaDdhaRa.dv	LaDdhaRa.dv	
 LaPaTa.dv	LaPaTa.dv	
 LaPaTha.dv	LaPaTha.dv	
 LaPaYa.dv	LaPaYa.dv	
@@ -2151,11 +2129,9 @@ SsaKaVa.dv	SsaKaVa.dv
 SsaKaLa.dv	SsaKaLa.dv	
 SsaKaSsa.dv	SsaKaSsa.dv	
 SsaTtaYa.dv	SsaTtaYa.dv	
-SsaTtaRa.dv	SsaTtaRa.dv	
 SsaTtaLa.dv	SsaTtaLa.dv	
 SsaTtaVa.dv	SsaTtaVa.dv	
-SsaTthaYa.dv	SsaTthaYa.dv	
-SsaTthaRa.dv	SsaTthaRa.dv	
+SsaTthaYa.dv	SsaTthaYa.dv		
 SsaTthaVa.dv	SsaTthaVa.dv	
 SsaNnaYa.dv	SsaNnaYa.dv	
 SsaNnaVa.dv	SsaNnaVa.dv	
@@ -2202,9 +2178,6 @@ SaHa.dv	SaHa.dv
 SaKaYa.dv	SaKaYa.dv	
 SaKaRa.dv	SaKaRa.dv	
 SaKaSsa.dv	SaKaSsa.dv	
-SaTtaRa.dv	SaTtaRa.dv	
-SaTthaRa.dv	SaTthaRa.dv	
-SaDdaRa.dv	SaDdaRa.dv	
 SaTaTa.dv	SaTaTa.dv	
 SaTaMa.dv	SaTaMa.dv	
 SaTaYa.dv	SaTaYa.dv	
@@ -2469,3 +2442,10 @@ matraEAnudatta.dv matraEAnudatta.dv
 matraAiAnudatta.dv matraAiAnudatta.dv
 matraHrasvaEAnudatta.dv matraHrasvaEAnudatta.dv
 matraHrasvaAiAnudatta.dv matraHrasvaAiAnudatta.dv
+RephVowelRu.dv RephVowelRu.dv
+RephVowelRuu.dv RephVowelRuu.dv
+RephVowelLru.dv RephVowelLru.dv
+RephVowelLruu.dv RephVowelLruu.dv
+VisargaSvarita.dv VisargaSvarita.dv
+VisargaDeerghaSvarita.dv VisargaDeerghaSvarita.dv
+# Leave blank line after last line to avoid error

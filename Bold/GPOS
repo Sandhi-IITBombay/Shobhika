@@ -50,7 +50,7 @@ feature abvm {
 	pos base [vowelAu.dv ]
 		<anchor 1221 0> mark @matraAbove;
 
-	pos base [Ka.dv KaNukta.dv KaRa.dv DdhaRa.dv KaKa.dv KaNa.dv ]
+	pos base [Ka.dv KaNukta.dv KaRa.dv KaKa.dv KaNa.dv ]
 		<anchor 633 0> mark @matraAbove;
 
 	pos base [Kha.dv KhaNukta.dv KhaNa.dv ]
@@ -80,13 +80,13 @@ feature abvm {
 	pos base [Nya.dv NyaJa.dv NyaNya.dv ]
 		<anchor 850 0> mark @matraAbove;
 
-	pos base [Tta.dv TtaRa.dv TthaRa.dv TtaRamatraU.dv ]
+	pos base [Tta.dv TtaRamatraU.dv ]
 		<anchor 632 0> mark @matraAbove;
 
 	pos base [Ttha.dv matraHrasvaAuReph.dv ]
 		<anchor 638 0> mark @matraAbove;
 
-	pos base [Dda.dv DdaNukta.dv DdaRa.dv TthaRamatraUu.dv ]
+	pos base [Dda.dv DdaNukta.dv TthaRamatraUu.dv ]
 		<anchor 635 0> mark @matraAbove;
 
 	pos base [Ddha.dv DdhaNukta.dv DdhaRamatraU.dv TtaRamatraUu.dv DdhaRamatraUu.dv DdhaDdha.dv DdhaNa.dv DdhaMa.dv DdhaLa.dv DdhaVa.dv ]
@@ -173,7 +173,7 @@ feature abvm {
 	pos base [GhaRa.dv ]
 		<anchor 753 0> mark @matraAbove;
 
-	pos base [ChaRa.dv ThaRa.dv ]
+	pos base [ThaRa.dv ]
 		<anchor 745 0> mark @matraAbove;
 
 	pos base [JaRa.dv JaNuktaRa.dv ]
@@ -455,7 +455,7 @@ feature abvm {
 	pos base [KaSsaVa.dv LaNga.dv ]
 		<anchor 1107 0> mark @matraAbove;
 
-	pos base [KaSaTta.dv KaSaTtaRa.dv ]
+	pos base [KaSaTta.dv]
 		<anchor 1699 0> mark @matraAbove;
 
 	pos base [KaSaDda.dv ]
@@ -1024,9 +1024,6 @@ feature abvm {
 
 	pos base [NnaDdaYa.dv ]
 		<anchor 1672 0> mark @matraAbove;
-
-	pos base [NnaDdaRa.dv ]
-		<anchor 1055 0> mark @matraAbove;
 
 	pos base [NnaDdhaYa.dv SsaKaYa.dv ]
 		<anchor 1676 0> mark @matraAbove;
@@ -2231,17 +2228,11 @@ feature blwm {
 	pos base [GhaRa.dv ]
 		<anchor 753 0> mark @matraBelow;
 
-	pos base [ChaRa.dv ]
-		<anchor 545 26> mark @matraBelow;
-
 	pos base [JaRa.dv JaNuktaRa.dv ]
 		<anchor 829 -2> mark @matraBelow;
 
 	pos base [JhaRa.dv ]
 		<anchor 908 -2> mark @matraBelow;
-
-	pos base [TtaRa.dv TthaRa.dv DdaRa.dv DdhaRa.dv ]
-		<anchor 488 39> mark @matraBelow;
 
 	pos base [TaRa.dv ]
 		<anchor 660 -1> mark @matraBelow;
@@ -2572,9 +2563,6 @@ feature blwm {
 
 	pos base [KaSsaNnaYa.dv NyaShaYa.dv NnaNnaYa.dv ]
 		<anchor 1613 0> mark @matraBelow;
-
-	pos base [KaSaTtaRa.dv ]
-		<anchor 1571 -133> mark @matraBelow;
 
 	pos base [KaSaTaRa.dv ]
 		<anchor 1507 -3> mark @matraBelow;
@@ -3466,9 +3454,6 @@ feature blwm {
 
 	pos base [NnaDdaYa.dv ]
 		<anchor 1672 -3> mark @matraBelow;
-
-	pos base [NnaDdaRa.dv ]
-		<anchor 929 -178> mark @matraBelow;
 
 	pos base [NnaDdaVa.dv ]
 		<anchor 1094 -390> mark @matraBelow;

@@ -1094,7 +1094,7 @@ feature abvm {
 	pos base [NnaDdaYa.dv ]
 		<anchor 1644 0> mark @matraAbove;
 
-	pos base [NnaDdaRa.dv MaPaRa.dv ]
+	pos base [MaPaRa.dv ]
 		<anchor 1056 0> mark @matraAbove;
 
 	pos base [NnaDdhaYa.dv ]
@@ -3613,9 +3613,6 @@ feature blwm {
 
 	pos base [NnaDdaYa.dv ]
 		<anchor 1644 0> mark @matraBelow;
-
-	pos base [NnaDdaRa.dv ]
-		<anchor 906 6> mark @matraBelow;
 
 	pos base [NnaDdaVa.dv ]
 		<anchor 1113 -308> mark @matraBelow;

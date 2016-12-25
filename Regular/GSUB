@@ -866,7 +866,6 @@ lookup pres2 { # Two-letter conjuncts
 	sub ardhaDda.dv BaRa.dv by DdaBaRa.dv;		
 	sub ardhaDda.dv BhaRa.dv by DdaBhaRa.dv;
 	sub ardhaDdhaRa.dv Ya.dv by DdhaRaYa.dv;
-	sub ardhaNna.dv ardhaDdaRa.dv by NnaDdaRa.dv;
 	sub ardhaTa.dv KaRa.dv by TaKaRa.dv;		
 	sub ardhaTa.dv KhaRa.dv by TaKhaRa.dv;		
 	sub ardhaTa.dv PaRa.dv by TaPaRa.dv;		
@@ -1546,6 +1545,32 @@ lookup abvs_VisargaAnudatta{
 lookup abvs_AnudattaVisarga{
 	sub VisargaAnudatta.dv by Anudatta.dv Visarga.dv;
 }abvs_AnudattaVisarga;
+
+# The next two lookup operations are meant to swap Visarga and Svarita
+lookup abvs_VisargaSvarita{
+	sub Visarga.dv Svarita.dv by VisargaSvarita.dv;
+	sub Visarga.dv DeerghaSvarita.dv by VisargaDeerghaSvarita.dv;
+}abvs_VisargaSvarita;
+
+lookup abvs_SvaritaVisarga{
+	sub VisargaSvarita.dv by Svarita.dv Visarga.dv;
+	sub VisargaDeerghaSvarita.dv by DeerghaSvarita.dv Visarga.dv;
+}abvs_SvaritaVisarga;
+
+# The next two lookup operations are to get the right output for Ra.dv + matraRu.dv etc. 
+lookup abvs_RaMatraRu{
+	sub Ra.dv matraRu.dv by RephVowelRu.dv;
+	sub Ra.dv matraRuu.dv by RephVowelRuu.dv;
+	sub Ra.dv matraLru.dv by RephVowelLru.dv;
+	sub Ra.dv matraLruu.dv by RephVowelLruu.dv;
+}abvs_RaMatraRu;
+
+lookup abvs_RephVowelRu{
+	sub RephVowelRu.dv by vowelRu.dv Reph.dv ;
+	sub RephVowelRuu.dv by vowelRuu.dv Reph.dv ;
+	sub RephVowelLru.dv by vowelLru.dv Reph.dv ;
+	sub RephVowelLruu.dv by vowelLruu.dv Reph.dv ;
+}abvs_RephVowelRu;
 
 lookup abvs_Reph{
 	sub @matraAboveBase Reph.dv' by Reph_alt.dv;

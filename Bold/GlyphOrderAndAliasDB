@@ -46,7 +46,7 @@ I	I
 J	J	
 K	K	
 L	L	
-M	M	
+M M	
 N	N	
 O	O	
 P	P	
@@ -56,7 +56,7 @@ S	S
 T	T	
 U	U	
 V	V	
-W	W	
+W W	
 X	X	
 Y	Y	
 Z	Z	
@@ -692,10 +692,12 @@ uniF6D4	uniF6D4
 fi	fi	
 fl	fl	
 caron.l	caron.l	
-caron.L	caron.L	
+caron.L	caron.L
+uni0900	uni0900	uni0900
 Chandrabindu.dv	Chandrabindu.dv	uni0901
 Bindu.dv	Bindu.dv	uni0902
 Visarga.dv	Visarga.dv	uni0903
+HrasvavowelA.dv	HrasvavowelA.dv	uni0904
 vowelA.dv	vowelA.dv	uni0905
 vowelAa.dv	vowelAa.dv	uni0906
 vowelI.dv	vowelI.dv	uni0907
@@ -703,14 +705,15 @@ vowelIi.dv	vowelIi.dv	uni0908
 vowelU.dv	vowelU.dv	uni0909
 vowelUu.dv	vowelUu.dv	uni090A
 vowelRu.dv	vowelRu.dv	uni090B
+vowelLru.dv	vowelLru.dv	uni090C
+vowelChandraE.dv	vowelChandraE.dv	uni090D
 vowelHrasvaE.dv	vowelHrasvaE.dv	uni090E
 vowelE.dv	vowelE.dv	uni090F
 vowelAi.dv	vowelAi.dv	uni0910
-vowelChandraE.dv	vowelChandraE.dv	uni090D
+vowelChandraO.dv	vowelChandraO.dv	uni0911
 vowelHrasvaO.dv	vowelHrasvaO.dv	uni0912
 vowelO.dv	vowelO.dv	uni0913
 vowelAu.dv	vowelAu.dv	uni0914
-vowelChandraO.dv	vowelChandraO.dv	uni0911
 Ka.dv	Ka.dv	uni0915
 Kha.dv	Kha.dv	uni0916
 Ga.dv	Ga.dv	uni0917
@@ -738,48 +741,36 @@ Ba.dv	Ba.dv	uni092C
 Bha.dv	Bha.dv	uni092D
 Ma.dv	Ma.dv	uni092E
 Ya.dv	Ya.dv	uni092F
-YaNukta.dv	YaNukta.dv	uni095F
 Ra.dv	Ra.dv	uni0930
 RaNukta.dv	RaNukta.dv	uni0931
 La.dv	La.dv	uni0932
-LlaNukta.dv	LlaNukta.dv	uni0934
 Lla.dv	Lla.dv	uni0933
+LlaNukta.dv	LlaNukta.dv	uni0934
 Va.dv	Va.dv	uni0935
 Sha.dv	Sha.dv	uni0936
 Ssa.dv	Ssa.dv	uni0937
 Sa.dv	Sa.dv	uni0938
 Ha.dv	Ha.dv	uni0939
+uni093A	uni093A	uni093A
+uni093B	uni093B	uni093B
+Nukta.dv	Nukta.dv	uni093C
+Avagraha.dv	Avagraha.dv	uni093D
 matraA.dv	matraA.dv	uni093E
 matraI00.dv	matraI00.dv	uni093F
 matraIi00.dv	matraIi00.dv	uni0940
 matraU.dv	matraU.dv	uni0941
 matraUu.dv	matraUu.dv	uni0942
 matraRu.dv	matraRu.dv	uni0943
+matraRuu.dv	matraRuu.dv	uni0944
+Chandra.dv	Chandra.dv	uni0945
 matraHrasvaE.dv	matraHrasvaE.dv	uni0946
 matraE.dv	matraE.dv	uni0947
-matraAi.dv	matraAi.dv	uni0948
-Chandra.dv	Chandra.dv	uni0945
+matraAi.dv matraAi.dv uni0948
+matraAChandra.dv	matraAChandra.dv	uni0949
 matraHrasvaO.dv	matraHrasvaO.dv	uni094A
 matraO.dv	matraO.dv	uni094B
 matraAu.dv	matraAu.dv	uni094C
-matraAChandra.dv	matraAChandra.dv	uni0949
 Halant.dv	Halant.dv	uni094D
-Nukta.dv	Nukta.dv	uni093C
-Danda.dv	Danda.dv	uni0964
-Shunya.dv	Shunya.dv	uni0966
-Ek.dv	Ek.dv	uni0967
-Don.dv	Don.dv	uni0968
-Teen.dv	Teen.dv	uni0969
-Chaar.dv	Chaar.dv	uni096A
-Paach.dv	Paach.dv	uni096B
-Saha.dv	Saha.dv	uni096C
-Saat.dv	Saat.dv	uni096D
-Aath.dv	Aath.dv	uni096E
-Nau.dv	Nau.dv	uni096F
-uni093A	uni093A	uni093A
-uni093B	uni093B	uni093B
-Avagraha.dv	Avagraha.dv	uni093D
-matraRuu.dv	matraRuu.dv	uni0944
 uni094E	uni094E	uni094E
 matraHrasvaAu.dv	matraHrasvaAu.dv	uni094F
 Om.dv	Om.dv	uni0950
@@ -797,14 +788,25 @@ JaNukta.dv	JaNukta.dv	uni095B
 DdaNukta.dv	DdaNukta.dv	uni095C
 DdhaNukta.dv	DdhaNukta.dv	uni095D
 PhaNukta.dv	PhaNukta.dv	uni095E
+YaNukta.dv	YaNukta.dv	uni095F
 vowelRuu.dv	vowelRuu.dv	uni0960
 vowelLruu.dv	vowelLruu.dv	uni0961
 matraLru.dv	matraLru.dv	uni0962
 matraLruu.dv	matraLruu.dv	uni0963
+Danda.dv	Danda.dv	uni0964
 Doubledanda.dv	Doubledanda.dv	uni0965
+Shunya.dv	Shunya.dv	uni0966
+Ek.dv	Ek.dv	uni0967
+Don.dv	Don.dv	uni0968
+Teen.dv	Teen.dv	uni0969
+Chaar.dv	Chaar.dv	uni096A
+Paach.dv	Paach.dv	uni096B
+Saha.dv	Saha.dv	uni096C
+Saat.dv	Saat.dv	uni096D
+Aath.dv	Aath.dv	uni096E
+Nau.dv	Nau.dv	uni096F
 uni0970	uni0970	uni0970
 uni0971	uni0971	uni0971
-vowelLru.dv	vowelLru.dv	uni090C
 vowelChandraA.dv	vowelChandraA.dv	uni0972
 uni0973	uni0973	uni0973
 uni0974	uni0974	uni0974
@@ -920,13 +922,8 @@ KhaRa.dv	KhaRa.dv
 GaRa.dv	GaRa.dv	
 GhaRa.dv	GhaRa.dv	
 CaRa.dv	CaRa.dv	
-ChaRa.dv	ChaRa.dv	
 JaRa.dv	JaRa.dv	
 JhaRa.dv	JhaRa.dv	
-TtaRa.dv	TtaRa.dv	
-TthaRa.dv	TthaRa.dv	
-DdaRa.dv	DdaRa.dv	
-DdhaRa.dv	DdhaRa.dv	
 TaRa.dv	TaRa.dv	
 ThaRa.dv	ThaRa.dv	
 DaRa.dv	DaRa.dv	
@@ -972,8 +969,6 @@ ardhaTaTa.dv	ardhaTaTa.dv
 ardhaSaTaRa.dv	ardhaSaTaRa.dv	
 KaSsaHalant.dv	KaSsaHalant.dv	
 JaNyaHalant.dv	JaNyaHalant.dv	
-HrasvavowelA.dv	HrasvavowelA.dv	uni0904
-uni0900	uni0900	uni0900
 DamatraRu.dv	DamatraRu.dv	
 RamatraU.dv	RamatraU.dv	
 RamatraUu.dv	RamatraUu.dv	
@@ -1081,56 +1076,6 @@ matraRusmallAnudatta.dv	matraRusmallAnudatta.dv
 matraUAnudatta.dv	matraUAnudatta.dv	
 matraUuAnudatta.dv	matraUuAnudatta.dv	
 matraRuAnudatta.dv	matraRuAnudatta.dv	
-uni2218	uni2218	uni2218
-uni2213	uni2213	uni2213
-proportional	proportional	
-orthogonal	orthogonal	
-angle	angle	
-uni2225	uni2225	uni2225
-uni2223	uni2223	uni2223
-therefore	therefore	therefore
-uni2235	uni2235	uni2235
-uni2237	uni2237	uni2237
-uni2236	uni2236	uni2236
-uni224F	uni224F	uni224F
-equivalence	equivalence	
-uni2262	uni2262	uni2262
-uni226E	uni226E	uni226E
-uni226F	uni226F	uni226F
-perpendicular	perpendicular	
-H22073	H22073	
-uni25AD	uni25AD	uni25AD
-uni25B1	uni25B1	uni25B1
-uni25B3	uni25B3	uni25B3
-circle	circle	
-DottedCircle	DottedCircle	uni25CC
-uni2A7D	uni2A7D	uni2A7D
-uni2A7E	uni2A7E	uni2A7E
-uni2AF4	uni2AF4	uni2AF4
-uni2010	uni2010	uni2010
-NWNJ	NWNJ	uni200C
-uni200B	uni200B	uni200B
-ZWJ	ZWJ	uni200D
-uni1E5D	uni1E5D	uni1E5D
-uni1E5C	uni1E5C	uni1E5C
-uni1E5B	uni1E5B	uni1E5B
-uni1E5A	uni1E5A	uni1E5A
-uni1E36	uni1E36	uni1E36
-uni1E37	uni1E37	uni1E37
-uni1E38	uni1E38	uni1E38
-uni1E39	uni1E39	uni1E39
-uni1E46	uni1E46	uni1E46
-uni1E44	uni1E44	uni1E44
-uni1E45	uni1E45	uni1E45
-uni1E47	uni1E47	uni1E47
-uni1E62	uni1E62	uni1E62
-uni1E63	uni1E63	uni1E63
-uni1E6D	uni1E6D	uni1E6D
-uni1E6C	uni1E6C	uni1E6C
-uni1E0D	uni1E0D	uni1E0D
-uni1E0C	uni1E0C	uni1E0C
-uni1E43	uni1E43	uni1E43
-uni1E25	uni1E25	uni1E25
 KaKa.dv	KaKa.dv	
 KaKha.dv	KaKha.dv	
 KaNga.dv	KaNga.dv	
@@ -1163,8 +1108,6 @@ KaKaSha.dv	KaKaSha.dv
 KaKaSsa.dv	KaKaSsa.dv	
 KaKhaYa.dv	KaKhaYa.dv	
 KaCaCha.dv	KaCaCha.dv	
-KaTtaRa.dv	KaTtaRa.dv	
-KaTthaRa.dv	KaTthaRa.dv	
 KaTaCa.dv	KaTaCa.dv	
 KaTaYa.dv	KaTaYa.dv	
 KaTaRa.dv	KaTaRa.dv	
@@ -1205,7 +1148,6 @@ KaTaRaYa.dv	KaTaRaYa.dv
 KaTaVaYa.dv	KaTaVaYa.dv	
 KaSsaNnaYa.dv	KaSsaNnaYa.dv	
 KaSsaMaYa.dv	KaSsaMaYa.dv	
-KaSaTtaRa.dv	KaSaTtaRa.dv	
 KaSaTaRa.dv	KaSaTaRa.dv	
 KaSaPaRa.dv	KaSaPaRa.dv	
 KaSaPaLa.dv	KaSaPaLa.dv	
@@ -1369,7 +1311,6 @@ CaCaYa.dv	CaCaYa.dv
 CaKaTa.dv	CaKaTa.dv	
 CaChaMa.dv	CaChaMa.dv	
 CaChaYa.dv	CaChaYa.dv	
-CaChaRa.dv	CaChaRa.dv	
 CaChaLa.dv	CaChaLa.dv	
 CaChaVa.dv	CaChaVa.dv	
 CaNyaYa.dv	CaNyaYa.dv	
@@ -1448,7 +1389,6 @@ NyaCaYa.dv	NyaCaYa.dv
 NyaCaVa.dv	NyaCaVa.dv	
 NyaChaNa.dv	NyaChaNa.dv	
 NyaChaYa.dv	NyaChaYa.dv	
-NyaChaRa.dv	NyaChaRa.dv	
 NyaChaLa.dv	NyaChaLa.dv	
 NyaChaVa.dv	NyaChaVa.dv	
 NyaJaNya.dv	NyaJaNya.dv	
@@ -1583,10 +1523,8 @@ NnaTtaYa.dv	NnaTtaYa.dv
 NnaTthaYa.dv	NnaTthaYa.dv	
 NnaDdaDdha.dv	NnaDdaDdha.dv	
 NnaDdaYa.dv	NnaDdaYa.dv	
-NnaDdaRa.dv	NnaDdaRa.dv	
 NnaDdaVa.dv	NnaDdaVa.dv	
 NnaDdhaYa.dv	NnaDdhaYa.dv	
-NnaDdhaRa.dv	NnaDdhaRa.dv	
 NnaNnaYa.dv	NnaNnaYa.dv	
 NnaThaYa.dv	NnaThaYa.dv	
 NnaVaYa.dv	NnaVaYa.dv	
@@ -1791,10 +1729,6 @@ NaGhaRa.dv	NaGhaRa.dv
 NaGhaYa.dv	NaGhaYa.dv	
 NaJaYa.dv	NaJaYa.dv	
 NaJaVa.dv	NaJaVa.dv	
-NaTtaRa.dv	NaTtaRa.dv	
-NaTthaRa.dv	NaTthaRa.dv	
-NaDdaRa.dv	NaDdaRa.dv	
-NaDdhaRa.dv	NaDdhaRa.dv	
 NaNnaVa.dv	NaNnaVa.dv	
 NaTaTa.dv	NaTaTa.dv	
 NaTaTha.dv	NaTaTha.dv	
@@ -1866,7 +1800,6 @@ NaDaDhaVa.dv	NaDaDhaVa.dv
 NaDaRaYa.dv	NaDaRaYa.dv	
 NaDaVaYa.dv	NaDaVaYa.dv	
 NaDhaRaYa.dv	NaDhaRaYa.dv	
-NaSaTtaRa.dv	NaSaTtaRa.dv	
 NaSaPhaYa.dv	NaSaPhaYa.dv	
 NaSaTaRa.dv	NaSaTaRa.dv	
 PaKa.dv	PaKa.dv	
@@ -1891,7 +1824,6 @@ PaSha.dv	PaSha.dv
 PaSsa.dv	PaSsa.dv	
 PaSa.dv	PaSa.dv	
 PaKaSsa.dv	PaKaSsa.dv	
-PaTtaRa.dv	PaTtaRa.dv	
 PaNnaVa.dv	PaNnaVa.dv	
 PaTaYa.dv	PaTaYa.dv	
 PaTaRa.dv	PaTaRa.dv	
@@ -2060,10 +1992,6 @@ LaKaYa.dv	LaKaYa.dv
 LaGaYa.dv	LaGaYa.dv	
 LaGaVa.dv	LaGaVa.dv	
 LaNgaYa.dv	LaNgaYa.dv	
-LaTtaRa.dv	LaTtaRa.dv	
-LaTthaRa.dv	LaTthaRa.dv	
-LaDdaRa.dv	LaDdaRa.dv	
-LaDdhaRa.dv	LaDdhaRa.dv	
 LaPaTa.dv	LaPaTa.dv	
 LaPaTha.dv	LaPaTha.dv	
 LaPaYa.dv	LaPaYa.dv	
@@ -2151,11 +2079,9 @@ SsaKaVa.dv	SsaKaVa.dv
 SsaKaLa.dv	SsaKaLa.dv	
 SsaKaSsa.dv	SsaKaSsa.dv	
 SsaTtaYa.dv	SsaTtaYa.dv	
-SsaTtaRa.dv	SsaTtaRa.dv	
 SsaTtaLa.dv	SsaTtaLa.dv	
 SsaTtaVa.dv	SsaTtaVa.dv	
 SsaTthaYa.dv	SsaTthaYa.dv	
-SsaTthaRa.dv	SsaTthaRa.dv	
 SsaTthaVa.dv	SsaTthaVa.dv	
 SsaNnaYa.dv	SsaNnaYa.dv	
 SsaNnaVa.dv	SsaNnaVa.dv	
@@ -2202,9 +2128,6 @@ SaHa.dv	SaHa.dv
 SaKaYa.dv	SaKaYa.dv	
 SaKaRa.dv	SaKaRa.dv	
 SaKaSsa.dv	SaKaSsa.dv	
-SaTtaRa.dv	SaTtaRa.dv	
-SaTthaRa.dv	SaTthaRa.dv	
-SaDdaRa.dv	SaDdaRa.dv	
 SaTaTa.dv	SaTaTa.dv	
 SaTaMa.dv	SaTaMa.dv	
 SaTaYa.dv	SaTaYa.dv	
@@ -2355,7 +2278,23 @@ matraI31.dv	matraI31.dv
 matraI32.dv	matraI32.dv	
 matraI33.dv	matraI33.dv	
 matraI34.dv	matraI34.dv	
-matraI35.dv	matraI35.dv	
+matraI35.dv	matraI35.dv
+matraI00Bindu.dv	matraI00Bindu.dv	
+matraI00Chandrabindu.dv	matraI00Chandrabindu.dv	
+matraI00Reph.dv	matraI00Reph.dv	
+matraI00RephBindu.dv	matraI00RephBindu.dv	
+matraI00RephChandrabindu.dv	matraI00RephChandrabindu.dv	
+matraIi00Bindu.dv	matraIi00Bindu.dv	
+matraIi00Chandrabindu.dv	matraIi00Chandrabindu.dv	
+matraIi00Reph.dv	matraIi00Reph.dv	
+matraIi00RephBindu.dv	matraIi00RephBindu.dv	
+matraIi00RephChandrabindu.dv	matraIi00RephChandrabindu.dv
+matraHrasvaAi.dv	matraHrasvaAi.dv	
+ardhaJaNukta.dv	ardhaJaNukta.dv	
+ardhaPhaNukta.dv	ardhaPhaNukta.dv	
+matraRusmall.dv	matraRusmall.dv
+swastika	swastika	uni0FD5
+swastika_dots	swastika_dots	uni0FD7	
 V0	V0	uni1CD0
 V1	V1	uni1CD1
 V2	V2	uni1CD2
@@ -2384,8 +2323,8 @@ V24	V24	uni1CEA
 V25	V25	uni1CEB
 V26	V26	uni1CEC
 V27	V27	uni1CED
-V29	V29	uni1CEF
 V28	V28	uni1CEE
+V29	V29	uni1CEF
 V30	V30	uni1CF0
 V31	V31	uni1CF1
 V32	V32	uni1CF2
@@ -2395,27 +2334,62 @@ V35	V35	uni1CF5
 V36	V36	uni1CF6
 V37	V37	uni1CF8
 V38	V38	uni1CF9
-matraI00Bindu.dv	matraI00Bindu.dv	
-matraI00Chandrabindu.dv	matraI00Chandrabindu.dv	
-matraI00Reph.dv	matraI00Reph.dv	
-matraI00RephBindu.dv	matraI00RephBindu.dv	
-matraI00RephChandrabindu.dv	matraI00RephChandrabindu.dv	
-matraIi00Bindu.dv	matraIi00Bindu.dv	
-matraIi00Chandrabindu.dv	matraIi00Chandrabindu.dv	
-matraIi00Reph.dv	matraIi00Reph.dv	
-matraIi00RephBindu.dv	matraIi00RephBindu.dv	
-matraIi00RephChandrabindu.dv	matraIi00RephChandrabindu.dv	
-matraHrasvaAi.dv	matraHrasvaAi.dv	
-ardhaJaNukta.dv	ardhaJaNukta.dv	
-ardhaPhaNukta.dv	ardhaPhaNukta.dv	
-matraRusmall.dv	matraRusmall.dv	
+uni1E0C	uni1E0C	uni1E0C
+uni1E0D	uni1E0D	uni1E0D
+uni1E25	uni1E25	uni1E25
+uni1E36	uni1E36	uni1E36
+uni1E37	uni1E37	uni1E37
+uni1E38	uni1E38	uni1E38
+uni1E39	uni1E39	uni1E39
+uni1E44	uni1E44	uni1E44
+uni1E45	uni1E45	uni1E45
+uni1E46	uni1E46	uni1E46
+uni1E47	uni1E47	uni1E47
+uni1E5A	uni1E5A	uni1E5A
+uni1E5B	uni1E5B	uni1E5B
+uni1E5C	uni1E5C	uni1E5C
+uni1E5D	uni1E5D	uni1E5D
+uni1E62	uni1E62	uni1E62
+uni1E63	uni1E63	uni1E63
+uni1E6C	uni1E6C	uni1E6C
+uni1E6D	uni1E6D	uni1E6D
+uni200B	uni200B	uni200B
+uni1E43	uni1E43	uni1E43
+NWNJ	NWNJ	uni200C
+ZWJ	ZWJ	uni200D
+uni2010	uni2010	uni2010
+uni2213	uni2213	uni2213
+uni2218	uni2218	uni2218
+proportional	proportional	uni221D
+orthogonal	orthogonal	uni221F
+angle	angle	uni2220
+uni2223	uni2223	uni2223
+uni2225	uni2225	uni2225
+therefore	therefore	uni2234
+uni2235	uni2235	uni2235
+uni2236	uni2236	uni2236
+uni2237	uni2237	uni2237
+uni224F	uni224F	uni224F
+equivalence	equivalence uni2261
+uni2262	uni2262	uni2262
+uni226E	uni226E	uni226E
+uni226F	uni226F	uni226F
+perpendicular	perpendicular	uni22A5
+H22073	H22073	uni25A1
+uni25AD	uni25AD	uni25AD
+uni25B1	uni25B1	uni25B1
+uni25B3	uni25B3	uni25B3
+circle	circle	uni25CB
+DottedCircle	DottedCircle	uni25CC
+uni2A7D	uni2A7D	uni2A7D
+uni2A7E	uni2A7E	uni2A7E
+uni2AF4	uni2AF4	uni2AF4
 Shirorekha	Shirorekha	A8FB
 LaghuChandrabindu.dv LaghuChandrabindu.dv
 ardhaShaRa.dv	ardhaShaRa.dv
 ardhaNgaRa.dv ardhaNgaRa.dv
 TaRaHalant.dv TaRaHalant.dv
-swastika	swastika	uni0FD5
-swastika_dots	swastika_dots	uni0FD7
+uni1E41	uni1E41	uni1E41
 L_ringBelow	L_ringBelow
 l_ringBelow	l_ringBelow
 Lmacron_ringBelow	Lmacron_ringBelow
@@ -2424,7 +2398,6 @@ R_ringBelow	R_ringBelow
 r_ringBelow	r_ringBelow
 Rmacron_ringBelow	Rmacron_ringBelow
 rmacron_ringBelow	rmacron_ringBelow
-uni1E41	uni1E41	uni1E41
 ChandrabinduVirama.dv ChandrabinduVirama.dv uniA8F3
 ChandrabinduViramaDvi.dv ChandrabinduViramaDvi.dv uniA8F4
 ChandrabinduViramaSaDvi.dv ChandrabinduViramaSaDvi.dv uniA8F5
@@ -2462,3 +2435,10 @@ matraEAnudatta.dv matraEAnudatta.dv
 matraAiAnudatta.dv matraAiAnudatta.dv
 matraHrasvaEAnudatta.dv matraHrasvaEAnudatta.dv
 matraHrasvaAiAnudatta.dv matraHrasvaAiAnudatta.dv
+RephVowelRu.dv RephVowelRu.dv
+RephVowelRuu.dv RephVowelRuu.dv
+RephVowelLru.dv RephVowelLru.dv
+RephVowelLruu.dv RephVowelLruu.dv
+VisargaSvarita.dv VisargaSvarita.dv
+VisargaDeerghaSvarita.dv VisargaDeerghaSvarita.dv
+# Leave blank line after last line to avoid error
