@@ -2178,7 +2178,7 @@ feature blwm {
 		<anchor 549 26> mark @matraBelow;
 
 	pos base [RaNukta.dv ]
-		<anchor 541 34> mark @matraBelow;
+		<anchor 581 0> mark @matraBelow;
 
 	pos base [La.dv ]
 		<anchor 716 21> mark @matraBelow;
@@ -2187,7 +2187,7 @@ feature blwm {
 		<anchor 772 57> mark @matraBelow;
 
 	pos base [LlaNukta.dv ]
-		<anchor 772 56> mark @matraBelow;
+		<anchor 581 -200> mark @matraBelow;
 
 	pos base [Va.dv VaNa.dv ]
 		<anchor 646 0> mark @matraBelow;
@@ -2202,10 +2202,10 @@ feature blwm {
 		<anchor 561 -194> mark @matraBelow;
 
 	pos base [DdaNukta.dv ]
-		<anchor 513 13> mark @matraBelow;
+		<anchor 513 -300> mark @matraBelow;
 
 	pos base [DdhaNukta.dv ]
-		<anchor 510 45> mark @matraBelow;
+		<anchor 510 -275> mark @matraBelow;
 
 	pos base [vowelRuu.dv ]
 		<anchor 657 -3> mark @matraBelow;
