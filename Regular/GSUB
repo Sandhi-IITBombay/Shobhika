@@ -54,6 +54,9 @@ feature akhn { # Akhanda
 	sub KaHalant.dv vowelLru.dv by KamatraLru.dv;
 	sub KaHalant.dv vowelLruu.dv by KamatraLruu.dv;
 	sub Ra.dv Halant.dv ZWJ by ardhaRa.dv;
+	sub Ya.dv Halant.dv Chandrabindu.dv by YaHalantCB.dv;
+	sub Va.dv Halant.dv Chandrabindu.dv by VaHalantCB.dv;
+	sub La.dv Halant.dv Chandrabindu.dv by LaHalantCB.dv;
 } akhn;
 
 #--------------------------------------------------------------------
@@ -136,7 +139,6 @@ feature blwf { # Belowbase forms
 
 }blwf;
 
-
 #--------------------------------------------------------------------
 
 feature half  {  # Half Forms
@@ -202,7 +204,6 @@ lookup half1 { # Ardha forms
 		sub Ma.dv Halant.dv by ardhaMa.dv;
 		sub Ya.dv Halant.dv by ardhaYa.dv;
 		sub RaNukta.dv Halant.dv by ardhaRa.dv;
-		#sub Ra.dv Halant.dv by ardhaRa.dv;
 		sub La.dv Halant.dv by ardhaLa.dv;
 		sub Va.dv Halant.dv by ardhaVa.dv;
 		sub Sha.dv Halant.dv by ardhaSha.dv;
@@ -217,8 +218,8 @@ lookup half1 { # Ardha forms
 		sub GaNukta.dv  Halant.dv by ardhaGaNukta.dv;
 		sub JaNukta.dv Halant.dv by ardhaJaNukta.dv;
 		sub PhaNukta.dv Halant.dv by ardhaPhaNukta.dv;
+		sub Ra.dv Halant.dv by RaHalant.dv;
 } half1;
-
 
 	script dev2;
 	language HIN;
@@ -309,7 +310,6 @@ feature vatu { # Vattu
 	lookup vatu1;
 	lookup vatu_half;
 }vatu;
-
 
 #---------------------------------------------------------------------
 
@@ -671,7 +671,6 @@ lookup pres3 { # Three-letter conjuncts
 	sub ardhaPa.dv ardhaSa.dv Ya.dv by PaSaYa.dv;
 	sub ardhaPa.dv ardhaSa.dv Va.dv by PaSaVa.dv;
 	sub ardhaPha.dv ardhaPha.dv Ya.dv by PhaPhaYa.dv;
-	sub ardhaPha.dv ardhaRa.dv Ya.dv by PhaRaYa.dv;
 	sub ardhaBa.dv ardhaJa.dv Ya.dv by BaJaYa.dv;
 	sub ardhaBa.dv ardhaDa.dv Ya.dv by BaDaYa.dv;
 	sub ardhaBa.dv ardhaDha.dv Ya.dv by BaDhaYa.dv;
@@ -769,11 +768,12 @@ lookup pres3 { # Three-letter conjuncts
 	sub ardhaHa.dv ardhaNa.dv Va.dv by HaNaVa.dv;
 	sub ardhaHa.dv ardhaMa.dv Ya.dv by HaMaYa.dv;
 	sub ardhaHa.dv ardhaVa.dv Ya.dv by HaVaYa.dv;
+	sub HaRa.dv Halant.dv Ya.dv by HaRaYa.dv;
 	sub ardhaLla.dv ardhaLla.dv Ya.dv by LlaLlaYa.dv;
 } pres3;
 
 lookup pres2 { # Two-letter conjuncts
-	sub ardhaHa.dv ardhaRa.dv Ya.dv by HaRaYa.dv;
+	sub ardhaPhaRa.dv Ya.dv by PhaRaYa.dv;
 	sub ardhaSaRa.dv Ya.dv by SaRaYa.dv;
 	sub ardhaSaRa.dv Va.dv by SaRaVa.dv;
 	sub ardhaSsa.dv KaRa.dv by SsaKaRa.dv;
@@ -1679,7 +1679,6 @@ lookup abvs2 {
 	sub matraHrasvaAu.dv Reph.dv by matraHrasvaAuReph.dv;
 } abvs2;
 
-
 lookup abvs1 {
 	sub matraA.dv Bindu.dv by matraABindu.dv;
 	sub matraA.dv Chandrabindu.dv by matraAChandrabindu.dv;
@@ -1754,8 +1753,10 @@ lookup abvs1 {
 
 feature blws { # Belowbase substitution
 
-lookup blws_Anudatta_alt{ # Anudatta with Madhya Danda Glyphs
+lookup blws_Anudatta_alt{ # Anudatta with Madhya Danda Glyphs and others
 	sub @MadhyaDanda Anudatta.dv' by Anudatta_alt.dv;
+	sub @DaXVa_Group Anudatta.dv' by Anudatta_alt.dv;
+	sub @KaSsa_Group Anudatta.dv' by Anudatta04.dv;
 	sub HaMa.dv Anudatta.dv' by Anudatta05.dv;
 	sub DaDhaVa.dv Anudatta.dv' by Anudatta05.dv;
 }blws_Anudatta_alt;
@@ -1785,7 +1786,6 @@ lookup blws1 {
 	sub Ka.dv matraLru.dv by KamatraLru.dv;
 	sub Ka.dv matraLruu.dv by KamatraLruu.dv;
 } blws1;
-
 
 lookup blws_Vattumatra {
 	sub Vattu.dv matraU.dv by VattumatraU.dv;
@@ -1820,22 +1820,22 @@ lookup psts2 { # postbase half consonants forms
 } psts2;
 
 lookup psts_Anudatta {
-	sub @GlyphHeight00 @PostBastMatras Anudatta.dv' by Anudatta.dv;
-	sub @GlyphHeight01 @PostBastMatras Anudatta.dv' by Anudatta01.dv;
-	sub @GlyphHeight02 @PostBastMatras Anudatta.dv' by Anudatta02.dv;
-	sub @GlyphHeight03 @PostBastMatras Anudatta.dv' by Anudatta03.dv;
-	sub @GlyphHeight04 @PostBastMatras Anudatta.dv' by Anudatta04.dv;
-	sub @GlyphHeight05 @PostBastMatras Anudatta.dv' by Anudatta05.dv;
-	sub @GlyphHeight06 @PostBastMatras Anudatta.dv' by Anudatta06.dv;
-	sub @GlyphHeight07 @PostBastMatras Anudatta.dv' by Anudatta07.dv;
-	sub @GlyphHeight08 @PostBastMatras Anudatta.dv' by Anudatta08.dv;
-	sub @GlyphHeight09 @PostBastMatras Anudatta.dv' by Anudatta09.dv;
-	sub @GlyphHeight10 @PostBastMatras Anudatta.dv' by Anudatta10.dv;
-	sub @GlyphHeight11 @PostBastMatras Anudatta.dv' by Anudatta11.dv;
-	sub @GlyphHeight12 @PostBastMatras Anudatta.dv' by Anudatta12.dv;
-	sub @GlyphHeight13 @PostBastMatras Anudatta.dv' by Anudatta13.dv;
+	sub @GlyphHeight00 @PostBaseMatras Anudatta.dv' by Anudatta.dv;
+	sub @GlyphHeight01 @PostBaseMatras Anudatta.dv' by Anudatta01.dv;
+	sub @GlyphHeight02 @PostBaseMatras Anudatta.dv' by Anudatta02.dv;
+	sub @GlyphHeight03 @PostBaseMatras Anudatta.dv' by Anudatta03.dv;
+	sub @GlyphHeight04 @PostBaseMatras Anudatta.dv' by Anudatta04.dv;
+	sub @GlyphHeight05 @PostBaseMatras Anudatta.dv' by Anudatta05.dv;
+	sub @GlyphHeight06 @PostBaseMatras Anudatta.dv' by Anudatta06.dv;
+	sub @GlyphHeight07 @PostBaseMatras Anudatta.dv' by Anudatta07.dv;
+	sub @GlyphHeight08 @PostBaseMatras Anudatta.dv' by Anudatta08.dv;
+	sub @GlyphHeight09 @PostBaseMatras Anudatta.dv' by Anudatta09.dv;
+	sub @GlyphHeight10 @PostBaseMatras Anudatta.dv' by Anudatta10.dv;
+	sub @GlyphHeight11 @PostBaseMatras Anudatta.dv' by Anudatta11.dv;
+	sub @GlyphHeight12 @PostBaseMatras Anudatta.dv' by Anudatta12.dv;
+	sub @GlyphHeight13 @PostBaseMatras Anudatta.dv' by Anudatta13.dv;
 	
-	sub Vattu.dv @PostBastMatras Anudatta.dv' by Anudatta06.dv;
+	sub Vattu.dv @PostBaseMatras Anudatta.dv' by Anudatta06.dv;
 } psts_Anudatta;
 
 } psts;
@@ -1883,7 +1883,6 @@ lookup haln1 { # Halant forms
 	sub JaNya.dv Halant.dv by JaNyaHalant.dv;
 } haln1;
 
-
  	lookup haln1;
 	
 lookup CBVirama{
@@ -1898,11 +1897,3 @@ lookup CBVirama{
 } haln;
 
 #--------------------------------------------------------------------
-
-#feature abvf { # Halant forms
-#*# testing for CBV
-#lookup abvs_AnudattaCBV{
-#	sub  matraI04Bindu.dv by CBViramaAnudatta.dv ZWJ;
-#}abvs_AnudattaCBV;
-#*#
-#} abvf;

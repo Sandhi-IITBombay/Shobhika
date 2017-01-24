@@ -173,9 +173,6 @@ feature abvm {
 	pos base [GhaRa.dv ]
 		<anchor 753 0> mark @matraAbove;
 
-	pos base [ThaRa.dv ]
-		<anchor 745 0> mark @matraAbove;
-
 	pos base [JaRa.dv JaNuktaRa.dv ]
 		<anchor 829 0> mark @matraAbove;
 
@@ -184,6 +181,9 @@ feature abvm {
 
 	pos base [TaRa.dv TaRaHalant.dv ]
 		<anchor 660 0> mark @matraAbove;
+
+	pos base [ThaRa.dv ]
+		<anchor 745 0> mark @matraAbove;
 
 	pos base [NaRa.dv ]
 		<anchor 645 0> mark @matraAbove;
@@ -455,7 +455,7 @@ feature abvm {
 	pos base [KaSsaVa.dv LaNga.dv ]
 		<anchor 1107 0> mark @matraAbove;
 
-	pos base [KaSaTta.dv]
+	pos base [KaSaTta.dv ]
 		<anchor 1699 0> mark @matraAbove;
 
 	pos base [KaSaDda.dv ]
@@ -2156,7 +2156,7 @@ feature blwm {
 	pos base [Dha.dv CaRa.dv DhaRa.dv ]
 		<anchor 770 0> mark @matraBelow;
 
-	pos base [Na.dv ]
+	pos base [Na.dv RaNukta.dv ]
 		<anchor 581 0> mark @matraBelow;
 
 	pos base [NaNukta.dv ]
@@ -2176,9 +2176,6 @@ feature blwm {
 
 	pos base [Ra.dv ]
 		<anchor 549 26> mark @matraBelow;
-
-	pos base [RaNukta.dv ]
-		<anchor 581 0> mark @matraBelow;
 
 	pos base [La.dv ]
 		<anchor 716 21> mark @matraBelow;
@@ -3708,10 +3705,10 @@ feature blwm {
 		<anchor 1439 0> mark @matraBelow;
 
 	pos base [DaGa.dv ]
-		<anchor 650 -97> mark @matraBelow;
+		<anchor 691 -140> mark @matraBelow;
 
 	pos base [DaGha.dv ]
-		<anchor 887 -43> mark @matraBelow;
+		<anchor 901 -43> mark @matraBelow;
 
 	pos base [DaJha.dv ]
 		<anchor 750 -387> mark @matraBelow;
@@ -3723,25 +3720,25 @@ feature blwm {
 		<anchor 524 -339> mark @matraBelow;
 
 	pos base [DaDa.dv ]
-		<anchor 622 -191> mark @matraBelow;
+		<anchor 622 -205> mark @matraBelow;
 
 	pos base [DaDha.dv ]
-		<anchor 1018 -96> mark @matraBelow;
+		<anchor 1031 -110> mark @matraBelow;
 
 	pos base [DaNa.dv ]
-		<anchor 624 -95> mark @matraBelow;
+		<anchor 701 -190> mark @matraBelow;
 
 	pos base [DaBa.dv ]
-		<anchor 786 -103> mark @matraBelow;
+		<anchor 811 -110> mark @matraBelow;
 
 	pos base [DaBha.dv ]
-		<anchor 966 -101> mark @matraBelow;
+		<anchor 1011 -150> mark @matraBelow;
 
 	pos base [DaMa.dv ]
 		<anchor 866 -1> mark @matraBelow;
 
 	pos base [DaVa.dv ]
-		<anchor 787 -95> mark @matraBelow;
+		<anchor 831 -130> mark @matraBelow;
 
 	pos base [DaYa.dv DaYaRa.dv ]
 		<anchor 754 -1> mark @matraBelow;
@@ -3753,34 +3750,34 @@ feature blwm {
 		<anchor 1197 -3> mark @matraBelow;
 
 	pos base [DaGaRa.dv ]
-		<anchor 691 -155> mark @matraBelow;
+		<anchor 706 -230> mark @matraBelow;
 
 	pos base [DaGaLa.dv ]
 		<anchor 673 -547> mark @matraBelow;
 
-	pos base [DaGhaRa.dv ]
-		<anchor 887 -44> mark @matraBelow;
-
-	pos base [DaGhaNa.dv ]
-		<anchor 886 -45> mark @matraBelow;
+	pos base [DaGhaRa.dv DaGhaNa.dv ]
+		<anchor 981 -110> mark @matraBelow;
 
 	pos base [DaDdaDda.dv ]
 		<anchor 535 -798> mark @matraBelow;
 
 	pos base [DaDaNa.dv ]
-		<anchor 652 -225> mark @matraBelow;
+		<anchor 711 -250> mark @matraBelow;
 
-	pos base [DaDaBa.dv DaDaVa.dv ]
-		<anchor 673 -225> mark @matraBelow;
+	pos base [DaDaBa.dv ]
+		<anchor 551 -310> mark @matraBelow;
 
 	pos base [DaDaYa.dv ]
 		<anchor 1127 -3> mark @matraBelow;
 
 	pos base [DaDaRa.dv ]
-		<anchor 635 -225> mark @matraBelow;
+		<anchor 686 -250> mark @matraBelow;
+
+	pos base [DaDaVa.dv ]
+		<anchor 551 -300> mark @matraBelow;
 
 	pos base [DaDhaNa.dv ]
-		<anchor 1026 -95> mark @matraBelow;
+		<anchor 1131 -164> mark @matraBelow;
 
 	pos base [DaDhaMa.dv NaHaYa.dv PaSaNa.dv ]
 		<anchor 1206 -1> mark @matraBelow;
@@ -3789,22 +3786,22 @@ feature blwm {
 		<anchor 1525 -10> mark @matraBelow;
 
 	pos base [DaDhaRa.dv ]
-		<anchor 1015 -96> mark @matraBelow;
+		<anchor 1096 -160> mark @matraBelow;
 
 	pos base [DaDhaVa.dv ]
-		<anchor 1071 -145> mark @matraBelow;
+		<anchor 906 -210> mark @matraBelow;
 
 	pos base [DaBaRa.dv ]
-		<anchor 786 -97> mark @matraBelow;
+		<anchor 861 -160> mark @matraBelow;
 
 	pos base [DaBhaYa.dv ]
 		<anchor 1455 -10> mark @matraBelow;
 
 	pos base [DaBhaRa.dv ]
-		<anchor 1056 -110> mark @matraBelow;
+		<anchor 1121 -335> mark @matraBelow;
 
 	pos base [DaBhaVa.dv ]
-		<anchor 1126 -170> mark @matraBelow;
+		<anchor 931 -310> mark @matraBelow;
 
 	pos base [DaMaYa.dv ]
 		<anchor 1175 -233> mark @matraBelow;
@@ -3813,22 +3810,19 @@ feature blwm {
 		<anchor 1204 -3> mark @matraBelow;
 
 	pos base [DaRaVa.dv ]
-		<anchor 803 -35> mark @matraBelow;
+		<anchor 616 -150> mark @matraBelow;
 
 	pos base [DaVaYa.dv ]
 		<anchor 1344 -3> mark @matraBelow;
 
 	pos base [DaVaRa.dv ]
-		<anchor 791 -110> mark @matraBelow;
+		<anchor 871 -135> mark @matraBelow;
 
-	pos base [DaDaBaRa.dv ]
-		<anchor 681 -235> mark @matraBelow;
+	pos base [DaDaBaRa.dv DaDaVaRa.dv ]
+		<anchor 771 -280> mark @matraBelow;
 
 	pos base [DaDaVaYa.dv ]
 		<anchor 1137 -3> mark @matraBelow;
-
-	pos base [DaDaVaRa.dv ]
-		<anchor 681 -230> mark @matraBelow;
 
 	pos base [DaDhaNaYa.dv DaDhaRaYa.dv ]
 		<anchor 1587 -3> mark @matraBelow;
