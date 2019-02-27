@@ -57,6 +57,11 @@ feature akhn { # Akhanda
 	sub Ya.dv Halant.dv Chandrabindu.dv by YaHalantCB.dv;
 	sub Va.dv Halant.dv Chandrabindu.dv by VaHalantCB.dv;
 	sub La.dv Halant.dv Chandrabindu.dv by LaHalantCB.dv;
+	sub Visarga.dv V16 by VisargaV16.dv;
+	sub Visarga.dv V17 by VisargaV17.dv;
+	sub Visarga.dv V18 by VisargaV18.dv;
+	sub Visarga.dv V19 by VisargaV19.dv;
+	sub Visarga.dv V20 by VisargaV20.dv;
 } akhn;
 
 #--------------------------------------------------------------------
@@ -1537,7 +1542,7 @@ lookup pres_matraIsub { # Prebase (matraI) matra substitutions
 
 feature abvs { # Abovebase matra substitutions
 
-# The next two lookup operations are meant to swap Visarga and Anudatta
+# Next 20 lookup operations are meant to swap regular Anudatta and 10 types of Visarga (regular, V16-V20, V32-33, V35-36) 
 lookup abvs_VisargaAnudatta{
 	sub Visarga.dv Anudatta.dv by VisargaAnudatta.dv;
 }abvs_VisargaAnudatta;
@@ -1546,7 +1551,322 @@ lookup abvs_AnudattaVisarga{
 	sub VisargaAnudatta.dv by Anudatta.dv Visarga.dv;
 }abvs_AnudattaVisarga;
 
-# The next two lookup operations are meant to swap Visarga and Svarita
+lookup abvs_VisargaV16Anudatta{
+		sub VisargaV16.dv Anudatta.dv by VisargaAnudatta.dv;
+}abvs_VisargaV16Anudatta;
+
+lookup abvs_AnudattaVisargaV16{
+		sub VisargaAnudatta.dv by Anudatta.dv VisargaV16.dv;
+}abvs_AnudattaVisargaV16;
+
+lookup abvs_VisargaV17Anudatta{
+		sub VisargaV17.dv Anudatta.dv by VisargaAnudatta.dv;
+}abvs_VisargaV17Anudatta;
+
+lookup abvs_AnudattaVisargaV17{
+		sub VisargaAnudatta.dv by Anudatta.dv VisargaV17.dv;
+}abvs_AnudattaVisargaV17;
+
+lookup abvs_VisargaV18Anudatta{
+		sub VisargaV18.dv Anudatta.dv by VisargaAnudatta.dv;
+}abvs_VisargaV18Anudatta;
+
+lookup abvs_AnudattaVisargaV18{
+		sub VisargaAnudatta.dv by Anudatta.dv VisargaV18.dv;
+}abvs_AnudattaVisargaV18;
+
+lookup abvs_VisargaV19Anudatta{
+		sub VisargaV19.dv Anudatta.dv by VisargaAnudatta.dv;
+}abvs_VisargaV19Anudatta;
+
+lookup abvs_AnudattaVisargaV19{
+		sub VisargaAnudatta.dv by Anudatta.dv VisargaV19.dv;
+}abvs_AnudattaVisargaV19;
+
+lookup abvs_VisargaV20Anudatta{
+		sub VisargaV20.dv Anudatta.dv by VisargaAnudatta.dv;
+}abvs_VisargaV20Anudatta;
+
+lookup abvs_AnudattaVisargaV20{
+		sub VisargaAnudatta.dv by Anudatta.dv VisargaV20.dv;
+}abvs_AnudattaVisargaV20;
+
+lookup abvs_V32Anudatta{
+		sub V32 Anudatta.dv by VisargaAnudatta.dv;
+}abvs_V32Anudatta;
+
+lookup abvs_AnudattaV32{
+		sub VisargaAnudatta.dv by Anudatta.dv V32;
+}abvs_AnudattaV32;
+
+lookup abvs_V33Anudatta{
+		sub V33 Anudatta.dv by VisargaAnudatta.dv;
+}abvs_V33Anudatta;
+
+lookup abvs_AnudattaV33{
+		sub VisargaAnudatta.dv by Anudatta.dv V33;
+}abvs_AnudattaV33;
+
+lookup abvs_V35Anudatta{
+		sub V35 Anudatta.dv by VisargaAnudatta.dv;
+}abvs_V35Anudatta;
+
+lookup abvs_AnudattaV35{
+		sub VisargaAnudatta.dv by Anudatta.dv V35;
+}abvs_AnudattaV35;
+
+lookup abvs_V36Anudatta{
+		sub V36 Anudatta.dv by VisargaAnudatta.dv;
+}abvs_V36Anudatta;
+
+lookup abvs_AnudattaV36{
+		sub VisargaAnudatta.dv by Anudatta.dv V36;
+}abvs_AnudattaV36;
+
+# Next 20 lookup operations are meant to swap mumbaiAnudatta and 10 types of Visarga (regular, V16-V20, V32-33, V35-36) 
+lookup abvs_VisargamumbaiAnudatta{
+	sub Visarga.dv mumbaiAnudatta.dv by VisargaAnudatta.dv;
+}abvs_VisargamumbaiAnudatta;
+
+lookup abvs_mumbaiAnudattaVisarga{
+	sub VisargaAnudatta.dv by mumbaiAnudatta.dv Visarga.dv;
+}abvs_mumbaiAnudattaVisarga;
+
+lookup abvs_VisargaV16mumbaiAnudatta{
+		sub VisargaV16.dv mumbaiAnudatta.dv by VisargaAnudatta.dv;
+}abvs_VisargaV16mumbaiAnudatta;
+
+lookup abvs_mumbaiAnudattaVisargaV16{
+		sub VisargaAnudatta.dv by mumbaiAnudatta.dv VisargaV16.dv;
+}abvs_mumbaiAnudattaVisargaV16;
+
+lookup abvs_VisargaV17mumbaiAnudatta{
+		sub VisargaV17.dv mumbaiAnudatta.dv by VisargaAnudatta.dv;
+}abvs_VisargaV17mumbaiAnudatta;
+
+lookup abvs_mumbaiAnudattaVisargaV17{
+		sub VisargaAnudatta.dv by mumbaiAnudatta.dv VisargaV17.dv;
+}abvs_mumbaiAnudattaVisargaV17;
+
+lookup abvs_VisargaV18mumbaiAnudatta{
+		sub VisargaV18.dv mumbaiAnudatta.dv by VisargaAnudatta.dv;
+}abvs_VisargaV18mumbaiAnudatta;
+
+lookup abvs_mumbaiAnudattaVisargaV18{
+		sub VisargaAnudatta.dv by mumbaiAnudatta.dv VisargaV18.dv;
+}abvs_mumbaiAnudattaVisargaV18;
+
+lookup abvs_VisargaV19mumbaiAnudatta{
+		sub VisargaV19.dv mumbaiAnudatta.dv by VisargaAnudatta.dv;
+}abvs_VisargaV19mumbaiAnudatta;
+
+lookup abvs_mumbaiAnudattaVisargaV19{
+		sub VisargaAnudatta.dv by mumbaiAnudatta.dv VisargaV19.dv;
+}abvs_mumbaiAnudattaVisargaV19;
+
+lookup abvs_VisargaV20mumbaiAnudatta{
+		sub VisargaV20.dv mumbaiAnudatta.dv by VisargaAnudatta.dv;
+}abvs_VisargaV20mumbaiAnudatta;
+
+lookup abvs_mumbaiAnudattaVisargaV20{
+		sub VisargaAnudatta.dv by mumbaiAnudatta.dv VisargaV20.dv;
+}abvs_mumbaiAnudattaVisargaV20;
+
+lookup abvs_V32mumbaiAnudatta{
+		sub V32 mumbaiAnudatta.dv by VisargaAnudatta.dv;
+}abvs_V32mumbaiAnudatta;
+
+lookup abvs_mumbaiAnudattaV32{
+		sub VisargaAnudatta.dv by mumbaiAnudatta.dv V32;
+}abvs_mumbaiAnudattaV32;
+
+lookup abvs_V33mumbaiAnudatta{
+		sub V33 mumbaiAnudatta.dv by VisargaAnudatta.dv;
+}abvs_V33mumbaiAnudatta;
+
+lookup abvs_mumbaiAnudattaV33{
+		sub VisargaAnudatta.dv by mumbaiAnudatta.dv V33;
+}abvs_mumbaiAnudattaV33;
+
+lookup abvs_V35mumbaiAnudatta{
+		sub V35 mumbaiAnudatta.dv by VisargaAnudatta.dv;
+}abvs_V35mumbaiAnudatta;
+
+lookup abvs_mumbaiAnudattaV35{
+		sub VisargaAnudatta.dv by mumbaiAnudatta.dv V35;
+}abvs_mumbaiAnudattaV35;
+
+lookup abvs_V36mumbaiAnudatta{
+		sub V36 mumbaiAnudatta.dv by VisargaAnudatta.dv;
+}abvs_V36mumbaiAnudatta;
+
+lookup abvs_mumbaiAnudattaV36{
+		sub VisargaAnudatta.dv by mumbaiAnudatta.dv V36;
+}abvs_mumbaiAnudattaV36;
+
+# Next 20 lookup operations are meant to swap ardhaNyubja and 10 types of Visarga (regular, V16-V20, V32-33, V35-36) 
+lookup abvs_VisargaardhaNyubja{
+	sub Visarga.dv ardhaNyubja.dv by VisargaAnudatta.dv;
+}abvs_VisargaardhaNyubja;
+
+lookup abvs_ardhaNyubjaVisarga{
+	sub VisargaAnudatta.dv by ardhaNyubja.dv Visarga.dv;
+}abvs_ardhaNyubjaVisarga;
+
+lookup abvs_VisargaV16ardhaNyubja{
+		sub VisargaV16.dv ardhaNyubja.dv by VisargaAnudatta.dv;
+}abvs_VisargaV16ardhaNyubja;
+
+lookup abvs_ardhaNyubjaVisargaV16{
+		sub VisargaAnudatta.dv by ardhaNyubja.dv VisargaV16.dv;
+}abvs_ardhaNyubjaVisargaV16;
+
+lookup abvs_VisargaV17ardhaNyubja{
+		sub VisargaV17.dv ardhaNyubja.dv by VisargaAnudatta.dv;
+}abvs_VisargaV17ardhaNyubja;
+
+lookup abvs_ardhaNyubjaVisargaV17{
+		sub VisargaAnudatta.dv by ardhaNyubja.dv VisargaV17.dv;
+}abvs_ardhaNyubjaVisargaV17;
+
+lookup abvs_VisargaV18ardhaNyubja{
+		sub VisargaV18.dv ardhaNyubja.dv by VisargaAnudatta.dv;
+}abvs_VisargaV18ardhaNyubja;
+
+lookup abvs_ardhaNyubjaVisargaV18{
+		sub VisargaAnudatta.dv by ardhaNyubja.dv VisargaV18.dv;
+}abvs_ardhaNyubjaVisargaV18;
+
+lookup abvs_VisargaV19ardhaNyubja{
+		sub VisargaV19.dv ardhaNyubja.dv by VisargaAnudatta.dv;
+}abvs_VisargaV19ardhaNyubja;
+
+lookup abvs_ardhaNyubjaVisargaV19{
+		sub VisargaAnudatta.dv by ardhaNyubja.dv VisargaV19.dv;
+}abvs_ardhaNyubjaVisargaV19;
+
+lookup abvs_VisargaV20ardhaNyubja{
+		sub VisargaV20.dv ardhaNyubja.dv by VisargaAnudatta.dv;
+}abvs_VisargaV20ardhaNyubja;
+
+lookup abvs_ardhaNyubjaVisargaV20{
+		sub VisargaAnudatta.dv by ardhaNyubja.dv VisargaV20.dv;
+}abvs_ardhaNyubjaVisargaV20;
+
+lookup abvs_V32ardhaNyubja{
+		sub V32 ardhaNyubja.dv by VisargaAnudatta.dv;
+}abvs_V32ardhaNyubja;
+
+lookup abvs_ardhaNyubjaV32{
+		sub VisargaAnudatta.dv by ardhaNyubja.dv V32;
+}abvs_ardhaNyubjaV32;
+
+lookup abvs_V33ardhaNyubja{
+		sub V33 ardhaNyubja.dv by VisargaAnudatta.dv;
+}abvs_V33ardhaNyubja;
+
+lookup abvs_ardhaNyubjaV33{
+		sub VisargaAnudatta.dv by ardhaNyubja.dv V33;
+}abvs_ardhaNyubjaV33;
+
+lookup abvs_V35ardhaNyubja{
+		sub V35 ardhaNyubja.dv by VisargaAnudatta.dv;
+}abvs_V35ardhaNyubja;
+
+lookup abvs_ardhaNyubjaV35{
+		sub VisargaAnudatta.dv by ardhaNyubja.dv V35;
+}abvs_ardhaNyubjaV35;
+
+lookup abvs_V36ardhaNyubja{
+		sub V36 ardhaNyubja.dv by VisargaAnudatta.dv;
+}abvs_V36ardhaNyubja;
+
+lookup abvs_ardhaNyubjaV36{
+		sub VisargaAnudatta.dv by ardhaNyubja.dv V36;
+}abvs_ardhaNyubjaV36;
+
+# Next 20 lookup operations are meant to swap purnaNyubja and 10 types of Visarga (regular, V16-V20, V32-33, V35-36) 
+lookup abvs_VisargapurnaNyubja{
+	sub Visarga.dv purnaNyubja.dv by VisargaAnudatta.dv;
+}abvs_VisargapurnaNyubja;
+
+lookup abvs_purnaNyubjaVisarga{
+	sub VisargaAnudatta.dv by purnaNyubja.dv Visarga.dv;
+}abvs_purnaNyubjaVisarga;
+
+lookup abvs_VisargaV16purnaNyubja{
+		sub VisargaV16.dv purnaNyubja.dv by VisargaAnudatta.dv;
+}abvs_VisargaV16purnaNyubja;
+
+lookup abvs_purnaNyubjaVisargaV16{
+		sub VisargaAnudatta.dv by purnaNyubja.dv VisargaV16.dv;
+}abvs_purnaNyubjaVisargaV16;
+
+lookup abvs_VisargaV17purnaNyubja{
+		sub VisargaV17.dv purnaNyubja.dv by VisargaAnudatta.dv;
+}abvs_VisargaV17purnaNyubja;
+
+lookup abvs_purnaNyubjaVisargaV17{
+		sub VisargaAnudatta.dv by purnaNyubja.dv VisargaV17.dv;
+}abvs_purnaNyubjaVisargaV17;
+
+lookup abvs_VisargaV18purnaNyubja{
+		sub VisargaV18.dv purnaNyubja.dv by VisargaAnudatta.dv;
+}abvs_VisargaV18purnaNyubja;
+
+lookup abvs_purnaNyubjaVisargaV18{
+		sub VisargaAnudatta.dv by purnaNyubja.dv VisargaV18.dv;
+}abvs_purnaNyubjaVisargaV18;
+
+lookup abvs_VisargaV19purnaNyubja{
+		sub VisargaV19.dv purnaNyubja.dv by VisargaAnudatta.dv;
+}abvs_VisargaV19purnaNyubja;
+
+lookup abvs_purnaNyubjaVisargaV19{
+		sub VisargaAnudatta.dv by purnaNyubja.dv VisargaV19.dv;
+}abvs_purnaNyubjaVisargaV19;
+
+lookup abvs_VisargaV20purnaNyubja{
+		sub VisargaV20.dv purnaNyubja.dv by VisargaAnudatta.dv;
+}abvs_VisargaV20purnaNyubja;
+
+lookup abvs_purnaNyubjaVisargaV20{
+		sub VisargaAnudatta.dv by purnaNyubja.dv VisargaV20.dv;
+}abvs_purnaNyubjaVisargaV20;
+
+lookup abvs_V32purnaNyubja{
+		sub V32 purnaNyubja.dv by VisargaAnudatta.dv;
+}abvs_V32purnaNyubja;
+
+lookup abvs_purnaNyubjaV32{
+		sub VisargaAnudatta.dv by purnaNyubja.dv V32;
+}abvs_purnaNyubjaV32;
+
+lookup abvs_V33purnaNyubja{
+		sub V33 purnaNyubja.dv by VisargaAnudatta.dv;
+}abvs_V33purnaNyubja;
+
+lookup abvs_purnaNyubjaV33{
+		sub VisargaAnudatta.dv by purnaNyubja.dv V33;
+}abvs_purnaNyubjaV33;
+
+lookup abvs_V35purnaNyubja{
+		sub V35 purnaNyubja.dv by VisargaAnudatta.dv;
+}abvs_V35purnaNyubja;
+
+lookup abvs_purnaNyubjaV35{
+		sub VisargaAnudatta.dv by purnaNyubja.dv V35;
+}abvs_purnaNyubjaV35;
+
+lookup abvs_V36purnaNyubja{
+		sub V36 purnaNyubja.dv by VisargaAnudatta.dv;
+}abvs_V36purnaNyubja;
+
+lookup abvs_purnaNyubjaV36{
+		sub VisargaAnudatta.dv by purnaNyubja.dv V36;
+}abvs_purnaNyubjaV36;
+
+# The next 20 lookup operations are meant to swap 10 types of Visarga (regular, V16-V20, V32-33, V35-36) and Svarita, DeerghaSvarita
 lookup abvs_VisargaSvarita{
 	sub Visarga.dv Svarita.dv by VisargaSvarita.dv;
 	sub Visarga.dv DeerghaSvarita.dv by VisargaDeerghaSvarita.dv;
@@ -1556,6 +1876,96 @@ lookup abvs_SvaritaVisarga{
 	sub VisargaSvarita.dv by Svarita.dv Visarga.dv;
 	sub VisargaDeerghaSvarita.dv by DeerghaSvarita.dv Visarga.dv;
 }abvs_SvaritaVisarga;
+
+lookup abvs_VisargaV16Svarita{
+		sub VisargaV16.dv Svarita.dv by VisargaSvarita.dv;
+		sub VisargaV16.dv DeerghaSvarita.dv by VisargaDeerghaSvarita.dv;
+}abvs_VisargaV16Svarita;
+
+lookup abvs_SvaritaVisargaV16{
+		sub VisargaSvarita.dv by Svarita.dv VisargaV16.dv;
+		sub VisargaDeerghaSvarita.dv by DeerghaSvarita.dv VisargaV16.dv;
+}abvs_SvaritaVisargaV16;
+
+lookup abvs_VisargaV17Svarita{
+		sub VisargaV17.dv Svarita.dv by VisargaSvarita.dv;
+		sub VisargaV17.dv DeerghaSvarita.dv by VisargaDeerghaSvarita.dv;
+}abvs_VisargaV17Svarita;
+
+lookup abvs_SvaritaVisargaV17{
+		sub VisargaSvarita.dv by Svarita.dv VisargaV17.dv;
+		sub VisargaDeerghaSvarita.dv by DeerghaSvarita.dv VisargaV17.dv;
+}abvs_SvaritaVisargaV17;
+
+lookup abvs_VisargaV18Svarita{
+		sub VisargaV18.dv Svarita.dv by VisargaSvarita.dv;
+		sub VisargaV18.dv DeerghaSvarita.dv by VisargaDeerghaSvarita.dv;
+}abvs_VisargaV18Svarita;
+
+lookup abvs_SvaritaVisargaV18{
+		sub VisargaSvarita.dv by Svarita.dv VisargaV18.dv;
+		sub VisargaDeerghaSvarita.dv by DeerghaSvarita.dv VisargaV18.dv;
+}abvs_SvaritaVisargaV18;
+
+lookup abvs_VisargaV19Svarita{
+		sub VisargaV19.dv Svarita.dv by VisargaSvarita.dv;
+		sub VisargaV19.dv DeerghaSvarita.dv by VisargaDeerghaSvarita.dv;
+}abvs_VisargaV19Svarita;
+
+lookup abvs_SvaritaVisargaV19{
+		sub VisargaSvarita.dv by Svarita.dv VisargaV19.dv;
+		sub VisargaDeerghaSvarita.dv by DeerghaSvarita.dv VisargaV19.dv;
+}abvs_SvaritaVisargaV19;
+
+lookup abvs_VisargaV20Svarita{
+		sub VisargaV20.dv Svarita.dv by VisargaSvarita.dv;
+		sub VisargaV20.dv DeerghaSvarita.dv by VisargaDeerghaSvarita.dv;
+}abvs_VisargaV20Svarita;
+
+lookup abvs_SvaritaVisargaV20{
+		sub VisargaSvarita.dv by Svarita.dv VisargaV20.dv;
+		sub VisargaDeerghaSvarita.dv by DeerghaSvarita.dv VisargaV20.dv;
+}abvs_SvaritaVisargaV20;
+
+lookup abvs_V32Svarita{
+		sub V32 Svarita.dv by VisargaSvarita.dv;
+		sub V32 DeerghaSvarita.dv by VisargaDeerghaSvarita.dv;
+}abvs_V32Svarita;
+
+lookup abvs_SvaritaV32{
+		sub VisargaSvarita.dv by Svarita.dv V32;
+		sub VisargaDeerghaSvarita.dv by DeerghaSvarita.dv V32;
+}abvs_SvaritaV32;
+
+lookup abvs_V33Svarita{
+		sub V33 Svarita.dv by VisargaSvarita.dv;
+		sub V33 DeerghaSvarita.dv by VisargaDeerghaSvarita.dv;
+}abvs_V33Svarita;
+
+lookup abvs_SvaritaV33{
+		sub VisargaSvarita.dv by Svarita.dv V33;
+		sub VisargaDeerghaSvarita.dv by DeerghaSvarita.dv V33;
+}abvs_SvaritaV33;
+
+lookup abvs_V35Svarita{
+		sub V35 Svarita.dv by VisargaSvarita.dv;
+		sub V35 DeerghaSvarita.dv by VisargaDeerghaSvarita.dv;
+}abvs_V35Svarita;
+
+lookup abvs_SvaritaV35{
+		sub VisargaSvarita.dv by Svarita.dv V35;
+		sub VisargaDeerghaSvarita.dv by DeerghaSvarita.dv V35;
+}abvs_SvaritaV35;
+
+lookup abvs_V36Svarita{
+		sub V36 Svarita.dv by VisargaSvarita.dv;
+		sub V36 DeerghaSvarita.dv by VisargaDeerghaSvarita.dv;
+}abvs_V36Svarita;
+
+lookup abvs_SvaritaV36{
+		sub VisargaSvarita.dv by Svarita.dv V36;
+		sub VisargaDeerghaSvarita.dv by DeerghaSvarita.dv V36;
+}abvs_SvaritaV36;
 
 # The next two lookup operations are to get the right output for Ra.dv + matraRu.dv etc. 
 lookup abvs_RaMatraRu{
@@ -1577,6 +1987,7 @@ lookup abvs_Reph{
 	sub @MadhyaDanda Reph.dv' by Reph_alt.dv;
 }abvs_Reph;
 
+# Next 6 lookup operations are meant to swap regular Anudatta and Bindu (4 types), Reph and above base matras (4 types) 
 lookup abvs_BinduAnudatta{
 	sub Bindu.dv Anudatta.dv by BinduAnudatta.dv;
 	sub Chandrabindu.dv Anudatta.dv by ChandrabinduAnudatta.dv;
@@ -1612,6 +2023,118 @@ lookup abvs_Anudattamatra{
 	sub matraHrasvaEAnudatta.dv by Anudatta.dv matraHrasvaE.dv;
 	sub matraHrasvaAiAnudatta.dv by Anudatta.dv matraHrasvaAi.dv;
 }abvs_Anudattamatra;
+
+# Next 6 lookup operations are meant to swap  mumbaiAnudatta and Bindu (4 types), Reph and above base matras (4 types) 
+lookup abvs_BindumumbaiAnudatta{
+	sub Bindu.dv mumbaiAnudatta.dv by BinduAnudatta.dv;
+	sub Chandrabindu.dv mumbaiAnudatta.dv by ChandrabinduAnudatta.dv;
+	sub Chandra.dv mumbaiAnudatta.dv by ChandraAnudatta.dv;
+	sub uni0900 mumbaiAnudatta.dv by uni0900Anudatta.dv;
+}abvs_BindumumbaiAnudatta;
+
+lookup abvs_mumbaiAnudattaBindu{
+	sub BinduAnudatta.dv by mumbaiAnudatta.dv Bindu.dv;
+	sub ChandrabinduAnudatta.dv by mumbaiAnudatta.dv Chandrabindu.dv;
+	sub ChandraAnudatta.dv by mumbaiAnudatta.dv Chandra.dv;
+	sub uni0900Anudatta.dv by mumbaiAnudatta.dv uni0900;
+}abvs_mumbaiAnudattaBindu;
+
+lookup abvs_RephmumbaiAnudatta{
+	sub Reph_alt.dv mumbaiAnudatta.dv by Reph_altAnudatta.dv;
+}abvs_RephmumbaiAnudatta;
+
+lookup abvs_mumbaiAnudattaReph{
+	sub Reph_altAnudatta.dv by mumbaiAnudatta.dv Reph_alt.dv;
+}abvs_mumbaiAnudattaReph;
+
+lookup abvs_matramumbaiAnudatta{
+	sub matraE.dv mumbaiAnudatta.dv by matraEAnudatta.dv;
+	sub matraAi.dv mumbaiAnudatta.dv by matraAiAnudatta.dv;
+	sub matraHrasvaE.dv mumbaiAnudatta.dv by matraHrasvaEAnudatta.dv;
+	sub matraHrasvaAi.dv mumbaiAnudatta.dv by matraHrasvaAiAnudatta.dv;
+}abvs_matramumbaiAnudatta;
+
+lookup abvs_mumbaiAnudattamatra{
+	sub matraEAnudatta.dv by mumbaiAnudatta.dv matraE.dv;
+	sub matraAiAnudatta.dv by mumbaiAnudatta.dv matraAi.dv;
+	sub matraHrasvaEAnudatta.dv by mumbaiAnudatta.dv matraHrasvaE.dv;
+	sub matraHrasvaAiAnudatta.dv by mumbaiAnudatta.dv matraHrasvaAi.dv;
+}abvs_mumbaiAnudattamatra;
+
+# Next 6 lookup operations are meant to swap ardhaNyubja and Bindu (4 types), Reph and above base matras (4 types) 
+lookup abvs_BinduardhaNyubja{
+	sub Bindu.dv ardhaNyubja.dv by BinduAnudatta.dv;
+	sub Chandrabindu.dv ardhaNyubja.dv by ChandrabinduAnudatta.dv;
+	sub Chandra.dv ardhaNyubja.dv by ChandraAnudatta.dv;
+	sub uni0900 ardhaNyubja.dv by uni0900Anudatta.dv;
+}abvs_BinduardhaNyubja;
+
+lookup abvs_ardhaNyubjaBindu{
+	sub BinduAnudatta.dv by ardhaNyubja.dv Bindu.dv;
+	sub ChandrabinduAnudatta.dv by ardhaNyubja.dv Chandrabindu.dv;
+	sub ChandraAnudatta.dv by ardhaNyubja.dv Chandra.dv;
+	sub uni0900Anudatta.dv by ardhaNyubja.dv uni0900;
+}abvs_ardhaNyubjaBindu;
+
+lookup abvs_RephardhaNyubja{
+	sub Reph_alt.dv ardhaNyubja.dv by Reph_altAnudatta.dv;
+}abvs_RephardhaNyubja;
+
+lookup abvs_ardhaNyubjaReph{
+	sub Reph_altAnudatta.dv by ardhaNyubja.dv Reph_alt.dv;
+}abvs_ardhaNyubjaReph;
+
+lookup abvs_matraardhaNyubja{
+	sub matraE.dv ardhaNyubja.dv by matraEAnudatta.dv;
+	sub matraAi.dv ardhaNyubja.dv by matraAiAnudatta.dv;
+	sub matraHrasvaE.dv ardhaNyubja.dv by matraHrasvaEAnudatta.dv;
+	sub matraHrasvaAi.dv ardhaNyubja.dv by matraHrasvaAiAnudatta.dv;
+}abvs_matraardhaNyubja;
+
+lookup abvs_ardhaNyubjamatra{
+	sub matraEAnudatta.dv by ardhaNyubja.dv matraE.dv;
+	sub matraAiAnudatta.dv by ardhaNyubja.dv matraAi.dv;
+	sub matraHrasvaEAnudatta.dv by ardhaNyubja.dv matraHrasvaE.dv;
+	sub matraHrasvaAiAnudatta.dv by ardhaNyubja.dv matraHrasvaAi.dv;
+}abvs_ardhaNyubjamatra;
+
+# Next 6 lookup operations are meant to swap purnaNyubja and Bindu (4 types), Reph and above base matras (4 types) 
+lookup abvs_BindupurnaNyubja{
+	sub Bindu.dv purnaNyubja.dv by BinduAnudatta.dv;
+	sub Chandrabindu.dv purnaNyubja.dv by ChandrabinduAnudatta.dv;
+	sub Chandra.dv purnaNyubja.dv by ChandraAnudatta.dv;
+	sub uni0900 purnaNyubja.dv by uni0900Anudatta.dv;
+}abvs_BindupurnaNyubja;
+
+lookup abvs_purnaNyubjaBindu{
+	sub BinduAnudatta.dv by purnaNyubja.dv Bindu.dv;
+	sub ChandrabinduAnudatta.dv by purnaNyubja.dv Chandrabindu.dv;
+	sub ChandraAnudatta.dv by purnaNyubja.dv Chandra.dv;
+	sub uni0900Anudatta.dv by purnaNyubja.dv uni0900;
+}abvs_purnaNyubjaBindu;
+
+lookup abvs_RephpurnaNyubja{
+	sub Reph_alt.dv purnaNyubja.dv by Reph_altAnudatta.dv;
+}abvs_RephpurnaNyubja;
+
+lookup abvs_purnaNyubjaReph{
+	sub Reph_altAnudatta.dv by purnaNyubja.dv Reph_alt.dv;
+}abvs_purnaNyubjaReph;
+
+lookup abvs_matrapurnaNyubja{
+	sub matraE.dv purnaNyubja.dv by matraEAnudatta.dv;
+	sub matraAi.dv purnaNyubja.dv by matraAiAnudatta.dv;
+	sub matraHrasvaE.dv purnaNyubja.dv by matraHrasvaEAnudatta.dv;
+	sub matraHrasvaAi.dv purnaNyubja.dv by matraHrasvaAiAnudatta.dv;
+}abvs_matrapurnaNyubja;
+
+lookup abvs_purnaNyubjamatra{
+	sub matraEAnudatta.dv by purnaNyubja.dv matraE.dv;
+	sub matraAiAnudatta.dv by purnaNyubja.dv matraAi.dv;
+	sub matraHrasvaEAnudatta.dv by purnaNyubja.dv matraHrasvaE.dv;
+	sub matraHrasvaAiAnudatta.dv by purnaNyubja.dv matraHrasvaAi.dv;
+}abvs_purnaNyubjamatra;
+# swaping ends here
 
 lookup abvs3 { 
 	sub vowelAi.dv Chandrabindu.dv' by LaghuChandrabindu.dv;
@@ -1759,6 +2282,24 @@ lookup blws_Anudatta_alt{ # Anudatta with Madhya Danda Glyphs and others
 	sub @KaSsa_Group Anudatta.dv' by Anudatta04.dv;
 	sub HaMa.dv Anudatta.dv' by Anudatta05.dv;
 	sub DaDhaVa.dv Anudatta.dv' by Anudatta05.dv;
+	
+	sub @MadhyaDanda mumbaiAnudatta.dv' by mumbaiAnudatta_alt.dv;
+	sub @DaXVa_Group mumbaiAnudatta.dv' by mumbaiAnudatta_alt.dv;
+	sub @KaSsa_Group mumbaiAnudatta.dv' by mumbaiAnudatta04.dv;
+	sub HaMa.dv mumbaiAnudatta.dv' by mumbaiAnudatta05.dv;
+	sub DaDhaVa.dv mumbaiAnudatta.dv' by mumbaiAnudatta05.dv;
+	
+	sub @MadhyaDanda purnaNyubja.dv' by purnaNyubja_alt.dv;
+	sub @DaXVa_Group purnaNyubja.dv' by purnaNyubja_alt.dv;
+	sub @KaSsa_Group purnaNyubja.dv' by purnaNyubja04.dv;
+	sub HaMa.dv purnaNyubja.dv' by purnaNyubja05.dv;
+	sub DaDhaVa.dv purnaNyubja.dv' by purnaNyubja05.dv;
+	
+	sub @MadhyaDanda ardhaNyubja.dv' by ardhaNyubja_alt.dv;
+	sub @DaXVa_Group ardhaNyubja.dv' by ardhaNyubja_alt.dv;
+	sub @KaSsa_Group ardhaNyubja.dv' by ardhaNyubja04.dv;
+	sub HaMa.dv ardhaNyubja.dv' by ardhaNyubja05.dv;
+	sub DaDhaVa.dv ardhaNyubja.dv' by ardhaNyubja05.dv;
 }blws_Anudatta_alt;
 
 lookup blws1 {
@@ -1836,6 +2377,58 @@ lookup psts_Anudatta {
 	sub @GlyphHeight13 @PostBaseMatras Anudatta.dv' by Anudatta13.dv;
 	
 	sub Vattu.dv @PostBaseMatras Anudatta.dv' by Anudatta06.dv;
+	
+	sub @GlyphHeight00 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta.dv;
+	sub @GlyphHeight01 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta01.dv;
+	sub @GlyphHeight02 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta02.dv;
+	sub @GlyphHeight03 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta03.dv;
+	sub @GlyphHeight04 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta04.dv;
+	sub @GlyphHeight05 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta05.dv;
+	sub @GlyphHeight06 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta06.dv;
+	sub @GlyphHeight07 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta07.dv;
+	sub @GlyphHeight08 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta08.dv;
+	sub @GlyphHeight09 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta09.dv;
+	sub @GlyphHeight10 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta10.dv;
+	sub @GlyphHeight11 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta11.dv;
+	sub @GlyphHeight12 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta12.dv;
+	sub @GlyphHeight13 @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta13.dv;
+	
+	sub Vattu.dv @PostBaseMatras mumbaiAnudatta.dv' by mumbaiAnudatta06.dv;
+	
+	sub @GlyphHeight00 @PostBaseMatras purnaNyubja.dv' by purnaNyubja.dv;
+	sub @GlyphHeight01 @PostBaseMatras purnaNyubja.dv' by purnaNyubja01.dv;
+	sub @GlyphHeight02 @PostBaseMatras purnaNyubja.dv' by purnaNyubja02.dv;
+	sub @GlyphHeight03 @PostBaseMatras purnaNyubja.dv' by purnaNyubja03.dv;
+	sub @GlyphHeight04 @PostBaseMatras purnaNyubja.dv' by purnaNyubja04.dv;
+	sub @GlyphHeight05 @PostBaseMatras purnaNyubja.dv' by purnaNyubja05.dv;
+	sub @GlyphHeight06 @PostBaseMatras purnaNyubja.dv' by purnaNyubja06.dv;
+	sub @GlyphHeight07 @PostBaseMatras purnaNyubja.dv' by purnaNyubja07.dv;
+	sub @GlyphHeight08 @PostBaseMatras purnaNyubja.dv' by purnaNyubja08.dv;
+	sub @GlyphHeight09 @PostBaseMatras purnaNyubja.dv' by purnaNyubja09.dv;
+	sub @GlyphHeight10 @PostBaseMatras purnaNyubja.dv' by purnaNyubja10.dv;
+	sub @GlyphHeight11 @PostBaseMatras purnaNyubja.dv' by purnaNyubja11.dv;
+	sub @GlyphHeight12 @PostBaseMatras purnaNyubja.dv' by purnaNyubja12.dv;
+	sub @GlyphHeight13 @PostBaseMatras purnaNyubja.dv' by purnaNyubja13.dv;
+	
+	sub Vattu.dv @PostBaseMatras purnaNyubja.dv' by purnaNyubja06.dv;
+	
+	sub @GlyphHeight00 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja.dv;
+	sub @GlyphHeight01 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja01.dv;
+	sub @GlyphHeight02 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja02.dv;
+	sub @GlyphHeight03 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja03.dv;
+	sub @GlyphHeight04 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja04.dv;
+	sub @GlyphHeight05 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja05.dv;
+	sub @GlyphHeight06 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja06.dv;
+	sub @GlyphHeight07 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja07.dv;
+	sub @GlyphHeight08 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja08.dv;
+	sub @GlyphHeight09 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja09.dv;
+	sub @GlyphHeight10 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja10.dv;
+	sub @GlyphHeight11 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja11.dv;
+	sub @GlyphHeight12 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja12.dv;
+	sub @GlyphHeight13 @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja13.dv;
+	
+	sub Vattu.dv @PostBaseMatras ardhaNyubja.dv' by ardhaNyubja06.dv;
+	
 } psts_Anudatta;
 
 } psts;

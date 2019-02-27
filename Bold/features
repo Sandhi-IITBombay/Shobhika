@@ -4,7 +4,7 @@ include (GSUB);
 include (GPOS);
 include (GDEF);
 include (../tables);
-
+include (../version)
 
 
 

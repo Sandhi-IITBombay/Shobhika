@@ -1,8 +1,4 @@
 
-table head {
-	FontRevision 1.040;
-} head;
-
 table hhea {
 	Ascender 1130;
 	Descender -600;

@@ -95,7 +95,7 @@ feature abvm {
 	pos base [Nna.dv HaMamatraU.dv HaMamatraUu.dv NnaRa.dv HaMa.dv ]
 		<anchor 833 0> mark @matraAbove;
 
-	pos base [Ta.dv Ma.dv Ya.dv YaNukta.dv PaTa.dv YaNa.dv YaRa.dv ]
+	pos base [Ta.dv Ma.dv Ya.dv heavyYa.dv YaNukta.dv PaTa.dv YaNa.dv YaRa.dv ]
 		<anchor 663 0> mark @matraAbove;
 
 	pos base [Tha.dv ThaNa.dv ]
@@ -1942,6 +1942,18 @@ feature abvm {
 
 	pos base [ChandrabinduViramaDvi.dv ]
 		<anchor 440 50> mark @matraAbove;
+		
+	pos base [V23  ]
+		<anchor 596 0> mark @matraAbove;
+		
+	pos base [V24  ]
+		<anchor 521 0> mark @matraAbove;
+		
+	pos base [V25 ]
+		<anchor 481 0> mark @matraAbove;
+		
+	pos base [V26 ]
+		<anchor 531 0> mark @matraAbove;
 
 lookup abvm1 {
 
@@ -2055,7 +2067,7 @@ lookup abvm1 {
 
 feature blwm {
 
-	@matraBelow = [matraU.dv matraUu.dv matraUsmall.dv matraUusmall.dv matraUAnudatta.dv matraUuAnudatta.dv matraUsmallAnudatta.dv matraUusmallAnudatta.dv matraRu.dv matraRuu.dv matraRusmallAnudatta.dv matraRuAnudatta.dv matraRusmall.dv  NuktaVattumatraU.dv NuktaVattumatraUu.dv NuktaVattumatraRu.dv matraLru.dv matraLruu.dv Vattu.dv VattumatraU.dv VattumatraUu.dv VattumatraRu.dv Anudatta.dv Anudatta_alt.dv Nukta.dv Halant.dv];
+	@matraBelow = [matraU.dv matraUu.dv matraUsmall.dv matraUusmall.dv matraUAnudatta.dv matraUuAnudatta.dv matraUsmallAnudatta.dv matraUusmallAnudatta.dv matraRu.dv matraRuu.dv matraRusmallAnudatta.dv matraRuAnudatta.dv matraRusmall.dv  NuktaVattumatraU.dv NuktaVattumatraUu.dv NuktaVattumatraRu.dv matraLru.dv matraLruu.dv Vattu.dv VattumatraU.dv VattumatraUu.dv VattumatraRu.dv  Nukta.dv Halant.dv Anudatta.dv Anudatta_alt.dv  mumbaiAnudatta.dv mumbaiAnudatta_alt.dv purnaNyubja.dv purnaNyubja_alt.dv ardhaNyubja.dv ardhaNyubja_alt.dv];
 
 	pos base [HrasvavowelA.dv ]
 		<anchor 844 0> mark @matraBelow;
@@ -2144,7 +2156,7 @@ feature blwm {
 	pos base [Nna.dv NnaRa.dv ]
 		<anchor 833 0> mark @matraBelow;
 
-	pos base [Ta.dv Ma.dv Ya.dv YaNukta.dv PaTa.dv YaNa.dv YaRa.dv ]
+	pos base [Ta.dv Ma.dv Ya.dv heavyYa.dv YaNukta.dv PaTa.dv YaNa.dv YaRa.dv ]
 		<anchor 663 0> mark @matraBelow;
 
 	pos base [Tha.dv ThaNa.dv ]
@@ -4831,11 +4843,23 @@ feature blwm {
 
 	pos base [ChandrabinduViramaDvi.dv ]
 		<anchor 451 -160> mark @matraBelow;
+		
+	pos base [V23  ]
+		<anchor 596 0> mark @matraBelow;
+		
+	pos base [V24  ]
+		<anchor 521 0> mark @matraBelow;
+		
+	pos base [V25 ]
+		<anchor 541 0> mark @matraBelow;
+		
+	pos base [V26 ]
+		<anchor 531 0> mark @matraBelow;
 
 lookup blwm1 {
 lookupflag MarkAttachmentType @matraBelow;
 
-	@Anudatta = [Anudatta.dv Anudatta01.dv Anudatta02.dv Anudatta03.dv Anudatta04.dv Anudatta05.dv Anudatta06.dv Anudatta07.dv Anudatta08.dv Anudatta09.dv Anudatta10.dv Anudatta11.dv Anudatta12.dv Anudatta13.dv Anudatta14.dv];
+	@Anudatta = [Anudatta.dv Anudatta01.dv Anudatta02.dv Anudatta03.dv Anudatta04.dv Anudatta05.dv Anudatta06.dv Anudatta07.dv Anudatta08.dv Anudatta09.dv Anudatta10.dv Anudatta11.dv Anudatta12.dv Anudatta13.dv Anudatta14.dv mumbaiAnudatta.dv mumbaiAnudatta01.dv mumbaiAnudatta02.dv mumbaiAnudatta03.dv mumbaiAnudatta04.dv mumbaiAnudatta05.dv mumbaiAnudatta06.dv mumbaiAnudatta07.dv mumbaiAnudatta08.dv mumbaiAnudatta09.dv mumbaiAnudatta10.dv mumbaiAnudatta11.dv mumbaiAnudatta12.dv mumbaiAnudatta13.dv mumbaiAnudatta14.dv purnaNyubja.dv purnaNyubja01.dv purnaNyubja02.dv purnaNyubja03.dv purnaNyubja04.dv purnaNyubja05.dv purnaNyubja06.dv purnaNyubja07.dv purnaNyubja08.dv purnaNyubja09.dv purnaNyubja10.dv purnaNyubja11.dv purnaNyubja12.dv purnaNyubja13.dv purnaNyubja14.dv ardhaNyubja.dv ardhaNyubja01.dv ardhaNyubja02.dv ardhaNyubja03.dv ardhaNyubja04.dv ardhaNyubja05.dv ardhaNyubja06.dv ardhaNyubja07.dv ardhaNyubja08.dv ardhaNyubja09.dv ardhaNyubja10.dv ardhaNyubja11.dv ardhaNyubja12.dv ardhaNyubja13.dv ardhaNyubja14.dv];
 
 	pos mark [matraU.dv ]
 		<anchor 50 -286> mark @Anudatta;

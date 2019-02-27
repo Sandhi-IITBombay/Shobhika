@@ -1,4 +1,4 @@
-feature abvm {
+feature abvm{ 
 
 	@matraAbove = [matraE.dv matraEBindu.dv matraEChandrabindu.dv matraEReph.dv matraERephBindu.dv matraERephChandrabindu.dv matraAi.dv matraAiBindu.dv matraAiChandrabindu.dv matraAiReph.dv matraAiRephBindu.dv matraAiRephChandrabindu.dv matraHrasvaE.dv matraHrasvaEBindu.dv matraHrasvaEChandrabindu.dv matraHrasvaEReph.dv matraHrasvaERephBindu.dv matraHrasvaERephChandrabindu.dv matraHrasvaAiBindu.dv matraHrasvaAiChandrabindu.dv matraHrasvaAiReph.dv matraHrasvaAiRephBindu.dv mHrasvaAiRephChandrabindu.dv matraHrasvaAi.dv  Reph.dv Reph_alt.dv RephBindu.dv RephChandrabindu.dv Chandra.dv Chandrabindu.dv uni0900 Bindu.dv Svarita.dv DeerghaSvarita.dv LaghuChandrabindu.dv AtiDeerghaSvarita.dv];
 
@@ -83,7 +83,7 @@ feature abvm {
 	pos base [Nna.dv HaMamatraU.dv HaMamatraUu.dv NnaRa.dv ]
 		<anchor 832 0> mark @matraAbove;
 
-	pos base [Ta.dv Ya.dv YaNukta.dv NgaKha.dv NgaKhaNa.dv NgaKhaRa.dv YaNa.dv YaRa.dv ]
+	pos base [Ta.dv Ya.dv heavyYa.dv YaNukta.dv NgaKha.dv NgaKhaNa.dv NgaKhaRa.dv YaNa.dv YaRa.dv ]
 		<anchor 663 0> mark @matraAbove;
 
 	pos base [Tha.dv HaBa.dv HaNna.dv HaVa.dv HaVaRa.dv ]
@@ -2020,7 +2020,19 @@ feature abvm {
 
 	pos base [ChandrabinduViramaSaDvi.dv ChandrabinduViramaSaDvi01.dv ChandrabinduViramaAvagraha.dv ]
 		<anchor 354 0> mark @matraAbove;
-
+		
+	pos base [V23  ]
+		<anchor 563 0> mark @matraAbove;
+		
+	pos base [V24  ]
+		<anchor 500 0> mark @matraAbove;
+		
+	pos base [V25 ]
+		<anchor 450 0> mark @matraAbove;
+		
+	pos base [V26 ]
+		<anchor 508 0> mark @matraAbove;
+		
 lookup abvm1 {
 
 	@SvaritaKutumb = [Svarita.dv DeerghaSvarita.dv AtiDeerghaSvarita.dv];
@@ -2109,7 +2121,7 @@ lookup abvm1 {
 
 feature blwm {
 
-	@matraBelow = [matraU.dv matraUu.dv matraUsmall.dv matraUusmall.dv matraUAnudatta.dv matraUuAnudatta.dv matraUsmallAnudatta.dv matraUusmallAnudatta.dv matraRu.dv matraRuu.dv matraRusmallAnudatta.dv matraRuAnudatta.dv matraRusmall.dv  NuktaVattumatraU.dv NuktaVattumatraUu.dv NuktaVattumatraRu.dv matraLru.dv matraLruu.dv Vattu.dv VattumatraU.dv VattumatraUu.dv VattumatraRu.dv Nukta.dv Halant.dv Anudatta.dv Anudatta_alt.dv];
+	@matraBelow = [matraU.dv matraUu.dv matraUsmall.dv matraUusmall.dv matraUAnudatta.dv matraUuAnudatta.dv matraUsmallAnudatta.dv matraUusmallAnudatta.dv matraRu.dv matraRuu.dv matraRusmallAnudatta.dv matraRuAnudatta.dv matraRusmall.dv  NuktaVattumatraU.dv NuktaVattumatraUu.dv NuktaVattumatraRu.dv matraLru.dv matraLruu.dv Vattu.dv VattumatraU.dv VattumatraUu.dv VattumatraRu.dv Nukta.dv Halant.dv Anudatta.dv Anudatta_alt.dv mumbaiAnudatta.dv mumbaiAnudatta_alt.dv purnaNyubja.dv purnaNyubja_alt.dv ardhaNyubja.dv ardhaNyubja_alt.dv];
 
 	pos base [vowelA.dv HrasvavowelA.dv ]
 		<anchor 840 0> mark @matraBelow;
@@ -2174,7 +2186,7 @@ feature blwm {
 	pos base [Nna.dv NnaRa.dv HaMa.dv ]
 		<anchor 832 0> mark @matraBelow;
 
-	pos base [Ta.dv Ya.dv YaNukta.dv YaNa.dv YaRa.dv ]
+	pos base [Ta.dv Ya.dv heavyYa.dv YaNukta.dv YaNa.dv YaRa.dv ]
 		<anchor 663 0> mark @matraBelow;
 
 	pos base [Tha.dv ]
@@ -4906,11 +4918,23 @@ feature blwm {
 
 	pos base [ChandrabinduViramaAvagraha.dv ]
 		<anchor 404 -8> mark @matraBelow;
-
+		
+	pos base [V23  ]
+		<anchor 563 0> mark @matraBelow;
+		
+	pos base [V24  ]
+		<anchor 502 0> mark @matraBelow;
+		
+	pos base [V25 ]
+		<anchor 520 0> mark @matraBelow;
+		
+	pos base [V26 ]
+		<anchor 512 0> mark @matraBelow;
+		
 lookup blwm1 {
 lookupflag MarkAttachmentType @matraBelow;
 
-	@Anudatta = [Anudatta.dv Anudatta01.dv Anudatta02.dv Anudatta03.dv Anudatta04.dv Anudatta05.dv Anudatta06.dv Anudatta07.dv Anudatta08.dv Anudatta09.dv Anudatta10.dv Anudatta11.dv Anudatta12.dv Anudatta13.dv];
+	@Anudatta = [Anudatta.dv Anudatta01.dv Anudatta02.dv Anudatta03.dv Anudatta04.dv Anudatta05.dv Anudatta06.dv Anudatta07.dv Anudatta08.dv Anudatta09.dv Anudatta10.dv Anudatta11.dv Anudatta12.dv Anudatta13.dv mumbaiAnudatta.dv mumbaiAnudatta01.dv mumbaiAnudatta02.dv mumbaiAnudatta03.dv mumbaiAnudatta04.dv mumbaiAnudatta05.dv mumbaiAnudatta06.dv mumbaiAnudatta07.dv mumbaiAnudatta08.dv mumbaiAnudatta09.dv mumbaiAnudatta10.dv mumbaiAnudatta11.dv mumbaiAnudatta12.dv mumbaiAnudatta13.dv purnaNyubja.dv purnaNyubja01.dv purnaNyubja02.dv purnaNyubja03.dv purnaNyubja04.dv purnaNyubja05.dv purnaNyubja06.dv purnaNyubja07.dv purnaNyubja08.dv purnaNyubja09.dv purnaNyubja10.dv purnaNyubja11.dv purnaNyubja12.dv purnaNyubja13.dv ardhaNyubja.dv ardhaNyubja01.dv ardhaNyubja02.dv ardhaNyubja03.dv ardhaNyubja04.dv ardhaNyubja05.dv ardhaNyubja06.dv ardhaNyubja07.dv ardhaNyubja08.dv ardhaNyubja09.dv ardhaNyubja10.dv ardhaNyubja11.dv ardhaNyubja12.dv ardhaNyubja13.dv];
 
 	pos mark [matraA.dv ]
 		<anchor 308 -8> mark @Anudatta;
