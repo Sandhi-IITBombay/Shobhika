@@ -46,8 +46,8 @@ The unicode implementation of Devanāgarī characters is found in three blocks: 
 
 1. Identify the hexadecimal code of the character you require from the above links.
 2. To enter this character in
-	* **Windows**: Follow the procedure listed [here](https://support.microsoft.com/en-in/help/315684/how-to-use-special-characters-in-windows-documents). A simpler procedure for use in MS Word is given [here](https://support.office.com/en-us/article/insert-ascii-or-unicode-latin-based-symbols-and-characters-d13f58d3-7bcb-44a7-a4d5-972ee12e50e0).
-	* **MacOS**: Activate the Unicode HeX Input keyboard, hold down the option key, and type the hexadecimal code.
+	* **Windows**: Follow the procedure given [here](https://support.microsoft.com/en-in/help/315684/how-to-use-special-characters-in-windows-documents). A simpler procedure for use in MS Word is given [here](https://support.office.com/en-us/article/insert-ascii-or-unicode-latin-based-symbols-and-characters-d13f58d3-7bcb-44a7-a4d5-972ee12e50e0).
+	* **MacOS**: Activate the Unicode Hex Input keyboard, hold down the option key, and type the hexadecimal code.
 	* **Ubuntu**: Follow the procedure describe [here](https://help.ubuntu.com/stable/ubuntu-help/tips-specialchars.html.en).
 
 ## Getting Involved
