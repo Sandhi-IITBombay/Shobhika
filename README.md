@@ -41,6 +41,15 @@ The latest release of the font can be found on the [releases page](https://githu
 
 Shobhika is compatible across different operating systems and has been tested on Windows, macOS, and Ubuntu Linux. To install on any of these, double click the downloaded file and follow instructions.
 
+## Typing special characters
+The unicode implementation of Devanāgarī characters is found in three blocks: [*Devanagari*](https://unicode.org/charts/PDF/U0900.pdf), [*Devanagari Extended*](https://unicode.org/charts/PDF/UA8E0.pdf), and [*Vedic Extensions*](https://unicode.org/charts/PDF/U1CD0.pdf). To type special characters which may not be found on your keyboard, do the following:
+
+1. Identify the hexadecimal code of the character you require from the above links.
+2. To enter this character in
+	* **Windows**: Follow the procedure listed [here](https://support.microsoft.com/en-in/help/315684/how-to-use-special-characters-in-windows-documents). A simpler procedure for use in MS Word is given [here](https://support.office.com/en-us/article/insert-ascii-or-unicode-latin-based-symbols-and-characters-d13f58d3-7bcb-44a7-a4d5-972ee12e50e0).
+	* **MacOS**: Activate the Unicode HeX Input keyboard, hold down the option key, and type the hexadecimal code.
+	* **Ubuntu**: Follow the procedure describe [here](https://help.ubuntu.com/stable/ubuntu-help/tips-specialchars.html.en).
+
 ## Getting Involved
 
 Would you like to contribute to the development of this font? Here is how **you** can help:
